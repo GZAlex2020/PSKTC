@@ -1,0 +1,42 @@
+window.PSK_DATA = window.PSK_DATA || {};
+window.PSK_DATA["3/yuwen"] = {
+  "grade": 3,
+  "subject": "yuwen",
+  "edition": "统编 / 人教",
+  "title": "三年级上册 语文",
+  "units": [
+    {
+      "id": "u1",
+      "name": "第一单元 学校生活",
+      "knowledge": [
+        { "title": "大青树下的小学", "content": "描写边疆一所多民族小学的孩子们幸福的学习生活。\n重点字：坝、汉、艳、扮、扬、读、摔、跤、凤、洁。" },
+        { "title": "花的学校", "content": "作者是印度诗人泰戈尔（选自《新月集》）。\n把花当作孩子来写，充满童趣和想象。\n重点字：荒、笛、舞、狂、罚、假、互、所、够、猜、扬、臂。" },
+        { "title": "不懂就要问", "content": "讲的是孙中山小时候在私塾读书，敢于向先生提问的故事。\n道理：学问学问，不懂就要问。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "《大青树下的小学》写的是哪里的小学？", "options": ["城市", "边疆", "海边", "雪山"], "answer": "边疆", "explain": "课文写的是边疆一所多民族的小学。" },
+        { "id": "e2", "type": "fill", "question": "《不懂就要问》的主人公是______。", "answer": "孙中山", "explain": "孙中山小时候敢于向先生提问，勤学好问。" }
+      ]
+    },
+    {
+      "id": "u2",
+      "name": "第二单元 金秋时节",
+      "knowledge": [
+        { "title": "古诗三首", "content": "《山行》唐·杜牧：远上寒山石径斜，白云生处有人家。停车坐爱枫林晚，霜叶红于二月花。\n《赠刘景文》宋·苏轼：一年好景君须记，最是橙黄橘绿时。\n《夜书所见》宋·叶绍翁：知有儿童挑促织，夜深篱落一灯明。" },
+        { "title": "铺满金色巴掌的水泥道", "content": "法国梧桐的落叶像一个个金色的小巴掌，铺在水泥道上，很美。\n体会观察与想象带来的乐趣。" },
+        { "title": "秋天的雨", "content": "秋天的雨，是一把钥匙，打开了秋天的大门。\n从颜色、气味、声音写秋天。" },
+        { "title": "听听，秋的声音", "content": "黄叶、蟋蟀、大雁、秋风都有秋的声音，感受秋天的美好。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "《山行》的作者是谁？", "options": ["杜牧", "李白", "苏轼", "白居易"], "answer": "杜牧", "explain": "《山行》是唐代诗人杜牧的作品。" },
+        { "id": "e2", "type": "fill", "question": "《山行》：停车坐爱枫林晚，霜叶红于______。", "answer": "二月花", "explain": "原句：停车坐爱枫林晚，霜叶红于二月花。" }
+      ]
+    },
+    { "id": "u3", "name": "第三单元 童话王国", "knowledge": [], "exercises": [], "placeholder": true },
+    { "id": "u4", "name": "第四单元 预测", "knowledge": [], "exercises": [], "placeholder": true },
+    { "id": "u5", "name": "第五单元 观察", "knowledge": [], "exercises": [], "placeholder": true },
+    { "id": "u6", "name": "第六单元 祖国河山", "knowledge": [], "exercises": [], "placeholder": true },
+    { "id": "u7", "name": "第七单元 我与自然", "knowledge": [], "exercises": [], "placeholder": true },
+    { "id": "u8", "name": "第八单元 美好品质", "knowledge": [], "exercises": [], "placeholder": true }
+  ]
+};
