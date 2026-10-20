@@ -49,8 +49,54 @@ window.PSK_DATA["1/yingyu"] = {
         { "id": "e10", "type": "choice", "question": "What's this? 的意思是？", "options": ["那是什么", "这是什么", "这是猫", "你好"], "answer": "这是什么", "explain": "what's = what is，this 是这。" }
       ]
     },
-    { "id": "u2", "name": "Unit 2 Face 脸", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u4", "name": "Unit 4 Numbers 数字", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u5", "name": "Revision 复习", "knowledge": [], "exercises": [], "placeholder": true }
+    {
+      "id": "u2",
+      "name": "Unit 2 Face 脸",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "face 脸 / ear 耳朵 / eye 眼睛 / nose 鼻子 / mouth 嘴巴。\n能听、说、指认五官单词。" },
+        { "title": "Sentences 句型", "content": "Touch your nose. 摸摸你的鼻子。\nThis is my face. 这是我的脸。" },
+        { "title": "Chant 儿歌", "content": "Eye, eye, this is my eye.\nNose, nose, touch my nose.\n边说边做动作，记住五官单词。" },
+        { "title": "描述自己", "content": "Look at me. 看看我。\nThis is my eye/mouth. 用句型介绍自己的五官。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "nose 的意思是？", "options": ["鼻子", "眼睛", "耳朵", "嘴巴"], "answer": "鼻子", "explain": "nose 是鼻子。" },
+        { "id": "e2", "type": "fill", "question": "face 的意思是：____。", "answer": "脸", "explain": "face 是脸。" },
+        { "id": "e3", "type": "choice", "question": "'嘴巴'的英语是？", "options": ["mouth", "nose", "eye", "ear"], "answer": "mouth", "explain": "mouth 是嘴巴。" },
+        { "id": "e4", "type": "fill", "question": "This is my ____.（填 ear 或 eye，表示'这是我的耳朵'）", "answer": "ear", "explain": "ear 是耳朵。" },
+        { "id": "e5", "type": "choice", "question": "Touch your nose. 意思是？", "options": ["摸摸你的鼻子", "闭上眼睛", "张开嘴", "拍拍手"], "answer": "摸摸你的鼻子", "explain": "touch 是摸，nose 是鼻子。" }
+      ]
+    },
+    {
+      "id": "u4",
+      "name": "Unit 4 Numbers 数字",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "one 一 / two 二 / three 三 / four 四 / five 五 / six 六 / seven 七 / eight 八 / nine 九 / ten 十。" },
+        { "title": "Sentences 句型", "content": "How many books? 有几本书？\nSix books. 六本书。用 How many...? 询问数量。" },
+        { "title": "数数", "content": "会从 one 数到 ten，也能从 ten 倒数回来。\n边数手指边说，加深记忆。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'七'的英语是？", "options": ["six", "seven", "eight", "five"], "answer": "seven", "explain": "seven 是七。" },
+        { "id": "e2", "type": "fill", "question": "2 + 3 = ____。（用英语单词填）", "answer": "five", "explain": "2+3=5，5 的英语是 five。" },
+        { "id": "e3", "type": "choice", "question": "问'有几本书'用哪句？", "options": ["How many books?", "What's this?", "I have a book.", "Goodbye!"], "answer": "How many books?", "explain": "How many...? 用来问数量。" },
+        { "id": "e4", "type": "fill", "question": "six 的意思是____。", "answer": "六", "explain": "six 是六。" },
+        { "id": "e5", "type": "choice", "question": "How many books? — ____ books.（5 本）", "options": ["Five", "Four", "Six", "Three"], "answer": "Five", "explain": "5 本书的'5'用 five。" }
+      ]
+    },
+    {
+      "id": "u5",
+      "name": "Revision 复习",
+      "knowledge": [
+        { "title": "单词回顾", "content": "文具：book / ruler / pencil；动物：cat / dog / bird；数字：one ~ ten。" },
+        { "title": "句型回顾", "content": "I have a book. 我有一本书。\nWhat's this? It's a cat. 这是什么？它是一只猫。\nHow many books? Six. 有几本书？六本。" },
+        { "title": "自我介绍", "content": "Hello! I'm Mike. 你好，我是迈克。\nNice to meet you! 见到你很高兴！" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'我有一把尺子'怎么说？", "options": ["I have a ruler.", "It's a ruler.", "How many rulers?", "Goodbye!"], "answer": "I have a ruler.", "explain": "I have a... 表示'我有一个……'。" },
+        { "id": "e2", "type": "choice", "question": "What's this? — It's a ____.（图上是一只猫）", "options": ["cat", "dog", "bird", "book"], "answer": "cat", "explain": "cat 是猫。" },
+        { "id": "e3", "type": "fill", "question": "one, two, ____, four, five.（按顺序填）", "answer": "three", "explain": "按顺序是 one, two, three, four, five。" },
+        { "id": "e4", "type": "choice", "question": "'你好'可以说？", "options": ["Hello!", "Bye!", "Thank you!", "Sorry!"], "answer": "Hello!", "explain": "Hello! / Hi! 都是打招呼。" },
+        { "id": "e5", "type": "choice", "question": "How many books?（3 本）", "options": ["Three books.", "Four books.", "Five books.", "Six books."], "answer": "Three books.", "explain": "3 的英语是 three。" }
+      ]
+    }
   ]
 };

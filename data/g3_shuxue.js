@@ -51,11 +51,105 @@ window.PSK_DATA["3/shuxue"] = {
         { "id": "e10", "type": "fill", "question": "妈妈买菜花了 36 元，买肉花了 28 元，一共花了____元。", "answer": "64", "explain": "求一共用加法：36 + 28 = 64。" }
       ]
     },
-    { "id": "u3", "name": "第三单元 四边形", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u4", "name": "第四单元 有余数的除法", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u5", "name": "第五单元 时、分、秒", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u6", "name": "第六单元 多位数乘一位数", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u7", "name": "第七单元 分数的初步认识", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u8", "name": "第八单元 数学广角——集合", "knowledge": [], "exercises": [], "placeholder": true }
+    {
+      "id": "u3",
+      "name": "第三单元 四边形",
+      "knowledge": [
+        { "title": "四边形", "content": "四边形有 4 条直的边和 4 个角。\n长方形、正方形都是四边形。" },
+        { "title": "长方形和正方形的特征", "content": "长方形对边相等，4 个角都是直角；正方形 4 条边都相等，4 个角都是直角。" },
+        { "title": "周长", "content": "封闭图形一周的长度，就是它的周长。\n沿边线描一圈来理解周长。" },
+        { "title": "长方形和正方形的周长公式", "content": "长方形周长 =（长+宽）×2；正方形周长 = 边长×4。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "fill", "question": "长方形周长 =（长+宽）×____。", "answer": "2", "explain": "两条长加两条宽，所以乘 2。" },
+        { "id": "e2", "type": "choice", "question": "正方形周长 = ?", "options": ["边长×4", "边长×2", "边长+4", "边长×边长"], "answer": "边长×4", "explain": "4 条边都相等，周长是边长×4。" },
+        { "id": "e3", "type": "fill", "question": "长 6 厘米、宽 4 厘米的长方形周长是____厘米。", "answer": "20", "explain": "(6+4)×2=20。" },
+        { "id": "e4", "type": "choice", "question": "边长 5 厘米的正方形周长？", "options": ["20 厘米", "25 厘米", "10 厘米", "15 厘米"], "answer": "20 厘米", "explain": "5×4=20。" },
+        { "id": "e5", "type": "fill", "question": "四边形有____条边、4 个角。", "answer": "4", "explain": "四边形有 4 条直的边和 4 个角。" }
+      ]
+    },
+    {
+      "id": "u4",
+      "name": "第四单元 有余数的除法",
+      "knowledge": [
+        { "title": "余数", "content": "平均分后剩下的、不够再分的数叫余数。\n例：9÷2=4……1，余 1。" },
+        { "title": "余数与除数的关系", "content": "余数一定比除数小。\n如果余数等于或大于除数，说明还能再分。" },
+        { "title": "除法竖式", "content": "被除数÷除数=商……余数。\n例：13÷4=3……1，先想乘法口诀找商。" },
+        { "title": "解决问题", "content": "租船、装盒子这类题用'进一法'（剩下的也要租/装）；判断够不够则看余数。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "13÷4 = 3……?", "options": ["1", "2", "3", "4"], "answer": "1", "explain": "3×4=12，13-12=1，余 1。" },
+        { "id": "e2", "type": "fill", "question": "余数一定比除数____。（填 小 或 大）", "answer": "小", "explain": "余数要比除数小。" },
+        { "id": "e3", "type": "choice", "question": "17÷5 = ?", "options": ["3……2", "3……1", "2……7", "4……3"], "answer": "3……2", "explain": "3×5=15，17-15=2。" },
+        { "id": "e4", "type": "fill", "question": "1÷2=0 余____。", "answer": "1", "explain": "1 不够分，商 0 余 1。" },
+        { "id": "e5", "type": "choice", "question": "22 人坐船，每条船坐 4 人，至少要几条船？", "options": ["6 条", "5 条", "4 条", "7 条"], "answer": "6 条", "explain": "22÷4=5……2，剩下 2 人也要坐船，所以要 6 条。" }
+      ]
+    },
+    {
+      "id": "u5",
+      "name": "第五单元 时、分、秒",
+      "knowledge": [
+        { "title": "钟面", "content": "钟面上有 12 个大格、60 个小格。\n秒针走得最快，分针其次，时针最慢。" },
+        { "title": "单位关系", "content": "1 时 = 60 分，1 分 = 60 秒。\n时间单位每相邻两级进率是 60。" },
+        { "title": "计量选择", "content": "眨一次眼约 1 秒，课间休息 10 分钟，晚上睡眠约 9 小时。\n根据生活经验选单位。" },
+        { "title": "经过时间", "content": "结束时刻 - 开始时刻 = 经过时间。\n例：8:30 到 8:50 经过 20 分钟。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "fill", "question": "1 分 = ____ 秒。", "answer": "60", "explain": "1 分 = 60 秒。" },
+        { "id": "e2", "type": "choice", "question": "眨一次眼大约是？", "options": ["1 秒", "1 分", "1 时", "1 天"], "answer": "1 秒", "explain": "眨眼很短，用秒作单位。" },
+        { "id": "e3", "type": "fill", "question": "8:30 上课，8:50 下课，经过了____分钟。", "answer": "20", "explain": "50-30=20 分钟。" },
+        { "id": "e4", "type": "choice", "question": "跑 50 米大约用？", "options": ["10 秒", "10 分钟", "1 小时", "1 分钟"], "answer": "10 秒", "explain": "短跑时间很短，用秒。" },
+        { "id": "e5", "type": "fill", "question": "钟面上走得最快的针是____针。", "answer": "秒", "explain": "秒针又细又长，走得最快。" }
+      ]
+    },
+    {
+      "id": "u6",
+      "name": "第六单元 多位数乘一位数",
+      "knowledge": [
+        { "title": "口算乘法", "content": "整十、整百数乘一位数，先算表内乘法，再在末尾添 0。\n例：20×3：2×3=6，添 0 得 60。" },
+        { "title": "笔算乘法", "content": "从个位乘起，哪一位满几十就向前一位进几。\n例：123×2，个位 3×2=6……" },
+        { "title": "0 的乘法", "content": "0 和任何数相乘都得 0。\n注意与加法区分：0+5=5，0×5=0。" },
+        { "title": "估算", "content": "把多位数看成整十、整百数再乘。\n例：29×3 ≈ 30×3=90。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "fill", "question": "20 × 3 = ______。", "answer": "60", "explain": "2×3=6，再添 0 得 60。" },
+        { "id": "e2", "type": "choice", "question": "123 × 2 = ?", "options": ["246", "236", "256", "326"], "answer": "246", "explain": "100×2=200，20×2=40，3×2=6，合起来 246。" },
+        { "id": "e3", "type": "fill", "question": "0 × 9 = ______。", "answer": "0", "explain": "0 和任何数相乘都得 0。" },
+        { "id": "e4", "type": "choice", "question": "估算 29×3，结果大约是？", "options": ["90", "60", "120", "87"], "answer": "90", "explain": "29≈30，30×3=90。" },
+        { "id": "e5", "type": "fill", "question": "214 × 2 = ______。", "answer": "428", "explain": "200×2=400，14×2=28，合起来 428。" }
+      ]
+    },
+    {
+      "id": "u7",
+      "name": "第七单元 分数的初步认识",
+      "knowledge": [
+        { "title": "几分之一", "content": "把一个物体平均分成几份，每份就是它的几分之一。\n例：平均分成 2 份，每份是 1/2，读作二分之一。" },
+        { "title": "分子和分母", "content": "分数线上面的数叫分子，下面的数叫分母。\n写分数时先写分数线。" },
+        { "title": "比大小", "content": "分子是 1 的分数，分母越大反而越小。\n例：1/2 > 1/3 > 1/4。" },
+        { "title": "同分母分数加减", "content": "分母不变，分子相加减。\n例：1/5 + 2/5 = 3/5。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "fill", "question": "把一个西瓜平均分成 4 份，每份是它的____分之一。", "answer": "四", "explain": "平均分成 4 份，每份是四分之一。" },
+        { "id": "e2", "type": "choice", "question": "1/2 和 1/3 哪个大？", "options": ["1/2", "1/3", "一样大", "不能比"], "answer": "1/2", "explain": "分子是 1 时，分母越小分数越大。" },
+        { "id": "e3", "type": "fill", "question": "1/5 + 2/5 = ____。", "answer": "3/5", "explain": "分母不变，分子相加：1+2=3。" },
+        { "id": "e4", "type": "choice", "question": "分数线下面的数叫？", "options": ["分母", "分子", "被除数", "余数"], "answer": "分母", "explain": "分数线上面是分子，下面是分母。" },
+        { "id": "e5", "type": "fill", "question": "2/8 读作____分之二。", "answer": "八", "explain": "分母是 8，读作八分之二。" }
+      ]
+    },
+    {
+      "id": "u8",
+      "name": "第八单元 数学广角——集合",
+      "knowledge": [
+        { "title": "重叠问题", "content": "两部分人数有重复时，用两个相交的圆圈（韦恩图）表示更清楚。" },
+        { "title": "计算方法", "content": "两部分之和 - 重复部分 = 实际总人数。\n例：8+6-3=11 人。" },
+        { "title": "韦恩图", "content": "中间重叠部分表示'既……又……'的；只属于左边、右边的各归各圈。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "两个圆圈中间重叠的部分表示？", "options": ["既属于又属于", "只属于左边", "只属于右边", "都不属于"], "answer": "既属于又属于", "explain": "重叠部分是两边的公共部分。" },
+        { "id": "e2", "type": "fill", "question": "语文组 8 人，数学组 6 人，两组都参加的有 3 人，一共____人。", "answer": "11", "explain": "8+6-3=11。" },
+        { "id": "e3", "type": "choice", "question": "解决重叠问题用什么图更清楚？", "options": ["韦恩图", "线段图", "柱状图", "钟面图"], "answer": "韦恩图", "explain": "两个相交的圆圈能清楚表示重叠部分。" },
+        { "id": "e4", "type": "fill", "question": "计算：8 + 6 - 3 = ______。", "answer": "11", "explain": "先加两部分，再减去重复的 3。" }
+      ]
+    }
   ]
 };

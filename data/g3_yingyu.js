@@ -49,9 +49,69 @@ window.PSK_DATA["3/yingyu"] = {
         { "id": "e10", "type": "choice", "question": "Open your mouth. 意思是？", "options": ["闭上嘴", "张开嘴", "摸摸嘴", "张大眼睛"], "answer": "张开嘴", "explain": "open 是张开，mouth 是嘴。" }
       ]
     },
-    { "id": "u2", "name": "Unit 2 Colours 颜色", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u4", "name": "Unit 4 We love animals 动物", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u5", "name": "Unit 5 Let's eat! 饮食", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u6", "name": "Unit 6 Happy birthday! 生日", "knowledge": [], "exercises": [], "placeholder": true }
+    {
+      "id": "u2",
+      "name": "Unit 2 Colours 颜色",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "red 红色 / yellow 黄色 / green 绿色 / blue 蓝色 / black 黑色 / white 白色 / brown 棕色 / orange 橙色。" },
+        { "title": "Sentences 句型", "content": "Good morning! 早上好！\nI see green. 我看见绿色。\nNice to meet you. 见到你很高兴。" },
+        { "title": "指认颜色", "content": "Show me red. 出示红色。\nThis is Miss Green. 这是格林小姐。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'绿色'的英语是？", "options": ["green", "red", "blue", "yellow"], "answer": "green", "explain": "green 是绿色。" },
+        { "id": "e2", "type": "fill", "question": "I see ____.（黄色）", "answer": "yellow", "explain": "yellow 是黄色。" },
+        { "id": "e3", "type": "choice", "question": "Nice to meet you. 的回答是？", "options": ["Nice to meet you, too.", "Good morning.", "Goodbye!", "Thank you!"], "answer": "Nice to meet you, too.", "explain": "回答要加上 too，表示'我也是'。" },
+        { "id": "e4", "type": "choice", "question": "red 的意思是？", "options": ["红色", "蓝色", "绿色", "黑色"], "answer": "红色", "explain": "red 是红色。" },
+        { "id": "e5", "type": "fill", "question": "Good ____!（早上好）", "answer": "morning", "explain": "Good morning! 是早上好。" }
+      ]
+    },
+    {
+      "id": "u4",
+      "name": "Unit 4 We love animals 动物",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "cat 猫 / dog 狗 / duck 鸭子 / panda 熊猫 / monkey 猴子 / bird 鸟 / bear 熊 / elephant 大象 / tiger 老虎 / pig 猪。" },
+        { "title": "Sentences 句型", "content": "Look! A panda! 看！一只熊猫！\nIt's funny. 它很有趣。" },
+        { "title": "模仿动物", "content": "Act like a cat! 模仿猫！\n像动物一样做动作，边玩边记单词。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "panda 的意思是？", "options": ["熊猫", "猴子", "熊", "老虎"], "answer": "熊猫", "explain": "panda 是熊猫。" },
+        { "id": "e2", "type": "fill", "question": "elephant 的意思是：____。", "answer": "大象", "explain": "elephant 是大象。" },
+        { "id": "e3", "type": "choice", "question": "Act like a monkey! 意思是？", "options": ["模仿猴子", "看猴子", "喂猴子", "画猴子"], "answer": "模仿猴子", "explain": "act like 是'像……一样做动作'。" },
+        { "id": "e4", "type": "fill", "question": "Look! A ____!（鸭子）", "answer": "duck", "explain": "duck 是鸭子。" },
+        { "id": "e5", "type": "choice", "question": "黑白相间的中国国宝是？", "options": ["panda", "dog", "tiger", "bird"], "answer": "panda", "explain": "熊猫是我们的国宝。" }
+      ]
+    },
+    {
+      "id": "u5",
+      "name": "Unit 5 Let's eat! 饮食",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "bread 面包 / juice 果汁 / egg 鸡蛋 / milk 牛奶 / water 水 / cake 蛋糕 / fish 鱼 / rice 米饭。" },
+        { "title": "Sentences 句型", "content": "I'm hungry. 我饿了。\nI'd like some juice. 我想要些果汁。\nHere you are. 给你。Thank you. 谢谢。" },
+        { "title": "用餐用语", "content": "Can I have some water, please? 请给我一些水好吗？\n礼貌地表达需求。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "bread 的意思是？", "options": ["面包", "蛋糕", "米饭", "鸡蛋"], "answer": "面包", "explain": "bread 是面包。" },
+        { "id": "e2", "type": "fill", "question": "I'm ____.（饿了）", "answer": "hungry", "explain": "hungry 是饿的。" },
+        { "id": "e3", "type": "choice", "question": "'给你'怎么说？", "options": ["Here you are.", "Thank you.", "I'm hungry.", "You're welcome."], "answer": "Here you are.", "explain": "递东西给别人时说 Here you are." },
+        { "id": "e4", "type": "fill", "question": "Can I have some ____?（牛奶）", "answer": "milk", "explain": "milk 是牛奶。" },
+        { "id": "e5", "type": "choice", "question": "milk 的意思是？", "options": ["牛奶", "果汁", "水", "面包"], "answer": "牛奶", "explain": "milk 是牛奶。" }
+      ]
+    },
+    {
+      "id": "u6",
+      "name": "Unit 6 Happy birthday! 生日",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "cake 蛋糕 / candle 蜡烛 / card 卡片 / happy 快乐的 / birthday 生日。" },
+        { "title": "Sentences 句型", "content": "Happy birthday to you! 祝你生日快乐！\nHow old are you? 你几岁了？I'm nine. 我九岁。" },
+        { "title": "生日歌", "content": "Happy birthday to you, happy birthday to you,\nhappy birthday dear friend, happy birthday to you!" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "cake 的意思是？", "options": ["蛋糕", "蜡烛", "卡片", "礼物"], "answer": "蛋糕", "explain": "cake 是蛋糕。" },
+        { "id": "e2", "type": "fill", "question": "Happy ____ to you!（生日）", "answer": "birthday", "explain": "birthday 是生日。" },
+        { "id": "e3", "type": "choice", "question": "问'你几岁了'用？", "options": ["How old are you?", "How are you?", "Who are you?", "What's your name?"], "answer": "How old are you?", "explain": "How old are you? 问年龄。" },
+        { "id": "e4", "type": "fill", "question": "I'm ____.(9 岁，用英语单词填)", "answer": "nine", "explain": "9 的英语是 nine。" },
+        { "id": "e5", "type": "choice", "question": "birthday 的意思是？", "options": ["生日", "节日", "星期", "月份"], "answer": "生日", "explain": "birthday 是生日。" }
+      ]
+    }
   ]
 };

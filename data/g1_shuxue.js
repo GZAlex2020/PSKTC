@@ -51,10 +51,88 @@ window.PSK_DATA["1/shuxue"] = {
         { "id": "e10", "type": "choice", "question": "2 个苹果和 3 个苹果合起来，一共有几个？", "options": ["4", "5", "6", "2"], "answer": "5", "explain": "合起来用加法：2 + 3 = 5。" }
       ]
     },
-    { "id": "u3", "name": "第三单元 认识图形（一）", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u4", "name": "第四单元 6~10 的认识和加减法", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u5", "name": "第五单元 11~20 各数的认识", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u6", "name": "第六单元 认识钟表", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u7", "name": "第七单元 20 以内的进位加法", "knowledge": [], "exercises": [], "placeholder": true }
+    {
+      "id": "u3",
+      "name": "第三单元 认识图形（一）",
+      "knowledge": [
+        { "title": "长方体", "content": "长方体有 6 个面，相对的面完全一样。\n生活中的长方体：牙膏盒、纸巾盒、课本。" },
+        { "title": "正方体", "content": "正方体有 6 个面，每个面都完全相同。\n生活中的正方体：魔方、骰子。" },
+        { "title": "圆柱和球", "content": "圆柱上下一样粗，能滚动，比如易拉罐。\n球是圆圆的，到处都能滚，比如皮球。" },
+        { "title": "图形拼搭", "content": "用相同的正方体可以拼出长方体，也可以拼出更大的正方体。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "魔方是什么形状？", "options": ["正方体", "长方体", "圆柱", "球"], "answer": "正方体", "explain": "魔方 6 个面完全相同，是正方体。" },
+        { "id": "e2", "type": "fill", "question": "皮球是____体。", "answer": "球", "explain": "皮球圆圆的，到处都能滚，是球体。" },
+        { "id": "e3", "type": "choice", "question": "下面哪个可以到处滚动？", "options": ["皮球", "牙膏盒", "魔方", "课本"], "answer": "皮球", "explain": "球到处都能滚，长方体和正方体不能。" },
+        { "id": "e4", "type": "fill", "question": "圆柱上下一样____。", "answer": "粗", "explain": "圆柱上下一样粗，可以滚动。" },
+        { "id": "e5", "type": "choice", "question": "牙膏盒是？", "options": ["长方体", "正方体", "圆柱", "球"], "answer": "长方体", "explain": "牙膏盒 6 个面相对相同，是长方体。" }
+      ]
+    },
+    {
+      "id": "u4",
+      "name": "第四单元 6~10 的认识和加减法",
+      "knowledge": [
+        { "title": "数的组成", "content": "6 可以分成 1 和 5、2 和 4、3 和 3；8 可以分成 3 和 5。\n熟练掌握 6~10 的分与合，是计算加减法的基础。" },
+        { "title": "比大小与相邻数", "content": "用 >、<、= 比较大小。\n一个数的前后相邻数各差 1，如 7 的相邻数是 6 和 8。" },
+        { "title": "连加连减", "content": "按从左到右的顺序计算。\n例：2+3+4 先算 2+3=5，再算 5+4=9。" },
+        { "title": "看图解决问题", "content": "大括号表示'合起来'用加法；问'还剩多少'用减法。\n先看懂图意，再列式计算。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "fill", "question": "6 + 3 = ______。", "answer": "9", "explain": "6 再添上 3 是 9。" },
+        { "id": "e2", "type": "choice", "question": "10 - 4 = ?", "options": ["5", "6", "7", "8"], "answer": "6", "explain": "从 10 里去掉 4，还剩 6。" },
+        { "id": "e3", "type": "fill", "question": "8 可以分成 3 和 ____。", "answer": "5", "explain": "3 + 5 = 8。" },
+        { "id": "e4", "type": "choice", "question": "2 + 3 + 4 = ?", "options": ["8", "9", "10", "7"], "answer": "9", "explain": "先算 2+3=5，再算 5+4=9。" },
+        { "id": "e5", "type": "fill", "question": "9 - 2 - 3 = ______。", "answer": "4", "explain": "先算 9-2=7，再算 7-3=4。" }
+      ]
+    },
+    {
+      "id": "u5",
+      "name": "第五单元 11~20 各数的认识",
+      "knowledge": [
+        { "title": "数位", "content": "从右边起第一位是个位，第二位是十位。\n13 里十位上的 1 表示 1 个十，个位上的 3 表示 3 个一。" },
+        { "title": "数的组成", "content": "1 个十和 3 个一合起来是 13。\n会读写 11~20 各数。" },
+        { "title": "数序", "content": "15 的前一个数是 14，后一个数是 16。\n会用'比大小、找相邻数'理清数序。" },
+        { "title": "十加几", "content": "10+5=15；反过来 15-5=10，15-10=5。\n十加几就得十几，减回去就想组成。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "1 个十和 3 个一组成？", "options": ["13", "31", "10", "3"], "answer": "13", "explain": "1 个十和 3 个一合起来是 13。" },
+        { "id": "e2", "type": "fill", "question": "10 + 6 = ______。", "answer": "16", "explain": "十加几就得十几。" },
+        { "id": "e3", "type": "choice", "question": "15 的前一个数是？", "options": ["14", "16", "13", "5"], "answer": "14", "explain": "相邻数差 1，15 前面是 14。" },
+        { "id": "e4", "type": "fill", "question": "17 - 7 = ______。", "answer": "10", "explain": "7 个一去掉，还剩 1 个十，是 10。" },
+        { "id": "e5", "type": "choice", "question": "和 16 相邻的两个数是？", "options": ["15 和 17", "14 和 15", "17 和 18", "16 和 17"], "answer": "15 和 17", "explain": "相邻数各差 1。" }
+      ]
+    },
+    {
+      "id": "u6",
+      "name": "第六单元 认识钟表",
+      "knowledge": [
+        { "title": "认识整时", "content": "分针指着 12，时针指着几就是几时。\n先看时针，再看分针。" },
+        { "title": "电子表表示法", "content": "电子钟用两个点隔开，7:00 表示 7 时整。" },
+        { "title": "快到几时", "content": "时针快指向某个数、分针在 12 左边一点，就是'快到几时了'。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "分针指着 12，时针指着 9，是？", "options": ["9 时", "8 时", "10 时", "12 时"], "answer": "9 时", "explain": "分针指 12，时针指几就是几时。" },
+        { "id": "e2", "type": "fill", "question": "6:00 读作____时。", "answer": "6", "explain": "6:00 表示 6 时整。" },
+        { "id": "e3", "type": "choice", "question": "下面哪个表示 8 时整？", "options": ["8:00", "8:30", "9:00", "7:00"], "answer": "8:00", "explain": "冒号后是 00 就是整时。" },
+        { "id": "e4", "type": "fill", "question": "小明 7 时起床，钟面上时针指着____，分针指着 12。", "answer": "7", "explain": "整时时，分针指 12，时针指着几就是几时。" },
+        { "id": "e5", "type": "choice", "question": "现在是 3 时，过 1 小时是？", "options": ["4 时", "2 时", "3 时半", "1 时"], "answer": "4 时", "explain": "3 时过 1 小时是 4 时。" }
+      ]
+    },
+    {
+      "id": "u7",
+      "name": "第七单元 20 以内的进位加法",
+      "knowledge": [
+        { "title": "凑十法", "content": "9+4：把 4 分成 1 和 3，9+1=10，10+3=13。\n'看大数，拆小数，凑成十，加剩数'。" },
+        { "title": "8、7、6 加几", "content": "同样用凑十法。\n例：8+5：8+2=10，10+3=13；7+6：7+3=10，10+3=13。" },
+        { "title": "解决问题", "content": "求'一共有多少'用加法。\n读懂图意和条件，再选择正确的方法计算。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "fill", "question": "9 + 4 = ______。", "answer": "13", "explain": "凑十法：9+1=10，10+3=13。" },
+        { "id": "e2", "type": "choice", "question": "8 + 5 = ?", "options": ["12", "13", "14", "11"], "answer": "13", "explain": "8+2=10，10+3=13。" },
+        { "id": "e3", "type": "fill", "question": "7 + 6 = ______。", "answer": "13", "explain": "7+3=10，10+3=13。" },
+        { "id": "e4", "type": "choice", "question": "9 + 9 = ?", "options": ["17", "18", "19", "16"], "answer": "18", "explain": "9+1=10，10+8=18。" },
+        { "id": "e5", "type": "fill", "question": "6 + 7 = ______。", "answer": "13", "explain": "6+4=10，10+3=13。" }
+      ]
+    }
   ]
 };

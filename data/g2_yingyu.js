@@ -49,8 +49,53 @@ window.PSK_DATA["2/yingyu"] = {
         { "id": "e10", "type": "choice", "question": "要介绍一位男孩，可以说？", "options": ["She is a girl.", "He is a boy.", "She is tall.", "He is small."], "answer": "He is a boy.", "explain": "男孩用 he，boy 是男孩。" }
       ]
     },
-    { "id": "u3", "name": "Unit 3 My Friends 我的朋友", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u4", "name": "Unit 4 My Neighbourhood 社区", "knowledge": [], "exercises": [], "placeholder": true },
-    { "id": "u5", "name": "Revision 复习", "knowledge": [], "exercises": [], "placeholder": true }
+    {
+      "id": "u3",
+      "name": "Unit 3 My Friends 我的朋友",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "friend 朋友 / tall 高 / short 矮 / big 大 / small 小。\n能听、说、认读这些单词。" },
+        { "title": "Sentences 句型", "content": "This is my friend. 这是我的朋友。\nHe is tall. 他很高。She is short. 她很矮。" },
+        { "title": "描述朋友", "content": "用 tall / short / big / small 描述朋友的样子。\nHe is big. 他很壮。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "friend 的意思是？", "options": ["朋友", "家人", "老师", "同学"], "answer": "朋友", "explain": "friend 是朋友。" },
+        { "id": "e2", "type": "fill", "question": "This is my ____.（填 friend 或 book，表示'这是我的朋友'）", "answer": "friend", "explain": "friend 是朋友。" },
+        { "id": "e3", "type": "choice", "question": "'他很高'怎么说？", "options": ["He is tall.", "She is tall.", "He is short.", "He is my friend."], "answer": "He is tall.", "explain": "he 是他，tall 是高。" },
+        { "id": "e4", "type": "fill", "question": "She is ____.（填 short 或 tall，表示'她很矮'）", "answer": "short", "explain": "short 是矮。" },
+        { "id": "e5", "type": "choice", "question": "介绍朋友时先说？", "options": ["This is my friend.", "He is tall.", "She is short.", "Bye!"], "answer": "This is my friend.", "explain": "先用 This is... 引出要介绍的人。" }
+      ]
+    },
+    {
+      "id": "u4",
+      "name": "Unit 4 My Neighbourhood 社区",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "park 公园 / zoo 动物园 / bookshop 书店 / supermarket 超市。" },
+        { "title": "Sentences 句型", "content": "Let's go to the park. 我们去公园吧。\nGreat! 好极了！" },
+        { "title": "场所与活动", "content": "看动物去动物园，买东西去超市。\n把场所和活动对应起来记。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "park 的意思是？", "options": ["公园", "动物园", "商店", "学校"], "answer": "公园", "explain": "park 是公园。" },
+        { "id": "e2", "type": "fill", "question": "看动物要去____。（填 zoo 或 park）", "answer": "zoo", "explain": "zoo 是动物园。" },
+        { "id": "e3", "type": "choice", "question": "'我们去公园吧'怎么说？", "options": ["Let's go to the park.", "This is a park.", "I like the park.", "Where is the park?"], "answer": "Let's go to the park.", "explain": "Let's... 表示'我们一起……吧'。" },
+        { "id": "e4", "type": "choice", "question": "supermarket 的意思是？", "options": ["超市", "书店", "公园", "学校"], "answer": "超市", "explain": "supermarket 是超市。" },
+        { "id": "e5", "type": "fill", "question": "Let's go to the ____!（书店）", "answer": "bookshop", "explain": "bookshop 是书店。" }
+      ]
+    },
+    {
+      "id": "u5",
+      "name": "Revision 复习",
+      "knowledge": [
+        { "title": "家庭成员回顾", "content": "father / mother / brother / sister / grandfather / grandmother。" },
+        { "title": "人与描述回顾", "content": "boy / girl / he / she / friend / tall / short。" },
+        { "title": "场所回顾", "content": "park 公园 / zoo 动物园 / bookshop 书店 / supermarket 超市。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'她是我的姐妹'怎么说？", "options": ["She is my sister.", "He is my sister.", "She is my brother.", "This is my mother."], "answer": "She is my sister.", "explain": "she 是她，sister 是姐妹。" },
+        { "id": "e2", "type": "fill", "question": "he 的意思是____。", "answer": "他", "explain": "he 是'他'。" },
+        { "id": "e3", "type": "choice", "question": "买东西去？", "options": ["supermarket", "zoo", "park", "bookshop"], "answer": "supermarket", "explain": "超市是买东西的地方。" },
+        { "id": "e4", "type": "fill", "question": "This is my ____.（朋友）", "answer": "friend", "explain": "friend 是朋友。" },
+        { "id": "e5", "type": "choice", "question": "'她很矮'？", "options": ["She is short.", "He is tall.", "She is my sister.", "He is big."], "answer": "She is short.", "explain": "she 是她，short 是矮。" }
+      ]
+    }
   ]
 };
