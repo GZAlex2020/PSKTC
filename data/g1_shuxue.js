@@ -20,7 +20,12 @@ window.PSK_DATA["1/shuxue"] = {
         { "id": "e2", "type": "fill", "question": "有 4 个小朋友，要'一一对应'同样多，需要____把椅子。", "answer": "4", "explain": "一一对应同样多，人数和椅子数相等，都是 4。" },
         { "id": "e3", "type": "choice", "question": "比高矮时，应该怎么做才公平？", "options": ["站不同台阶", "站在同一平地", "躺着比", "随便比"], "answer": "站在同一平地", "explain": "同一水平面比较才准确。" },
         { "id": "e4", "type": "fill", "question": "天平左边放苹果下沉，说明苹果比右边____。（填 重 或 轻）", "answer": "重", "explain": "下沉的一端比较重。" },
-        { "id": "e5", "type": "choice", "question": "数物体个数时，正确的方法是？", "options": ["随便数", "按顺序不重复不遗漏", "只看大的", "闭眼数"], "answer": "按顺序不重复不遗漏", "explain": "按顺序数才能不重复、不遗漏。" }
+        { "id": "e5", "type": "choice", "question": "数物体个数时，正确的方法是？", "options": ["随便数", "按顺序不重复不遗漏", "只看大的", "闭眼数"], "answer": "按顺序不重复不遗漏", "explain": "按顺序数才能不重复、不遗漏。" },
+        { "id": "e6", "type": "fill", "question": "比较两根绳子的长短，要把它们的一端____。（填 对齐 或 分开）", "answer": "对齐", "explain": "一端对齐后才能比出谁长谁短。" },
+        { "id": "e7", "type": "choice", "question": "下面哪种方法能比较出谁轻谁重？", "options": ["用天平称一称", "看颜色", "看大小", "闭眼猜"], "answer": "用天平称一称", "explain": "天平下沉的一端重，能准确比较轻重。" },
+        { "id": "e8", "type": "fill", "question": "比多少时，一一对应后都有剩下的那种物体就____。（填 多 或 少）", "answer": "多", "explain": "都有剩余说明这种物体数量更多。" },
+        { "id": "e9", "type": "choice", "question": "数出 5 个苹果，可以用数字几表示？", "options": ["3", "5", "8", "10"], "answer": "5", "explain": "5 个苹果用数字 5 表示。" },
+        { "id": "e10", "type": "fill", "question": "比较身高高矮，要在同一____面上进行。（填 水平 或 倾斜）", "answer": "水平", "explain": "都站着或都坐在同一水平面才公平。" }
       ]
     },
     {
@@ -38,7 +43,12 @@ window.PSK_DATA["1/shuxue"] = {
         { "id": "e2", "type": "fill", "question": "5 - 2 = ______。", "answer": "3", "explain": "从 5 里面去掉 2，还剩 3。" },
         { "id": "e3", "type": "choice", "question": "比 3 大、比 5 小的数是？", "options": ["2", "4", "6", "1"], "answer": "4", "explain": "3 < 4 < 5，中间的数只有 4。" },
         { "id": "e4", "type": "fill", "question": "0 表示____。（填 没有 或 很多）", "answer": "没有", "explain": "0 表示什么都没有。" },
-        { "id": "e5", "type": "choice", "question": "排队时'第 3 个'表示什么？", "options": ["一共有 3 个", "排在第 3 的位置", "比 3 多", "比 3 少"], "answer": "排在第 3 的位置", "explain": "序数表示位置，不是总数。" }
+        { "id": "e5", "type": "choice", "question": "排队时'第 3 个'表示什么？", "options": ["一共有 3 个", "排在第 3 的位置", "比 3 多", "比 3 少"], "answer": "排在第 3 的位置", "explain": "序数表示位置，不是总数。" },
+        { "id": "e6", "type": "choice", "question": "下面哪个符号表示'大于'？", "options": [">", "<", "=", "+"], "answer": ">", "explain": "大于号开口朝左、尖尖朝右，指向小数，如 3 > 2。" },
+        { "id": "e7", "type": "fill", "question": "2 + 3 = ____。", "answer": "5", "explain": "2 添上 3 是 5。" },
+        { "id": "e8", "type": "choice", "question": "算式 4 - 0 = ?", "options": ["0", "4", "3", "5"], "answer": "4", "explain": "任何数减 0 还得原数，4 - 0 = 4。" },
+        { "id": "e9", "type": "fill", "question": "5 可以分成 2 和____。", "answer": "3", "explain": "2 + 3 = 5，所以 5 分成 2 和 3。" },
+        { "id": "e10", "type": "choice", "question": "2 个苹果和 3 个苹果合起来，一共有几个？", "options": ["4", "5", "6", "2"], "answer": "5", "explain": "合起来用加法：2 + 3 = 5。" }
       ]
     },
     { "id": "u3", "name": "第三单元 认识图形（一）", "knowledge": [], "exercises": [], "placeholder": true },

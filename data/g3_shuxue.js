@@ -20,7 +20,12 @@ window.PSK_DATA["3/shuxue"] = {
         { "id": "e2", "type": "fill", "question": "1 千米 = ______ 米。", "answer": "1000", "explain": "千米和米的进率是 1000，1 千米 = 1000 米。" },
         { "id": "e3", "type": "choice", "question": "数学书厚约 6____。", "options": ["毫米", "厘米", "米", "千米"], "answer": "毫米", "explain": "书比较薄，用毫米合适。" },
         { "id": "e4", "type": "fill", "question": "3 吨 = ______ 千克。", "answer": "3000", "explain": "1 吨 = 1000 千克，3 吨 = 3000 千克。" },
-        { "id": "e5", "type": "choice", "question": "下列质量中，最重的是？", "options": ["1 千克", "1 克", "1 吨", "100 千克"], "answer": "1 吨", "explain": "1 吨 = 1000 千克，远大于其他选项。" }
+        { "id": "e5", "type": "choice", "question": "下列质量中，最重的是？", "options": ["1 千克", "1 克", "1 吨", "100 千克"], "answer": "1 吨", "explain": "1 吨 = 1000 千克，远大于其他选项。" },
+        { "id": "e6", "type": "fill", "question": "1 厘米 = ____ 毫米。", "answer": "10", "explain": "厘米与毫米进率是 10，1 厘米 = 10 毫米。" },
+        { "id": "e7", "type": "choice", "question": "计量一辆卡车的载重量，一般用？", "options": ["克", "千克", "吨", "米"], "answer": "吨", "explain": "卡车载重很大，用吨作单位。" },
+        { "id": "e8", "type": "fill", "question": "1 米 = ____ 厘米。", "answer": "100", "explain": "1 米 = 100 厘米。" },
+        { "id": "e9", "type": "choice", "question": "下列长度中，最短的是？", "options": ["1 毫米", "1 厘米", "1 分米", "1 米"], "answer": "1 毫米", "explain": "1 毫米 = 0.1 厘米，是这些里面最短的。" },
+        { "id": "e10", "type": "fill", "question": "学校运动场跑道一圈约 400____。（填 米 或 千米）", "answer": "米", "explain": "标准跑道一圈约 400 米。" }
       ]
     },
     {
@@ -38,7 +43,12 @@ window.PSK_DATA["3/shuxue"] = {
         { "id": "e2", "type": "fill", "question": "560 - 340 = ______。", "answer": "220", "explain": "500-300=200，60-40=20，200+20=220。" },
         { "id": "e3", "type": "choice", "question": "估算 398 + 205，结果大约是？", "options": ["500", "600", "700", "400"], "answer": "600", "explain": "398≈400，205≈200，400+200=600。" },
         { "id": "e4", "type": "fill", "question": "450 + 370 = ______。", "answer": "820", "explain": "个位 0+0=0，十位 5+7=12 进 1，百位 4+3+1=8，得 820。" },
-        { "id": "e5", "type": "choice", "question": "要验算 560 - 230 = 330 是否正确，可以用？", "options": ["330 + 230", "330 - 230", "560 + 230", "560 - 330"], "answer": "330 + 230", "explain": "减法验算：差 + 减数 = 被减数，330+230=560 说明正确。" }
+        { "id": "e5", "type": "choice", "question": "要验算 560 - 230 = 330 是否正确，可以用？", "options": ["330 + 230", "330 - 230", "560 + 230", "560 - 330"], "answer": "330 + 230", "explain": "减法验算：差 + 减数 = 被减数，330+230=560 说明正确。" },
+        { "id": "e6", "type": "fill", "question": "340 + 270 = ____。", "answer": "610", "explain": "340+270=610。" },
+        { "id": "e7", "type": "choice", "question": "估算 503 + 298，结果大约是？", "options": ["700", "800", "900", "600"], "answer": "800", "explain": "503≈500，298≈300，500+300=800。" },
+        { "id": "e8", "type": "fill", "question": "720 - 480 = ____。", "answer": "240", "explain": "720-480=240。" },
+        { "id": "e9", "type": "choice", "question": "几百几十相加时，应该先把什么对齐？", "options": ["相同数位", "任意", "小数点", "单位"], "answer": "相同数位", "explain": "竖式计算要相同数位对齐（个位对个位、十位对十位）。" },
+        { "id": "e10", "type": "fill", "question": "妈妈买菜花了 36 元，买肉花了 28 元，一共花了____元。", "answer": "64", "explain": "求一共用加法：36 + 28 = 64。" }
       ]
     },
     { "id": "u3", "name": "第三单元 四边形", "knowledge": [], "exercises": [], "placeholder": true },

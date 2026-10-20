@@ -20,7 +20,12 @@ window.PSK_DATA["3/yuwen"] = {
         { "id": "e2", "type": "fill", "question": "《不懂就要问》的主人公是______。", "answer": "孙中山", "explain": "孙中山小时候敢于向先生提问，勤学好问。" },
         { "id": "e3", "type": "choice", "question": "《花的学校》的作者是谁？", "options": ["泰戈尔", "叶圣陶", "冰心", "老舍"], "answer": "泰戈尔", "explain": "《花的学校》选自印度诗人泰戈尔的《新月集》。" },
         { "id": "e4", "type": "fill", "question": "《不懂就要问》告诉我们：学问学问，不懂就____。", "answer": "要问", "explain": "原文点明主题：不懂就要问。" },
-        { "id": "e5", "type": "choice", "question": "下列多音字读音正确的一项是？", "options": ["放假 jiǎ", "背诵 bèi", "真假 jià", "背包 bèi"], "answer": "背诵 bèi", "explain": "背 bèi 背诵；假 jià 放假、jiǎ 真假；背 bēi 背包。" }
+        { "id": "e5", "type": "choice", "question": "下列多音字读音正确的一项是？", "options": ["放假 jiǎ", "背诵 bèi", "真假 jià", "背包 bèi"], "answer": "背诵 bèi", "explain": "背 bèi 背诵；假 jià 放假、jiǎ 真假；背 bēi 背包。" },
+        { "id": "e6", "type": "choice", "question": "《大青树下的小学》里，同学们来自？", "options": ["不同民族", "同一个家庭", "外国", "只有汉族"], "answer": "不同民族", "explain": "边疆小学里各民族的孩子一起上学。" },
+        { "id": "e7", "type": "fill", "question": "《花的学校》的作者是____（国家）的泰戈尔。", "answer": "印度", "explain": "泰戈尔是印度诗人。" },
+        { "id": "e8", "type": "choice", "question": "读'鲜艳、打扮、安静'这些词时，可以用什么方法帮助理解？", "options": ["边读边想象画面", "只看拼音", "闭眼睡觉", "数笔画"], "answer": "边读边想象画面", "explain": "想象画面能更好地理解词语和课文。" },
+        { "id": "e9", "type": "fill", "question": "多音字'假'：放假 读 jià，真假 读____。", "answer": "jiǎ", "explain": "假 作'不真实'讲读 jiǎ（真假），作'假期'讲读 jià（放假）。" },
+        { "id": "e10", "type": "choice", "question": "孙中山小时候遇到不懂的问题，他怎么做？", "options": ["问先生", "假装懂", "不理它", "去睡觉"], "answer": "问先生", "explain": "他敢于向先生提问，勤学好问。" }
       ]
     },
     {
@@ -39,7 +44,12 @@ window.PSK_DATA["3/yuwen"] = {
         { "id": "e2", "type": "fill", "question": "《山行》：停车坐爱枫林晚，霜叶红于______。", "answer": "二月花", "explain": "原句：停车坐爱枫林晚，霜叶红于二月花。" },
         { "id": "e3", "type": "choice", "question": "《赠刘景文》中'最是橙黄橘绿时'写的是哪个季节？", "options": ["春", "夏", "秋", "冬"], "answer": "秋", "explain": "橙黄橘绿描写秋天果实成熟。" },
         { "id": "e4", "type": "fill", "question": "《铺满金色巴掌的水泥道》中，'金色的小巴掌'指的是____的落叶。", "answer": "法国梧桐", "explain": "法国梧桐的叶子形状像巴掌，秋天变黄像金色。" },
-        { "id": "e5", "type": "choice", "question": "下列词语中，描写秋天的是？", "options": ["春暖花开", "秋高气爽", "夏日炎炎", "冰天雪地"], "answer": "秋高气爽", "explain": "秋高气爽是描写秋天的成语。" }
+        { "id": "e5", "type": "choice", "question": "下列词语中，描写秋天的是？", "options": ["春暖花开", "秋高气爽", "夏日炎炎", "冰天雪地"], "answer": "秋高气爽", "explain": "秋高气爽是描写秋天的成语。" },
+        { "id": "e6", "type": "choice", "question": "《赠刘景文》的作者是？", "options": ["苏轼", "杜牧", "李白", "白居易"], "answer": "苏轼", "explain": "《赠刘景文》是宋代诗人苏轼的作品。" },
+        { "id": "e7", "type": "fill", "question": "《夜书所见》：知有儿童挑促织，夜深____一灯明。（填 篱落 或 窗外）", "answer": "篱落", "explain": "原句：夜深篱落一灯明。" },
+        { "id": "e8", "type": "choice", "question": "《铺满金色巴掌的水泥道》中，'金色的小巴掌'用了什么修辞手法？", "options": ["比喻", "夸张", "反问", "排比"], "answer": "比喻", "explain": "把梧桐叶比作金色的小巴掌，是比喻。" },
+        { "id": "e9", "type": "fill", "question": "《秋天的雨》：秋天的雨，是一把____。（填 钥匙 或 大门）", "answer": "钥匙", "explain": "原句：秋天的雨，是一把钥匙。" },
+        { "id": "e10", "type": "choice", "question": "下列成语中，不是描写秋天的是？", "options": ["天高云淡", "秋高气爽", "春暖花开", "五谷丰登"], "answer": "春暖花开", "explain": "春暖花开描写春天。" }
       ]
     },
     { "id": "u3", "name": "第三单元 童话王国", "knowledge": [], "exercises": [], "placeholder": true },
