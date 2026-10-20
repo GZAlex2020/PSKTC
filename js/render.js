@@ -100,19 +100,44 @@ if (document.readyState === 'loading') {
   ensureSoundFab();
 }
 
-/* 广州塔(小蛮腰)简笔 SVG */
+/* 广州塔(小蛮腰)场景插画 */
 const TOWER_SVG = `
-<svg class="tower" viewBox="0 0 80 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="广州塔">
-  <path d="M40 4 C30 50 22 90 28 120 C32 140 32 165 40 196 C48 165 48 140 52 120 C58 90 50 50 40 4 Z"
-        fill="url(#tg)" stroke="#2B8CFF" stroke-width="2"/>
-  <ellipse cx="40" cy="118" rx="22" ry="6" fill="none" stroke="#FF6B4A" stroke-width="2"/>
-  <ellipse cx="40" cy="150" rx="14" ry="4" fill="none" stroke="#FFC53D" stroke-width="2"/>
-  <circle cx="40" cy="6" r="4" fill="#FF6B4A"/>
+<svg class="tower" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="广州塔">
   <defs>
-    <linearGradient id="tg" x1="40" y1="4" x2="40" y2="196" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FF6B4A"/><stop offset="1" stop-color="#2B8CFF"/>
+    <linearGradient id="tgBody" x1="120" y1="58" x2="120" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7CD0FF"/>
+      <stop offset="1" stop-color="#2B7FE8"/>
     </linearGradient>
+    <clipPath id="tgClip">
+      <path d="M94,210 C104,178 110,152 112,130 C113,106 104,80 100,58 Q120,50 140,58 C136,80 127,106 128,130 C130,152 136,178 146,210 Z"/>
+    </clipPath>
   </defs>
+
+  <circle cx="50" cy="52" r="30" fill="#FFC53D" opacity=".18"/>
+  <circle cx="50" cy="52" r="20" fill="#FFC53D" opacity=".85"/>
+
+  <g fill="#FFFFFF" opacity=".9">
+    <ellipse cx="188" cy="66" rx="16" ry="7"/>
+    <ellipse cx="201" cy="59" rx="11" ry="6"/>
+    <ellipse cx="36" cy="124" rx="13" ry="6"/>
+    <ellipse cx="47" cy="118" rx="9" ry="5"/>
+  </g>
+
+  <ellipse cx="120" cy="219" rx="50" ry="8" fill="#2B8CFF" opacity=".12"/>
+
+  <path d="M94,210 C104,178 110,152 112,130 C113,106 104,80 100,58 Q120,50 140,58 C136,80 127,106 128,130 C130,152 136,178 146,210 Z"
+        fill="url(#tgBody)"/>
+  <g clip-path="url(#tgClip)" stroke="#FFFFFF" stroke-opacity=".38" stroke-width="2">
+    <line x1="88" y1="72" x2="152" y2="72"/>
+    <line x1="88" y1="92" x2="152" y2="92"/>
+    <line x1="88" y1="112" x2="152" y2="112"/>
+    <line x1="88" y1="130" x2="152" y2="130"/>
+    <line x1="88" y1="150" x2="152" y2="150"/>
+    <line x1="88" y1="172" x2="152" y2="172"/>
+    <line x1="88" y1="194" x2="152" y2="194"/>
+  </g>
+  <line x1="120" y1="56" x2="120" y2="24" stroke="#2B8CFF" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="120" cy="20" r="4" fill="#FF6B4A"/>
 </svg>`;
 
 /* ============ 渲染入口 ============ */

@@ -51,8 +51,8 @@ body::before {
   top: -90px; left: 50%; transform: translateX(-50%); filter: blur(6px);
 }
 .hero .tower {
-  position: relative; width: 110px; height: auto;
-  filter: drop-shadow(0 10px 16px rgba(43, 140, 255, .3));
+  position: relative; width: 200px; height: auto;
+  filter: drop-shadow(0 10px 16px rgba(43, 140, 255, .22));
   animation: float 4.5s ease-in-out infinite;
 }
 .hero h1 {
