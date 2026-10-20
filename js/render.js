@@ -205,6 +205,8 @@ const Render = {
   unitDetail(el, data, unitId) {
     currentSubject = data.subject;
     const unit = data.units.find(u => u.id === unitId) || data.units[0];
+    /* 开始记录本单元学习时长 */
+    if (window.Auth && Auth.gate()) Auth.trackUnit(`${data.grade}/${data.subject}/${unit.id}`, data.grade, data.subject, unit.id);
     el.innerHTML = `
       <nav class="topbar">
         <button class="back" data-back>← 返回</button>
@@ -306,6 +308,12 @@ function initPractice(el, unit, data) {
       card.dataset.done = '1';
       answered++;
       updateProg();
+
+      /* 全部完成后，上报完成度与得分 */
+      if (answered === unit.exercises.length && window.Auth && Auth.gate()) {
+        const score = el.querySelectorAll('.ex-card.correct').length;
+        Auth.markComplete(`${data.grade}/${data.subject}/${unit.id}`, data.grade, data.subject, unit.id, score, unit.exercises.length);
+      }
 
       const fb = card.querySelector('.ex-feedback');
       fb.classList.remove('hidden');

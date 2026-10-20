@@ -15,8 +15,18 @@ const DATA_KEYS = [
 
 function router() {
   const app = document.getElementById('app');
+  /* 登录门禁：未登录只显示登录界面 */
+  if (!window.Auth || !Auth.gate()) { if (window.Auth) Auth.showLogin(); return; }
+  Auth.ensureHeader();
+  /* 离开上一个单元前，结算学习时长 */
+  Auth.endUnit();
+
   const hash = location.hash.replace(/^#\/?/, '');
   const parts = hash.split('/').filter(Boolean);
+
+  /* 报表 / 管理路由 */
+  if (parts[0] === 'report') { Auth.showReport(); return; }
+  if (parts[0] === 'admin') { Auth.showAdmin(); return; }
 
   if (parts.length === 0) {
     Render.home(app);

@@ -1,0 +1,10 @@
+{
+  "name": "psktc",
+  "version": "1.0.0",
+  "description": "小学知识训练营（广州·人教版·一至三年级上学期）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "private": true
+}

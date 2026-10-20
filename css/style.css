@@ -267,3 +267,78 @@ body::before {
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
+
+/* ===== 登录门禁 ===== */
+.login-overlay {
+  position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, #EAF3FF 0%, #FFF4EE 100%); padding: 20px;
+}
+.login-card {
+  width: 340px; max-width: 100%; background: #fff; border-radius: 24px; padding: 34px 28px;
+  box-shadow: 0 26px 60px rgba(43, 140, 255, .22); text-align: center; animation: rise .4s ease both;
+}
+.login-card h2 { margin: 0 0 4px; font-size: 22px; color: var(--ink); }
+.login-sub { margin: 0 0 22px; color: var(--ink2); font-size: 14px; }
+.login-input {
+  width: 100%; box-sizing: border-box; border: 2px solid #DCEBFF; border-radius: 14px; padding: 13px 16px;
+  font-size: 16px; font-family: var(--font); margin-bottom: 12px; outline: none; transition: border-color .15s ease;
+}
+.login-input:focus { border-color: var(--pearl); box-shadow: 0 0 0 4px rgba(43, 140, 255, .12); }
+.login-btn {
+  width: 100%; cursor: pointer; border: none; color: #fff; font-weight: 800; font-size: 17px; font-family: var(--font);
+  padding: 13px; border-radius: 999px; background: linear-gradient(135deg, var(--pearl), var(--kapok));
+  box-shadow: 0 12px 26px rgba(255, 107, 74, .3); transition: transform .15s ease; margin-top: 4px;
+}
+.login-btn:hover { transform: translateY(-2px); }
+.login-hint { margin: 16px 0 0; font-size: 12.5px; color: var(--ink2); }
+
+/* ===== 顶部栏 ===== */
+.psk-header {
+  position: sticky; top: 0; z-index: 40; display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  padding: 12px 22px; background: rgba(255, 255, 255, .82); backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(43, 140, 255, .12); box-shadow: 0 6px 18px rgba(43, 140, 255, .06);
+}
+.psk-brand { font-weight: 900; font-size: 17px; color: var(--ink); cursor: pointer; }
+.psk-nav { display: flex; gap: 6px; flex: 1; }
+.psk-nav a {
+  cursor: pointer; padding: 7px 14px; border-radius: 999px; font-size: 14px; font-weight: 700; color: var(--ink2);
+  transition: background .15s ease, color .15s ease;
+}
+.psk-nav a:hover { background: #EAF3FF; color: var(--pearl); }
+.psk-user { display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--ink); }
+.psk-logout {
+  cursor: pointer; border: none; background: #FFEFE9; color: var(--kapok); font-weight: 700; font-size: 13px;
+  padding: 6px 14px; border-radius: 999px; font-family: var(--font);
+}
+.psk-logout:hover { background: #FFE0D3; }
+
+/* ===== 学习报表 ===== */
+.loading { padding: 60px; text-align: center; color: var(--ink2); }
+.rep-overview { display: flex; gap: 14px; flex-wrap: wrap; margin: 18px 0 8px; }
+.rep-ov {
+  flex: 1; min-width: 140px; background: linear-gradient(180deg, #fff, #F6FAFF); border-radius: 18px; padding: 18px;
+  text-align: center; box-shadow: var(--shadow); border: 1px solid rgba(43, 140, 255, .08);
+}
+.rep-ov b { display: block; font-size: 26px; color: var(--pearl); }
+.rep-ov span { font-size: 13px; color: var(--ink2); }
+.rep-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; margin-top: 14px; }
+.rep-card { background: #fff; border-radius: 18px; padding: 16px 18px; box-shadow: var(--shadow); border: 1px solid rgba(43, 140, 255, .08); }
+.rep-card-name { font-weight: 800; color: var(--ink); margin-bottom: 10px; }
+.rep-bar { height: 10px; border-radius: 999px; background: #EAF1FF; overflow: hidden; }
+.rep-fill { height: 100%; border-radius: 999px; background: linear-gradient(135deg, var(--pearl), var(--kapok)); transition: width .5s ease; }
+.rep-stat { font-size: 13px; color: var(--ink2); margin-top: 8px; }
+.rep-time { font-size: 13px; color: var(--ink2); margin-top: 2px; }
+
+/* ===== 管理员面板 ===== */
+.admin-add { background: #fff; border-radius: 18px; padding: 16px 18px; box-shadow: var(--shadow); margin: 16px 0; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; border: 1px solid rgba(43, 140, 255, .08); }
+.admin-add h3 { width: 100%; margin: 0 0 4px; font-size: 16px; color: var(--ink); }
+.admin-add input, .admin-add select { border: 2px solid #DCEBFF; border-radius: 12px; padding: 9px 12px; font-size: 14px; font-family: var(--font); outline: none; }
+.admin-add input { flex: 1; min-width: 120px; }
+.admin-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); }
+.admin-table th, .admin-table td { padding: 12px 14px; text-align: left; border-bottom: 1px solid #EEF4FF; font-size: 14px; }
+.admin-table th { background: #F6FAFF; color: var(--ink2); font-weight: 800; }
+.admin-table tr:hover td { background: #FBFDFF; }
+.rep-actions { display: flex; gap: 8px; }
+.mini-btn { cursor: pointer; border: none; background: linear-gradient(135deg, var(--pearl), var(--kapok)); color: #fff; font-weight: 700; font-size: 13px; padding: 7px 14px; border-radius: 999px; font-family: var(--font); }
+.mini-btn:hover { transform: translateY(-1px); }
+.mini-btn.danger { background: linear-gradient(135deg, #FF6B5A, #FF8C6B); }
