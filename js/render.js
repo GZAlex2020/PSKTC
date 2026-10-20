@@ -30,6 +30,76 @@ function norm(s) {
   return (s == null ? '' : String(s)).trim().replace(/\s+/g, '').toLowerCase();
 }
 
+/* ============ 声音互动 ============ */
+let currentSubject = 'yuwen';
+let soundOn = localStorage.getItem('psktc_sound') !== 'off';
+
+/* 文本朗读：语文/数学用中文，英语用美式英语；离线可用（浏览器内置语音合成） */
+function speak(text) {
+  if (!('speechSynthesis' in window)) { alert('当前浏览器不支持语音朗读哦～'); return; }
+  const lang = currentSubject === 'yingyu' ? 'en-US' : 'zh-CN';
+  try { window.speechSynthesis.cancel(); } catch (e) {}
+  const u = new SpeechSynthesisUtterance(String(text || '').replace(/\n/g, ' '));
+  u.lang = lang; u.rate = 0.95; u.pitch = 1;
+  window.speechSynthesis.speak(u);
+}
+
+/* 答题提示音：用 Web Audio 实时合成，无需音频文件 */
+let _audioCtx = null;
+function tone(freq, dur, type, delay) {
+  try {
+    if (!_audioCtx) _audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (_audioCtx.state === 'suspended') _audioCtx.resume();
+    const t0 = _audioCtx.currentTime + (delay || 0);
+    const o = _audioCtx.createOscillator();
+    const g = _audioCtx.createGain();
+    o.type = type || 'sine'; o.frequency.value = freq;
+    o.connect(g); g.connect(_audioCtx.destination);
+    g.gain.setValueAtTime(0.0001, t0);
+    g.gain.exponentialRampToValueAtTime(0.18, t0 + 0.02);
+    g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+    o.start(t0); o.stop(t0 + dur + 0.03);
+  } catch (e) {}
+}
+function playCorrect() { tone(660, 0.14, 'sine', 0); tone(880, 0.18, 'sine', 0.12); }
+function playWrong()   { tone(196, 0.32, 'sawtooth', 0); }
+
+/* 生成一个朗读按钮 */
+function spk(text) {
+  return `<button class="spk" data-spk="${encodeURIComponent(text)}" title="朗读" aria-label="朗读">🔊</button>`;
+}
+
+/* 全局声音开关 */
+function toggleSound() {
+  soundOn = !soundOn;
+  localStorage.setItem('psktc_sound', soundOn ? 'on' : 'off');
+  document.body.classList.toggle('no-sound', !soundOn);
+  const fab = document.getElementById('soundFab');
+  if (fab) fab.textContent = soundOn ? '🔊' : '🔇';
+}
+function ensureSoundFab() {
+  if (document.getElementById('soundFab')) return;
+  const b = document.createElement('button');
+  b.id = 'soundFab'; b.className = 'sound-fab'; b.title = '声音开关';
+  b.textContent = soundOn ? '🔊' : '🔇';
+  b.onclick = toggleSound;
+  document.body.appendChild(b);
+}
+document.body.classList.toggle('no-sound', !soundOn);
+
+/* 全局点击委托：朗读按钮 */
+document.addEventListener('click', (ev) => {
+  const s = ev.target.closest('.spk');
+  if (s) { ev.preventDefault(); speak(decodeURIComponent(s.dataset.spk)); }
+});
+
+/* 初始化声音悬浮按钮 */
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', ensureSoundFab);
+} else {
+  ensureSoundFab();
+}
+
 /* 广州塔(小蛮腰)简笔 SVG */
 const TOWER_SVG = `
 <svg class="tower" viewBox="0 0 80 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="广州塔">
@@ -108,6 +178,7 @@ const Render = {
 
   /* 单元详情（知识点 + 练习闯关） */
   unitDetail(el, data, unitId) {
+    currentSubject = data.subject;
     const unit = data.units.find(u => u.id === unitId) || data.units[0];
     el.innerHTML = `
       <nav class="topbar">
@@ -145,7 +216,7 @@ function renderKnowledge(unit) {
   if (!unit.knowledge.length) return '<p class="empty">本单元暂无知识点</p>';
   return unit.knowledge.map(k => `
     <div class="know-card">
-      <div class="know-title">${k.title}</div>
+      <div class="know-title">${k.title} ${spk(k.title + '。' + k.content)}</div>
       <div class="know-body">${k.content.replace(/\n/g, '<br>')}</div>
     </div>`).join('');
 }
@@ -162,9 +233,9 @@ function renderPractice(unit) {
       ${unit.exercises.map((e, i) => `
         <div class="ex-card" data-eid="${e.id}">
           <div class="ex-no">第 ${i + 1} 题</div>
-          <div class="ex-q">${e.question}</div>
+          <div class="ex-q">${e.question} ${spk(e.question)}</div>
           ${e.type === 'choice'
-            ? `<div class="ex-opts">${e.options.map((o, oi) => `<button class="opt" data-oi="${oi}">${o}</button>`).join('')}</div>`
+            ? `<div class="ex-opts">${e.options.map((o, oi) => `<div class="opt-row"><button class="opt" data-oi="${oi}">${o}</button>${spk(o)}</div>`).join('')}</div>`
             : `<input class="ex-input" type="text" placeholder="请输入答案（可用拼音/中文）" />`}
           <button class="ex-submit">提交</button>
           <div class="ex-feedback hidden"></div>
@@ -173,6 +244,7 @@ function renderPractice(unit) {
 }
 
 function initPractice(el, unit, data) {
+  currentSubject = data.subject;
   const fill = el.querySelector('#prog');
   const text = el.querySelector('#progText');
   let answered = 0;
@@ -215,8 +287,10 @@ function initPractice(el, unit, data) {
       if (correct) {
         card.classList.add('correct');
         fb.innerHTML = `<div class="fb-ok">✅ 答对啦，你真棒！</div>`;
+        playCorrect();
       } else {
         card.classList.add('wrong');
+        playWrong();
         fb.innerHTML = `<div class="fb-no">❌ 正确答案：${e.answer}</div>
                         <div class="fb-exp">💡 ${e.explain || '再想一想，下次一定行！'}</div>`;
         WrongBook.add({

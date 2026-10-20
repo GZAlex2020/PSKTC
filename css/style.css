@@ -174,3 +174,22 @@ body {
   .page-title { font-size: 21px; }
   .tabs { flex-direction: column; }
 }
+
+/* ===== 声音互动 ===== */
+.spk {
+  border: none; background: #fff; cursor: pointer; font-size: 15px; line-height: 1;
+  padding: 2px 7px; border-radius: 999px; box-shadow: 0 2px 6px rgba(43, 140, 255, .18);
+  transition: transform .15s ease;
+}
+.spk:hover { transform: scale(1.12); }
+.know-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.opt-row { display: flex; align-items: center; gap: 8px; }
+.opt-row .opt { flex: 1; }
+.sound-fab {
+  position: fixed; right: 18px; bottom: 18px; z-index: 50;
+  width: 54px; height: 54px; border-radius: 50%; border: none; cursor: pointer;
+  font-size: 24px; color: #fff; background: linear-gradient(135deg, var(--kapok), var(--pearl));
+  box-shadow: 0 8px 22px rgba(43, 140, 255, .35); transition: transform .15s ease;
+}
+.sound-fab:hover { transform: scale(1.06); }
+.no-sound .spk { display: none; }
