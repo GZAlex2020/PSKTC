@@ -9,6 +9,7 @@ window.PSK_DATA["3/yuwen"] = {
       "id": "u1",
       "name": "第一单元 学校生活",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（8个）：\n坝 bà（大坝 dà bà、堤坝 dī bà）\n艳 yàn（鲜艳 xiān yàn、艳丽 yàn lì）\n扮 bàn（打扮 dǎ bàn、扮演 bàn yǎn）\n摔 shuāi（摔倒 shuāi dǎo、摔跤 shuāi jiāo）\n荒 huāng（荒野 huāng yě、荒凉 huāng liáng）\n笛 dí（竹笛 zhú dí、笛子 dí zi）\n狂 kuáng（狂风 kuáng fēng、疯狂 fēng kuáng）\n臂 bì（手臂 shǒu bì、臂膀 bì bǎng）" },
         { "title": "大青树下的小学", "content": "描写边疆一所多民族小学的孩子们幸福的学习生活。\n重点字：坝、汉、艳、扮、扬、读、摔、跤、凤、洁。" },
         { "title": "花的学校", "content": "作者是印度诗人泰戈尔（选自《新月集》）。\n把花当作孩子来写，充满童趣和想象。\n重点字：荒、笛、舞、狂、罚、假、互、所、够、猜、扬、臂。" },
         { "title": "不懂就要问", "content": "讲的是孙中山小时候在私塾读书，敢于向先生提问的故事。\n道理：学问学问，不懂就要问。" },
@@ -32,6 +33,7 @@ window.PSK_DATA["3/yuwen"] = {
       "id": "u2",
       "name": "第二单元 金秋时节",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（8个）：\n径 jìng（小径 xiǎo jìng、路径 lù jìng）\n霜 shuāng（霜叶 shuāng yè、冰霜 bīng shuāng）\n赠 zèng（赠送 zèng sòng、赠言 zèng yán）\n残 cán（残月 cán yuè、残疾 cán jí）\n橙 chéng（橙子 chéng zi、橙色 chéng sè）\n铺 pū（铺开 pū kāi、铺路 pū lù）\n颜 yán（颜色 yán sè、颜料 yán liào）\n飘 piāo（飘落 piāo luò、飘扬 piāo yáng）" },
         { "title": "古诗三首", "content": "《山行》唐·杜牧：远上寒山石径斜，白云生处有人家。停车坐爱枫林晚，霜叶红于二月花。\n《赠刘景文》宋·苏轼：一年好景君须记，最是橙黄橘绿时。\n《夜书所见》宋·叶绍翁：知有儿童挑促织，夜深篱落一灯明。" },
         { "title": "铺满金色巴掌的水泥道", "content": "法国梧桐的落叶像一个个金色的小巴掌，铺在水泥道上，很美。\n体会观察与想象带来的乐趣。" },
         { "title": "秋天的雨", "content": "秋天的雨，是一把钥匙，打开了秋天的大门。\n从颜色、气味、声音写秋天。" },
@@ -56,6 +58,7 @@ window.PSK_DATA["3/yuwen"] = {
       "id": "u3",
       "name": "第三单元 童话王国",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（8个）：\n柴 chái（火柴 huǒ chái、柴火 chái huo）\n裙 qún（裙子 qún zi、围裙 wéi qún）\n怜 lián（可怜 kě lián、怜爱 lián ài）\n饿 è（饥饿 jī è、饿坏 è huài）\n蜡 là（蜡烛 là zhú、蜡笔 là bǐ）\n富 fù（富有 fù yǒu、财富 cái fù）\n旅 lǚ（旅行 lǚ xíng、旅游 lǚ yóu）\n救 jiù（救命 jiù mìng、抢救 qiǎng jiù）" },
         { "title": "卖火柴的小女孩", "content": "丹麦安徒生的童话。小女孩五次擦亮火柴，看到温暖的幻想，最后冻死在街头。\n感受童话丰富的想象与情感。" },
         { "title": "那一定会很好", "content": "一颗种子长成大树，又变成手推车、椅子、木地板。\n它一生都在为人们服务，心里想着'那一定会很好'。" },
         { "title": "在牛肚子里旅行", "content": "蟋蟀红头被牛卷进嘴里，好朋友青头鼓励它躲过牙齿、藏进第一个胃，等牛反刍时逃了出来。" },
@@ -73,6 +76,7 @@ window.PSK_DATA["3/yuwen"] = {
       "id": "u4",
       "name": "第四单元 预测",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（8个）：\n暴 bào（暴雨 bào yǔ、暴力 bào lì）\n凑 còu（凑近 còu jìn、凑合 còu he）\n孵 fū（孵化 fū huà、孵卵 fū luǎn）\n萝 luó（萝卜 luó bo、菠萝 bō luó）\n愁 chóu（发愁 fā chóu、忧愁 yōu chóu）\n沾 zhān（沾水 zhān shuǐ、沾边 zhān biān）\n晾 liàng（晾衣 liàng yī、晾晒 liàng shài）\n默 mò（沉默 chén mò、默写 mò xiě）" },
         { "title": "总也倒不了的老屋", "content": "老屋一次次答应小猫、老母鸡、小蜘蛛住下来，一直没倒。\n预测要依据题目、插图和故事内容。" },
         { "title": "胡萝卜先生的长胡子", "content": "胡萝卜先生的胡子边走边长，被男孩当风筝线、鸟太太当晾衣绳。\n边读边猜接下来会发生什么。" },
         { "title": "不会叫的狗", "content": "一只不会叫的小狗跟小公鸡学叫，闹出许多笑话。\n读完一段可以停下来预测后面的情节。" },
@@ -89,6 +93,7 @@ window.PSK_DATA["3/yuwen"] = {
       "id": "u5",
       "name": "第五单元 观察",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（8个）：\n鹦 yīng（鹦鹉 yīng wǔ、鹦鹉学舌 yīng wǔ xué shé）\n鹉 wǔ（鹦鹉 yīng wǔ、鹦鹉螺 yīng wǔ luó）\n蒲 pú（蒲公英 pú gōng yīng、蒲扇 pú shàn）\n英 yīng（英雄 yīng xióng、英俊 yīng jùn）\n盛 shèng（盛开 shèng kāi、盛大 shèng dà）\n耍 shuǎ（玩耍 wán shuǎ、耍赖 shuǎ lài）\n钓 diào（钓鱼 diào yú、钓竿 diào gān）\n趣 qù（有趣 yǒu qù、趣味 qù wèi）" },
         { "title": "搭船的鸟", "content": "翠鸟红色长嘴、翠绿羽毛，站在船头捕鱼又快又准。\n学习按顺序描写鸟的外形和捕鱼动作。" },
         { "title": "金色的草地", "content": "蒲公英早上花瓣合拢是绿色，中午张开是金色，傍晚又合拢。\n连续观察才能发现变化。" },
         { "title": "留心观察", "content": "观察要有顺序、抓特点，还可以连续观察事物的变化，用眼看、用心想。" },
@@ -105,6 +110,7 @@ window.PSK_DATA["3/yuwen"] = {
       "id": "u6",
       "name": "第六单元 祖国河山",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（8个）：\n断 duàn（断开 duàn kāi、断桥 duàn qiáo）\n楚 chǔ（清楚 qīng chu、楚国 chǔ guó）\n孤 gū（孤单 gū dān、孤独 gū dú）\n帆 fān（帆船 fān chuán、风帆 fēng fān）\n镜 jìng（镜子 jìng zi、明镜 míng jìng）\n庭 tíng（庭院 tíng yuàn、家庭 jiā tíng）\n潭 tán（潭水 tán shuǐ、龙潭 lóng tán）\n饶 ráo（富饶 fù ráo、饶恕 ráo shù）" },
         { "title": "古诗三首", "content": "《望天门山》唐·李白：两岸青山相对出，孤帆一片日边来。\n《饮湖上初晴后雨》宋·苏轼：欲把西湖比西子，淡妆浓抹总相宜。\n《望洞庭》唐·刘禹锡：遥望洞庭山水翠，白银盘里一青螺。" },
         { "title": "富饶的西沙群岛", "content": "南海上的群岛。海水五光十色，海底有珊瑚、海参、大龙虾，鱼成群结队，岛上还是鸟的天下。" },
         { "title": "海滨小城", "content": "按海边—庭院—公园—街道的顺序，写出小城的美丽与整洁。" },
@@ -122,6 +128,7 @@ window.PSK_DATA["3/yuwen"] = {
       "id": "u7",
       "name": "第七单元 我与自然",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（8个）：\n妙 miào（美妙 měi miào、奇妙 qí miào）\n奏 zòu（演奏 yǎn zòu、奏乐 zòu yuè）\n琴 qín（钢琴 gāng qín、琴声 qín shēng）\n柔 róu（柔软 róu ruǎn、温柔 wēn róu）\n激 jī（激动 jī dòng、激烈 jī liè）\n器 qì（乐器 yuè qì、机器 jī qì）\n黎 lí（黎明 lí míng、黎民 lí mín）\n笋 sǔn（竹笋 zhú sǔn、笋尖 sǔn jiān）" },
         { "title": "大自然的声音", "content": "风是大自然的音乐家，水也是音乐家，动物是歌手。\n抓住不同声音的特点来想象画面。" },
         { "title": "读不完的大书", "content": "大自然是一本读不完的大书。\n小鸟、花草、果树里都藏着学问。" },
         { "title": "父亲、树林和鸟", "content": "父亲一生喜欢树林和鸟，黎明时能听到鸟唱歌。\n体会父亲爱鸟护鸟的心。" }
@@ -137,6 +144,7 @@ window.PSK_DATA["3/yuwen"] = {
       "id": "u8",
       "name": "第八单元 美好品质",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（8个）：\n司 sī（司机 sī jī、公司 gōng sī）\n跌 diē（跌倒 diē dǎo、跌落 diē luò）\n皆 jiē（皆知 jiē zhī、人人皆知 rén rén jiē zhī）\n弃 qì（放弃 fàng qì、丢弃 diū qì）\n持 chí（坚持 jiān chí、保持 bǎo chí）\n掌 zhǎng（手掌 shǒu zhǎng、掌声 zhǎng shēng）\n勇 yǒng（勇敢 yǒng gǎn、勇气 yǒng qì）\n诚 chéng（诚实 chéng shí、真诚 zhēn chéng）" },
         { "title": "司马光", "content": "文言文：群儿戏于庭，一儿登瓮，足跌没水中。众皆弃去，光持石击瓮破之，水迸，儿得活。\n司马光机智勇敢。" },
         { "title": "掌声", "content": "英子腿脚不便，不敢上台。同学们的掌声让她鼓起勇气，从此微笑面对生活。" },
         { "title": "灰雀", "content": "列宁喜爱灰雀。男孩捉走了灰雀，知错就改，把灰雀放了回来。" },

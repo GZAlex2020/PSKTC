@@ -9,6 +9,7 @@ window.PSK_DATA["2/yuwen"] = {
       "id": "u1",
       "name": "第一单元 课文（一）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（12个）：\n塘 táng（池塘 chí táng、鱼塘 yú táng）\n脑 nǎo（大脑 dà nǎo、脑袋 nǎo dai）\n捕 bǔ（捕鱼 bǔ yú、捕捉 bǔ zhuō）\n迎 yíng（欢迎 huān yíng、迎风 yíng fēng）\n龟 guī（乌龟 wū guī、龟壳 guī ké）\n披 pī（披着 pī zhe、披风 pī fēng）\n晒 shài（晒太阳 shài tài yáng、晒干 shài gān）\n极 jí（极小 jí xiǎo、北极 běi jí）\n傍 bàng（傍晚 bàng wǎn、依傍 yī bàng）\n植 zhí（植物 zhí wù、种植 zhòng zhí）\n旅 lǚ（旅行 lǚ xíng、旅游 lǚ yóu）\n察 chá（观察 guān chá、察觉 jué chá）" },
         { "title": "小蝌蚪找妈妈", "content": "了解小蝌蚪变成青蛙的生长过程：大脑袋黑灰身子 → 长出后腿 → 长出前腿 → 尾巴变短 → 变成青蛙。\n重点字：塘、脑、袋、灰、捕、迎、姨、宽、龟、顶、披、鼓。" },
         { "title": "我是什么", "content": "认识水的变化：水变成汽、云、雨、冰雹、雪。\n重点字：晒、极、傍、越、滴、溪、奔、洋、坏、淹、没、冲、毁、屋、猜。" },
         { "title": "植物妈妈有办法", "content": "蒲公英靠风、苍耳靠动物皮毛、豌豆靠太阳晒来传播种子。\n重点字：植、如、旅、备、纷、刺、底、炸、离、察、识、粗、得。" },
@@ -32,6 +33,7 @@ window.PSK_DATA["2/yuwen"] = {
       "id": "u2",
       "name": "第二单元 识字（一）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（12个）：\n艘 sōu（一艘 yì sōu、军舰 sōu jūn jiàn）\n帆 fān（帆船 fān chuán、风帆 fēng fān）\n翠 cuì（翠绿 cuì lǜ、翠鸟 cuì niǎo）\n队 duì（队长 duì zhǎng、队伍 duì wu）\n铜 tóng（铜号 tóng hào、铜钱 tóng qián）\n枫 fēng（枫树 fēng shù、枫叶 fēng yè）\n柏 bǎi（松柏 sōng bǎi、柏树 bǎi shù）\n雀 què（麻雀 má què、孔雀 kǒng què）\n鹰 yīng（老鹰 lǎo yīng、雄鹰 xióng yīng）\n季 jì（四季 sì jì、季节 jì jié）\n桑 sāng（桑叶 sāng yè、采桑 cǎi sāng）\n辛 xīn（辛苦 xīn kǔ、辛勤 xīn qín）" },
         { "title": "场景歌", "content": "学习数量词搭配：一只海鸥，一片沙滩，一艘军舰，一条帆船……\n体会不同场景用不同的数量词。" },
         { "title": "树之歌", "content": "背诵：杨树高，榕树壮，梧桐树叶像手掌。枫树秋天叶儿红，松柏四季披绿装。\n了解不同树木的特点。" },
         { "title": "拍手歌", "content": "你拍一，我拍一，动物世界很新奇。\n在拍手游戏中认识动物，懂得保护动物。" },
@@ -56,6 +58,7 @@ window.PSK_DATA["2/yuwen"] = {
       "id": "u3",
       "name": "第三单元 课文（二）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n曹 cáo（姓曹 xìng cáo、曹操 cáo cāo）\n称 chēng（称呼 chēng hu、称重 chēng zhòng）\n柱 zhù（柱子 zhù zi、水柱 shuǐ zhù）\n秤 chèng（秤杆 chèng gǎn、电子秤 diàn zǐ chèng）\n玲 líng（玲珑 líng lóng、小巧玲珑 xiǎo qiǎo líng lóng）\n评 píng（评比 píng bǐ、评论 píng lùn）\n奖 jiǎng（奖励 jiǎng lì、奖状 jiǎng zhuàng）\n封 fēng（信封 xìn fēng、封闭 fēng bì）\n削 xiāo（削皮 xiāo pí、削笔 xiāo bǐ）\n期 qī（日期 rì qī、星期 xīng qī）" },
         { "title": "曹冲称象", "content": "曹操的儿子曹冲想出办法：把大象赶上船，沿水面刻线，再把石头装上船，分开称石头。\n要善于观察、开动脑筋。" },
         { "title": "玲玲的画", "content": "弄脏的画添上小花狗，坏事变成了好事。\n道理：只要肯动脑筋，坏事往往能变成好事。" },
         { "title": "一封信", "content": "露西给爸爸写信，第二封在妈妈的帮助下写得快乐又乐观。\n学会体谅家人，乐观地表达。" },
@@ -73,6 +76,7 @@ window.PSK_DATA["2/yuwen"] = {
       "id": "u4",
       "name": "第四单元 课文（三）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n庐 lú（庐山 lú shān、茅庐 máo lú）\n瀑 pù（瀑布 pù bù、飞瀑 fēi pù）\n炉 lú（香炉 xiāng lú、炉子 lú zi）\n遥 yáo（遥远 yáo yuǎn、遥望 yáo wàng）\n川 chuān（山川 shān chuān、四川 sì chuān）\n依 yī（依然 yī rán、依靠 yī kào）\n尽 jìn（尽力 jìn lì、尽头 jìn tóu）\n层 céng（楼层 lóu céng、一层 yì céng）\n湾 wān（台湾 tái wān、海湾 hǎi wān）\n胜 shèng（胜利 shèng lì、名胜 míng shèng）" },
         { "title": "古诗二首", "content": "《望庐山瀑布》唐·李白：飞流直下三千尺，疑是银河落九天。\n《夜宿山寺》唐·李白：危楼高百尺，手可摘星辰。" },
         { "title": "黄山奇石", "content": "仙桃石、猴子观海、仙人指路、金鸡叫天都……\n奇石形态各异，用比喻把石头写活了。" },
         { "title": "日月潭", "content": "台湾省的大湖，光华岛把湖分成日潭和月潭。\n清晨、中午的景色各不相同。" },
@@ -90,6 +94,7 @@ window.PSK_DATA["2/yuwen"] = {
       "id": "u5",
       "name": "第五单元 课文（四）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n沿 yán（井沿 jǐng yán、沿海 yán hǎi）\n渴 kě（口渴 kǒu kě、渴望 kě wàng）\n喝 hē（喝水 hē shuǐ、喝茶 hē chá）\n错 cuò（错误 cuò wù、错了 cuò le）\n际 jì（边际 biān jì、国际 guó jì）\n缝 fèng（石缝 shí fèng、门缝 mén fèng）\n衔 xián（衔着 xián zhe、头衔 tóu xián）\n枯 kū（干枯 gān kū、枯草 kū cǎo）\n蚜 yá（蚜虫 yá chóng、棉蚜 mián yá）\n怪 guài（奇怪 qí guài、怪物 guài wu）" },
         { "title": "坐井观天", "content": "小鸟说天无边无际，青蛙说天只有井口那么大。\n这个成语比喻眼界小、见识少。" },
         { "title": "寒号鸟", "content": "寒号鸟天冷了也不做窝，最后冻死在岩缝里。\n道理：做事要早打算，不能得过且过。" },
         { "title": "我要的是葫芦", "content": "种葫芦的人不治叶子上的蚜虫，葫芦一个个落了。\n事物之间是有联系的，要讲究方法。" }
@@ -105,6 +110,7 @@ window.PSK_DATA["2/yuwen"] = {
       "id": "u6",
       "name": "第六单元 课文（五）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n洪 hóng（洪水 hóng shuǐ、洪亮 hóng liàng）\n毒 dú（毒品 dú pǐn、中毒 zhòng dú）\n兽 shòu（野兽 yě shòu、猛兽 měng shòu）\n灾 zāi（灾难 zāi nàn、火灾 huǒ zāi）\n继 jì（继续 jì xù、继承 jì chéng）\n德 dé（品德 pǐn dé、朱德 Zhū Dé）\n扁 biǎn（扁豆 biǎn dòu、扁平 biǎn píng）\n担 dān（担子 dàn zi、扁担 biǎn dan）\n敬 jìng（敬爱 jìng ài、尊敬 zūn jìng）\n泼 pō（泼水 pō shuǐ、活泼 huó pō）" },
         { "title": "大禹治水", "content": "洪水泛滥，禹采用疏导的办法治水，十三年三过家门而不入。\n体会他一心为公的精神。" },
         { "title": "朱德的扁担", "content": "战士们心疼朱德藏扁担，朱德又找一根写上名字。\n大家同甘共苦，更有干劲。" },
         { "title": "难忘的泼水节", "content": "周恩来总理和傣族人民一起过泼水节。\n傣族人民用泼水表达祝福。" }
@@ -120,6 +126,7 @@ window.PSK_DATA["2/yuwen"] = {
       "id": "u7",
       "name": "第七单元 课文（六）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n宿 sù（宿舍 sù shè、住宿 zhù sù）\n寺 sì（寺庙 sì miào、寺院 sì yuàn）\n危 wēi（危险 wēi xiǎn、危机 wēi jī）\n辰 chén（星辰 xīng chén、时辰 shí chen）\n恐 kǒng（恐怕 kǒng pà、恐龙 kǒng lóng）\n苍 cāng（苍天 cāng tiān、苍白 cāng bái）\n茫 máng（茫茫 máng máng、迷茫 mí máng）\n雾 wù（大雾 dà wù、雾气 wù qì）\n淘 táo（淘气 táo qì、淘米 táo mǐ）\n添 tiān（添上 tiān shàng、添加 tiān jiā）" },
         { "title": "古诗二首", "content": "《夜宿山寺》唐·李白：危楼高百尺，手可摘星辰。\n《敕勒歌》：天苍苍，野茫茫，风吹草低见牛羊。" },
         { "title": "雾在哪里", "content": "淘气的雾把大海、天空、城市都藏了起来，最后把自己也藏了起来，太阳就出来了。" },
         { "title": "雪孩子", "content": "雪孩子从火中救出小兔，化成水，变成云。\n体会雪孩子乐于助人的品质。" }
@@ -135,6 +142,7 @@ window.PSK_DATA["2/yuwen"] = {
       "id": "u8",
       "name": "第八单元 课文（七）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n假 jiǎ（真假 zhēn jiǎ、假山 jiǎ shān）\n威 wēi（威风 wēi fēng、威力 wēi lì）\n扯 chě（拉扯 lā chě、扯开 chě kāi）\n嗓 sǎng（嗓子 sǎng zi、嗓音 sǎng yīn）\n抗 kàng（反抗 fǎn kàng、抗日 kàng rì）\n骗 piàn（欺骗 qī piàn、骗人 piàn rén）\n鼠 shǔ（老鼠 lǎo shǔ、鼠标 shǔ biāo）\n折 zhé（折纸 zhé zhǐ、折断 zhé duàn）\n扎 zā（扎风筝 zā fēng zheng、包扎 bāo zā）\n助 zhù（帮助 bāng zhù、助手 zhù shǒu）" },
         { "title": "狐假虎威", "content": "狐狸借着老虎的威风吓走百兽。'假'是借的意思。\n比喻借别人的势力吓唬人。" },
         { "title": "狐狸分奶酪", "content": "狐狸帮两兄弟分奶酪，故意左咬一口右咬一口，大半都被它吃了。\n兄弟俩不团结才让狐狸占了便宜。" },
         { "title": "纸船和风筝", "content": "松鼠和熊用纸船和风筝传递友谊，吵架后又和好。\n友谊需要互相体谅和主动和好。" },
@@ -152,6 +160,7 @@ window.PSK_DATA["2/yuwen"] = {
       "term": "下册",
       "name": "第一单元 课文（古诗二首·找春天）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n莺 yīng（黄莺 huáng yīng、夜莺 yè yīng）\n拂 fú（吹拂 chuī fú、拂晓 fú xiǎo）\n柳 liǔ（柳树 liǔ shù、柳枝 liǔ zhī）\n醉 zuì（喝醉 hē zuì、陶醉 táo zuì）\n咏 yǒng（咏柳 yǒng liǔ、歌咏 gē yǒng）\n妆 zhuāng（化妆 huà zhuāng、梳妆 shū zhuāng）\n脱 tuō（脱下 tuō xià、脱衣 tuō yī）\n探 tàn（探头 tàn tóu、探望 tàn wàng）\n鹃 juān（杜鹃 dù juān、杜鹃花 dù juān huā）\n礼 lǐ（礼物 lǐ wù、礼貌 lǐ mào）" },
         { "title": "古诗二首", "content": "《村居》（清·高鼎）：草长莺飞二月天，拂堤杨柳醉春烟。《咏柳》（唐·贺知章）：碧玉妆成一树高，万条垂下绿丝绦。" },
         { "title": "找春天 / 开满鲜花的小路 / 邓小平爷爷植树", "content": "发现春天的景象；长颈鹿大叔寄来的花籽是'美好的礼物'；邓小平爷爷植树绿化环境。" }
       ],
@@ -169,6 +178,7 @@ window.PSK_DATA["2/yuwen"] = {
       "term": "下册",
       "name": "第二单元 课文（雷锋叔叔）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n锋 fēng（锋利 fēng lì、前锋 qián fēng）\n曾 céng（曾经 céng jīng、未曾 wèi céng）\n泞 nìng（泥泞 ní nìng、泞滑 nìng huá）\n瓣 bàn（花瓣 huā bàn、豆瓣 dòu bàn）\n献 xiàn（奉献 fèng xiàn、献花 xiàn huā）\n糕 gāo（蛋糕 dàn gāo、糕点 gāo diǎn）\n蔗 zhè（甘蔗 gān zhè、蔗糖 zhè táng）\n糖 táng（糖果 táng guǒ、白糖 bái táng）\n郊 jiāo（郊外 jiāo wài、郊区 jiāo qū）\n跨 kuà（跨过 kuà guò、跨步 kuà bù）" },
         { "title": "雷锋叔叔，你在哪里", "content": "寻找雷锋，他助人为乐，哪里需要就出现在哪里——学习雷锋好榜样。" },
         { "title": "千人糕 / 一匹出色的马", "content": "千人糕由许多人劳动做成，要珍惜；柳条当'马'，想象让妹妹自己回家。" }
       ],
@@ -186,6 +196,7 @@ window.PSK_DATA["2/yuwen"] = {
       "term": "下册",
       "name": "第三单元 识字（神州谣）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n州 zhōu（神州 shén zhōu、广州 guǎng zhōu）\n华 huá（中华 zhōng huá、华丽 huá lì）\n涌 yǒng（涌现 yǒng xiàn、涌出 yǒng chū）\n峡 xiá（海峡 hǎi xiá、峡谷 xiá gǔ）\n谊 yì（友谊 yǒu yì、情谊 qíng yì）\n统 tǒng（统一 tǒng yī、传统 chuán tǒng）\n宵 xiāo（元宵 yuán xiāo、夜宵 yè xiāo）\n祭 jì（祭祀 jì sì、祭拜 jì bài）\n骨 gǔ（骨头 gǔ tou、骨架 gǔ jià）\n币 bì（硬币 yìng bì、纸币 zhǐ bì）" },
         { "title": "神州谣 / 传统节日", "content": "祖国山川壮美；节日有春节、元宵、清明、端午、七夕、中秋、重阳。" },
         { "title": "贝的故事 / 中国美食", "content": "贝壳曾作钱币，贝字旁的字多和钱财有关；美食做法有煎、烧、烤、煮、爆、炖。" }
       ],
@@ -203,6 +214,7 @@ window.PSK_DATA["2/yuwen"] = {
       "term": "下册",
       "name": "第四单元 课文（彩色的梦）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n盒 hé（盒子 hé zi、铅笔盒 qiān bǐ hé）\n聊 liáo（聊天 liáo tiān、无聊 wú liáo）\n坪 píng（草坪 cǎo píng、土坪 tǔ píng）\n郁 yù（葱郁 cōng yù、忧郁 yōu yù）\n精 jīng（精神 jīng shén、精灵 jīng líng）\n渡 dù（渡口 dù kǒu、摆渡 bǎi dù）\n荫 yīn（树荫 shù yīn、绿荫 lǜ yīn）\n撑 chēng（撑开 chēng kāi、支撑 zhī chēng）\n姨 yí（阿姨 ā yí、姨妈 yí mā）\n脾 pí（脾气 pí qi、脾胃 pí wèi）" },
         { "title": "彩色的梦 / 枫树上的喜鹊", "content": "彩色铅笔画出彩色的梦；喜欢枫树上的喜鹊一家，展开丰富想象。" },
         { "title": "沙滩上的童话 / 我是一只小虫子", "content": "用沙子编织童话救出公主；小虫子也有有趣的生活。" }
       ],
@@ -220,6 +232,7 @@ window.PSK_DATA["2/yuwen"] = {
       "term": "下册",
       "name": "第五单元 课文（寓言二则）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n亡 wáng（死亡 sǐ wáng、亡羊补牢 wáng yáng bǔ láo）\n牢 láo（牢房 láo fáng、牢固 láo gù）\n钻 zuān（钻研 zuān yán、钻洞 zuān dòng）\n筋 jīn（筋骨 jīn gǔ、脑筋 nǎo jīn）\n疲 pí（疲劳 pí láo、疲倦 pí juàn）\n焦 jiāo（焦急 jiāo jí、焦点 jiāo diǎn）\n截 jié（截断 jié duàn、半截 bàn jié）\n审 shěn（审问 shěn wèn、审查 shěn chá）\n晌 shǎng（晌午 shǎng wǔ、半晌 bàn shǎng）\n蹄 tí（马蹄 mǎ tí、蹄子 tí zi）" },
         { "title": "寓言二则", "content": "亡羊补牢：丢羊后修补羊圈还不晚；揠苗助长：急于求成反而坏事。" },
         { "title": "画杨桃 / 小马过河", "content": "看的角度不同，画出的样子不同；遇事要自己动脑试一试。" }
       ],
@@ -237,6 +250,7 @@ window.PSK_DATA["2/yuwen"] = {
       "term": "下册",
       "name": "第六单元 课文（古诗二首·雷雨）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n晓 xiǎo（知晓 zhī xiǎo、破晓 pò xiǎo）\n慈 cí（慈祥 cí xiáng、慈母 cí mǔ）\n映 yìng（倒映 dào yìng、反映 fǎn yìng）\n鹂 lí（黄鹂 huáng lí、翠鹂 cuì lí）\n岭 lǐng（山岭 shān lǐng、岭南 lǐng nán）\n泊 bó（停泊 tíng bó、漂泊 piāo bó）\n蝉 chán（蝉鸣 chán míng、知了 zhī liao）\n垂 chuí（垂下 chuí xià、垂直 chuí zhí）\n辨 biàn（分辨 fēn biàn、辨别 bié biàn）\n舱 cāng（船舱 chuán cāng、机舱 jī cāng）" },
         { "title": "古诗二首", "content": "《晓出净慈寺送林子方》（宋·杨万里）：接天莲叶无穷碧，映日荷花别样红。《绝句》（唐·杜甫）：两个黄鹂鸣翠柳，一行白鹭上青天。" },
         { "title": "雷雨 / 要是你在野外迷了路 / 太空生活趣事多", "content": "雷雨前中后景象；天然指南针（太阳、北极星、大树、积雪）；太空中的有趣生活。" }
       ],
@@ -254,6 +268,7 @@ window.PSK_DATA["2/yuwen"] = {
       "term": "下册",
       "name": "第七单元 课文（大象的耳朵）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n耷 dā（耷拉 dā la、耷着 dā zhe）\n竖 shù（竖立 shù lì、横竖 héng shù）\n竿 gān（竹竿 zhú gān、鱼竿 yú gān）\n痛 tòng（痛苦 tòng kǔ、痛快 tòng kuài）\n烦 fán（烦恼 fán nǎo、麻烦 má fan）\n顾 gù（照顾 zhào gù、顾客 gù kè）\n袜 wà（袜子 wà zi、袜筒 wà tǒng）\n蜈 wú（蜈蚣 wú gōng、蜈蚣腿 wú gōng tuǐ）\n卖 mài（卖货 mài huò、卖书 mài shū）\n绒 róng（绒毛 róng máo、羽绒 yǔ róng）" },
         { "title": "大象的耳朵 / 蜘蛛开店", "content": "大象耳朵耷拉，别人说它它不安，最后明白'人家是人家，我是我'；蜘蛛开店遇到困难。" },
         { "title": "青蛙卖泥塘 / 小毛虫", "content": "青蛙听取建议把泥塘变美；小毛虫耐心等待变成蝴蝶。" }
       ],
@@ -271,6 +286,7 @@ window.PSK_DATA["2/yuwen"] = {
       "term": "下册",
       "name": "第八单元 课文（祖先的摇篮）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n祖 zǔ（祖先 zǔ xiān、祖国 zǔ guó）\n掏 tāo（掏出 tāo chū、掏钱 tāo qián）\n逗 dòu（逗乐 dòu lè、逗笑 dòu xiào）\n蔷 qiáng（蔷薇 qiáng wēi、蔷薇花 qiáng wēi huā）\n薇 wēi（紫薇 zǐ wēi、蔷薇 qiáng wēi）\n忆 yì（回忆 huí yì、记忆 jì yì）\n譬 pì（譬如 pì rú、比方 bǐ fang）\n秩 zhì（秩序 zhì xù、秩然 zhì rán）\n射 shè（射击 shè jī、发射 fā shè）\n箭 jiàn（弓箭 gōng jiàn、火箭 huǒ jiàn）" },
         { "title": "祖先的摇篮 / 当世界年纪还小的时候", "content": "原始森林是祖先的摇篮；万物学习做最简单的事。" },
         { "title": "羿射九日", "content": "十个太阳炙烤大地，羿射下九个，留下一个，拯救人类。" }
       ],

@@ -34,6 +34,7 @@ window.PSK_DATA["1/yuwen"] = {
       "id": "u2",
       "name": "第二单元 汉语拼音（一）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（12个）：\n爸 bà（爸爸 bà ba、爸妈 bà mā）\n妈 mā（妈妈 mā ma、姑妈 gū mā）\n马 mǎ（马车 mǎ chē、马上 mǎ shàng）\n土 tǔ（土地 tǔ dì、泥土 ní tǔ）\n画 huà（画画 huà huà、画家 huà jiā）\n打 dǎ（打水 dǎ shuǐ、打球 dǎ qiú）\n棋 qí（下棋 xià qí、棋子 qí zǐ）\n鸡 jī（公鸡 gōng jī、小鸡 xiǎo jī）\n字 zì（生字 shēng zì、写字 xiě zì）\n词 cí（词语 cí yǔ、字词 zì cí）\n桌 zhuō（桌子 zhuō zi、书桌 shū zhuō）\n乐 lè（快乐 kuài lè、音乐 yīn yuè）" },
         { "title": "单韵母 a o e", "content": "认识单韵母 a、o、e，会读四声：ā á ǎ à，ō ó ǒ ò，ē é ě è。\n声调口诀：一声平，二声扬，三声拐弯，四声降。" },
         { "title": "单韵母 i u ü", "content": "认识单韵母 i、u、ü。\n注意：ü 和 j、q、x 相拼时，两点要去掉，如 jū、qū、xū。" },
         { "title": "声母 b p m f", "content": "认识声母 b、p、m、f。\n学习拼读：b—a→ba，p—a→pa，m—a→ma，f—a→fa。" },
@@ -58,6 +59,7 @@ window.PSK_DATA["1/yuwen"] = {
       "id": "u3",
       "name": "第三单元 汉语拼音（二）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（12个）：\n妹 mèi（妹妹 mèi mei、姐妹 jiě mèi）\n奶 nǎi（奶奶 nǎi nai、牛奶 niú nǎi）\n白 bái（白色 bái sè、白天 bái tiān）\n皮 pí（皮球 pí qiú、果皮 guǒ pí）\n小 xiǎo（大小 dà xiǎo、小雨 xiǎo yǔ）\n桥 qiáo（小桥 xiǎo qiáo、大桥 dà qiáo）\n台 tái（台灯 tái dēng、阳台 yáng tái）\n雪 xuě（雪花 xuě huā、下雪 xià xuě）\n草 cǎo（小草 xiǎo cǎo、草地 cǎo dì）\n车 chē（火车 huǒ chē、马车 mǎ chē）\n羊 yáng（山羊 shān yáng、小羊 xiǎo yáng）\n走 zǒu（走路 zǒu lù、行走 xíng zǒu）" },
         { "title": "声母 g k h", "content": "认识声母 g、k、h。\n拼读：g—a→ga，k—a→ka，h—a→ha。\n三拼音节：g—u—a→gua，要领是'声轻、介快、韵母响'。" },
         { "title": "声母 j q x", "content": "认识声母 j、q、x。\n口诀：小 ü 见了 j、q、x，去掉两点还念 ü，如 jū（居）、qū（区）、xū（需）。" },
         { "title": "平舌音与翘舌音", "content": "平舌音：z、c、s，舌尖抵住上齿背。\n翘舌音：zh、ch、sh、r，舌尖翘起。发音位置要分清，读准字音。" },
@@ -75,6 +77,7 @@ window.PSK_DATA["1/yuwen"] = {
       "id": "u4",
       "name": "第四单元 课文（一）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n秋 qiū（秋天 qiū tiān、秋雨 qiū yǔ）\n气 qì（天气 tiān qì、生气 shēng qì）\n叶 yè（叶子 yè zi、树叶 shù yè）\n船 chuán（小船 xiǎo chuán、飞船 fēi chuán）\n星 xīng（星星 xīng xing、星空 xīng kōng）\n江 jiāng（江南 jiāng nán、长江 cháng jiāng）\n莲 lián（莲花 lián huā、莲叶 lián yè）\n尖 jiān（尖尖 jiān jiān、笔尖 bǐ jiān）\n夏 xià（夏天 xià tiān、夏日 xià rì）\n冬 dōng（冬天 dōng tiān、冬日 dōng rì）" },
         { "title": "秋天", "content": "天气凉了，树叶黄了，一片片叶子从树上落下来。\n学习'一'字变调：一片片读 yí piàn piàn；自然段开头空两格。" },
         { "title": "小小的船", "content": "弯弯的月儿小小的船，小小的船儿两头尖。\n学习叠词：弯弯的、小小的、闪闪的、蓝蓝的。" },
         { "title": "江南", "content": "汉乐府采莲诗：江南可采莲，莲叶何田田。\n鱼戏莲叶间，东、西、南、北都能戏，感受江南水乡的美。" },
@@ -92,6 +95,7 @@ window.PSK_DATA["1/yuwen"] = {
       "id": "u5",
       "name": "第五单元 识字（二）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（12个）：\n远 yuǎn（远方 yuǎn fāng、远处 yuǎn chù）\n色 sè（颜色 yán sè、红色 hóng sè）\n听 tīng（听见 tīng jiàn、听话 tīng huà）\n多 duō（多少 duō shǎo、很多 hěn duō）\n猫 māo（小猫 xiǎo māo、花猫 huā māo）\n书 shū（书本 shū běn、书包 shū bāo）\n尺 chǐ（尺子 chǐ zi、直尺 zhí chǐ）\n明 míng（明天 míng tiān、明亮 míng liàng）\n林 lín（树林 shù lín、森林 sēn lín）\n升 shēng（升起 shēng qǐ、升旗 shēng qí）\n旗 qí（国旗 guó qí、红旗 hóng qí）\n丽 lì（美丽 měi lì、秀丽 xiù lì）" },
         { "title": "画", "content": "谜语诗：远看山有色，近听水无声。春去花还在，人来鸟不惊。\n学习反义词：远—近、有—无、来—去。" },
         { "title": "大小多少", "content": "一个大，一个小，一只猫和一只鸟。\n学习量词：一只猫、一群鸭、一个苹果、一颗枣。" },
         { "title": "小书包", "content": "认识文具：橡皮、尺子、作业本、笔袋、转笔刀。\n要爱惜文具，自己整理小书包。" },
@@ -110,6 +114,7 @@ window.PSK_DATA["1/yuwen"] = {
       "id": "u6",
       "name": "第六单元 课文（二）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（11个）：\n影 yǐng（影子 yǐng zi、身影 shēn yǐng）\n前 qián（前面 qián miàn、前方 qián fāng）\n狗 gǒu（小狗 xiǎo gǒu、黑狗 hēi gǒu）\n朋 péng（朋友 péng you、好朋友 hǎo péng you）\n比 bǐ（比较 bǐ jiào、比一比 bǐ yi bǐ）\n尾 wěi（尾巴 wěi ba、结尾 jié wěi）\n兔 tù（兔子 tù zi、白兔 bái tù）\n诗 shī（诗人 shī rén、古诗 gǔ shī）\n点 diǎn（雨点 yǔ diǎn、点心 diǎn xīn）\n彩 cǎi（彩色 cǎi sè、云彩 yún cǎi）\n绿 lǜ（绿色 lǜ sè、绿叶 lǜ yè）" },
         { "title": "影子", "content": "影子在前，影子在后，影子常常跟着我，就像一条小黑狗。\n影子总是在有光的地方出现。" },
         { "title": "比尾巴", "content": "谁的尾巴长？猴子。谁的尾巴短？兔子。谁的尾巴像把伞？松鼠。\n用问答的形式认识不同动物尾巴的特点。" },
         { "title": "青蛙写诗", "content": "小蝌蚪当逗号，水泡泡当句号，一串水珠当省略号。\n标点符号各有各的用处。" },
@@ -128,6 +133,7 @@ window.PSK_DATA["1/yuwen"] = {
       "term": "下册",
       "name": "第一单元 识字（春夏秋冬）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（11个）：\n春 chūn（春天 chūn tiān、春风 chūn fēng）\n夏 xià（夏天 xià tiān、夏日 xià rì）\n雪 xuě（雪花 xuě huā、下雪 xià xuě）\n飞 fēi（飞机 fēi jī、飞走 fēi zǒu）\n入 rù（入口 rù kǒu、进入 jìn rù）\n姓 xìng（姓名 xìng míng、百姓 bǎi xìng）\n双 shuāng（双手 shuāng shǒu、一双 yì shuāng）\n青 qīng（青山 qīng shān、青蛙 qīng wā）\n晴 qíng（晴天 qíng tiān、晴空 qíng kōng）\n请 qǐng（请坐 qǐng zuò、请进 qǐng jìn）\n冬 dōng（冬天 dōng tiān、冬日 dōng rì）" },
         { "title": "四季与天气", "content": "春风吹、夏雨落、秋霜降、冬雪飘。\n会认：春、夏、秋、冬、霜、雪、花、飞、入。" },
         { "title": "姓氏歌与字谜", "content": "背诵'你姓什么？我姓李。什么李？木子李'；认识'青'字族（清、晴、睛、情、请）；用字谜识字。" }
       ],
@@ -145,6 +151,7 @@ window.PSK_DATA["1/yuwen"] = {
       "term": "下册",
       "name": "第二单元 课文（吃水不忘挖井人）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（12个）：\n吃 chī（吃饭 chī fàn、好吃 hǎo chī）\n忘 wàng（忘记 wàng jì、难忘 nán wàng）\n井 jǐng（水井 shuǐ jǐng、井口 jǐng kǒu）\n乡 xiāng（家乡 jiā xiāng、乡亲 xiāng qīn）\n主 zhǔ（主人 zhǔ rén、主要 zhǔ yào）\n战 zhàn（战士 zhàn shì、战斗 zhàn dòu）\n告 gào（告诉 gào su、广告 guǎng gào）\n京 jīng（北京 běi jīng、京城 jīng chéng）\n广 guǎng（广场 guǎng chǎng、广大 guǎng dà）\n阳 yáng（太阳 tài yáng、阳光 yáng guāng）\n甜 tián（甜美 tián měi、甜甜 tián tián）\n因 yīn（因为 yīn wèi、原因 yuán yīn）" },
         { "title": "吃水不忘挖井人", "content": "毛主席带领战士和乡亲挖井；乡亲们立碑'吃水不忘挖井人，时刻想念毛主席'。" },
         { "title": "我多想去看看 / 四个太阳", "content": "新疆孩子想去北京看升旗，北京孩子想去天山看雪莲；小朋友画四个太阳送给四季。" }
       ],
@@ -162,6 +169,7 @@ window.PSK_DATA["1/yuwen"] = {
       "term": "下册",
       "name": "第三单元 课文（小公鸡和小鸭子）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n块 kuài（一块 yí kuài、石块 shí kuài）\n捉 zhuō（捉虫 zhuō chóng、捉住 zhuō zhù）\n急 jí（着急 zháo jí、急忙 jí máng）\n河 hé（小河 xiǎo hé、河水 hé shuǐ）\n跟 gēn（跟从 gēn cóng、跟着 gēn zhe）\n孤 gū（孤单 gū dān、孤独 gū dú）\n邻 lín（邻居 lín jū、邻近 lín jìn）\n呼 hū（招呼 zhāo hu、呼叫 hū jiào）\n怎 zěn（怎么 zěn me、怎样 zěn yàng）\n跳 tiào（跳高 tiào gāo、跳绳 tiào shéng）" },
         { "title": "小公鸡和小鸭子", "content": "小公鸡会捉虫给小鸭子吃，小鸭子把落水的小公鸡救上岸——朋友要互相帮助。" },
         { "title": "树和喜鹊 / 怎么都快乐", "content": "有了邻居和朋友就不孤单；一个人玩、许多人玩都快乐。" }
       ],
@@ -179,6 +187,7 @@ window.PSK_DATA["1/yuwen"] = {
       "term": "下册",
       "name": "第四单元 课文（静夜思）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n静 jìng（安静 ān jìng、平静 píng jìng）\n夜 yè（夜晚 yè wǎn、黑夜 hēi yè）\n思 sī（思想 sī xiǎng、思念 sī niàn）\n床 chuáng（木床 mù chuáng、床头 chuáng tóu）\n故 gù（故乡 gù xiāng、故事 gù shì）\n胆 dǎn（胆子 dǎn zi、大胆 dà dǎn）\n勇 yǒng（勇敢 yǒng gǎn、勇气 yǒng qì）\n粽 zòng（粽子 zòng zi、肉粽 ròu zòng）\n节 jié（节日 jié rì、春节 chūn jié）\n虹 hóng（彩虹 cǎi hóng、霓虹 ní hóng）" },
         { "title": "静夜思（唐·李白）", "content": "床前明月光，疑是地上霜。举头望明月，低头思故乡。\n体会诗人思念家乡的感情。" },
         { "title": "夜色 / 端午粽 / 彩虹", "content": "克服胆小看夜色；粽子纪念屈原；把彩虹想象成桥给家人送礼物。" }
       ],
@@ -196,6 +205,7 @@ window.PSK_DATA["1/yuwen"] = {
       "term": "下册",
       "name": "第五单元 识字（动物儿歌）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（12个）：\n蜻 qīng（蜻蜓 qīng tíng、蜻蛉 qīng líng）\n蚂 mǎ（蚂蚁 mǎ yǐ、蚂蟥 mǎ huáng）\n蚁 yǐ（蚂蚁 mǎ yǐ、白蚁 bái yǐ）\n网 wǎng（上网 shàng wǎng、渔网 yú wǎng）\n寒 hán（寒冷 hán lěng、天寒 tiān hán）\n暑 shǔ（暑假 shǔ jià、中暑 zhòng shǔ）\n操 cāo（操场 cāo chǎng、体操 tǐ cāo）\n拍 pāi（拍手 pāi shǒu、拍照 pāi zhào）\n跑 pǎo（跑步 pǎo bù、奔跑 bēn pǎo）\n踢 tī（踢球 tī qiú、踢腿 tī tuǐ）\n性 xìng（性格 xìng gé、天性 tiān xìng）\n玉 yù（玉石 yù shí、白玉 bái yù）" },
         { "title": "动物儿歌 / 古对今", "content": "蜻蜓展翅、蝴蝶飞舞、蚯蚓松土、蚂蚁搬家；对韵'古对今，圆对方，严寒对酷暑'。" },
         { "title": "操场上 / 人之初", "content": "提手旁（打、拔、拍）和足字旁（跳、跑、踢）；《三字经》'人之初，性本善'。" }
       ],
@@ -213,6 +223,7 @@ window.PSK_DATA["1/yuwen"] = {
       "term": "下册",
       "name": "第六单元 课文（荷叶圆圆）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n首 shǒu（首先 shǒu xiān、一首 yì shǒu）\n泉 quán（泉水 quán shuǐ、山泉 shān quán）\n荷 hé（荷花 hé huā、荷叶 hé yè）\n露 lù（露水 lù shuǐ、露出 lù chū）\n珠 zhū（珍珠 zhēn zhū、水珠 shuǐ zhū）\n摇 yáo（摇篮 yáo lán、摇头 yáo tóu）\n晶 jīng（亮晶晶 liàng jīng jīng、水晶 shuǐ jīng）\n坪 píng（草坪 cǎo píng、停机坪 tíng jī píng）\n翅 chì（翅膀 chì bǎng、鸡翅 jī chì）\n潮 cháo（潮水 cháo shuǐ、潮湿 cháo shī）" },
         { "title": "古诗二首", "content": "《池上》：小娃撑小艇，偷采白莲回。《小池》：小荷才露尖尖角，早有蜻蜓立上头。" },
         { "title": "荷叶圆圆 / 要下雨了", "content": "荷叶是小水珠的摇篮、小蜻蜓的停机坪、小青蛙的歌台、小鱼儿的凉伞；燕子低飞、鱼游水面、蚂蚁搬家是要下雨的征兆。" }
       ],
@@ -230,6 +241,7 @@ window.PSK_DATA["1/yuwen"] = {
       "term": "下册",
       "name": "第七单元 课文（文具的家）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n具 jù（文具 wén jù、工具 gōng jù）\n丢 diū（丢失 diū shī、丢人 diū rén）\n新 xīn（新年 xīn nián、新书 xīn shū）\n每 měi（每天 měi tiān、每人 měi rén）\n检 jiǎn（检查 jiǎn chá、体检 tǐ jiǎn）\n钟 zhōng（时钟 shí zhōng、闹钟 nào zhōng）\n迟 chí（迟到 chí dào、迟早 chí zǎo）\n决 jué（决定 jué dìng、决心 jué xīn）\n猴 hóu（猴子 hóu zi、小猴 xiǎo hóu）\n追 zhuī（追赶 zhuī gǎn、追求 zhuī qiú）" },
         { "title": "文具的家", "content": "贝贝把铅笔、橡皮放回文具盒这个'家'，养成整理的好习惯。" },
         { "title": "一分钟 / 小猴子下山", "content": "元元多睡一分钟迟到二十分钟——珍惜时间；小猴子见一样丢一样，最后一无所有——做事要专一。" }
       ],
@@ -247,6 +259,7 @@ window.PSK_DATA["1/yuwen"] = {
       "term": "下册",
       "name": "第八单元 课文（棉花姑娘）",
       "knowledge": [
+        { "title": "会认生字", "content": "会认生字（10个）：\n棉 mián（棉花 mián huā、棉衣 mián yī）\n娘 niáng（姑娘 gū niáng、大娘 dà niáng）\n治 zhì（治病 zhì bìng、治理 zhì lǐ）\n燕 yàn（燕子 yàn zi、飞燕 fēi yàn）\n瓢 piáo（瓢虫 piáo chóng、水瓢 shuǐ piáo）\n碧 bì（碧绿 bì lǜ、碧空 bì kōng）\n咕 gū（咕咚 gū dōng、咕咕 gū gū）\n逃 táo（逃跑 táo pǎo、逃走 táo zǒu）\n壁 bì（墙壁 qiáng bì、壁虎 bì hǔ）\n甩 shuǎi（甩开 shuǎi kāi、甩手 shuǎi shǒu）" },
         { "title": "棉花姑娘", "content": "蚜虫危害棉花，七星瓢虫吃蚜虫；不同动物吃不同的害虫（燕子吃空中、啄木鸟吃树干、青蛙吃田里）。" },
         { "title": "咕咚 / 小壁虎借尾巴", "content": "木瓜掉进湖里'咕咚'声吓跑动物——遇事要弄清真相；壁虎尾巴断了能再生，不同动物的尾巴用处不同。" }
       ],
