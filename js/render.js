@@ -32,7 +32,8 @@ function norm(s) {
 
 /* ============ 声音互动 ============ */
 let currentSubject = 'yuwen';
-let soundOn = localStorage.getItem('psktc_sound') !== 'off';
+let soundOn = true;
+try { soundOn = localStorage.getItem('psktc_sound') !== 'off'; } catch (e) {}
 
 /* 文本朗读：语文/数学用中文，英语用美式英语；离线可用（浏览器内置语音合成） */
 function speak(text) {

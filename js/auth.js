@@ -253,6 +253,10 @@ const Auth = {
   }
 };
 
+/* 挂到 window：const 声明不会自动成为 window 属性，
+   而 app.js 路由通过 window.Auth 判断登录门禁 */
+window.Auth = Auth;
+
 /* 初始化 */
 Auth.load();
 Auth.ensureHeader();
