@@ -7,40 +7,183 @@ const Auth = {
   KEY: 'psktc_auth',
   token: null,
   user: null,       // { username, role }
+  mode: 'server',   // 'server' 有后端 | 'local' 静态托管本地模式（GitHub Pages 等）
+  lastError: null,  // 最近一次 API 失败原因
   _unit: null,      // 当前正在学习的单元计时
 
   load() {
     try {
       const a = JSON.parse(localStorage.getItem(this.KEY) || 'null');
-      if (a && a.token) { this.token = a.token; this.user = { username: a.username, role: a.role }; }
+      if (a && a.token) {
+        this.token = a.token;
+        if (String(a.token).indexOf('local-') === 0) this.mode = 'local';
+        this.user = { username: a.username, role: a.role };
+      }
     } catch (e) {}
+  },
+
+  /* ---- 本地模式：数据全部存 localStorage（仅用于无后端的静态托管） ---- */
+  _lget(k, d) { try { return JSON.parse(localStorage.getItem(k)) || d; } catch (e) { return d; } },
+  _lset(k, v) { localStorage.setItem(k, JSON.stringify(v)); },
+  _lusers() {
+    let u = this._lget('psktc_local_users', null);
+    if (!u || !u.length) {
+      /* 与 server.js 默认管理员保持一致 */
+      u = [{ username: 'admin', role: 'admin', password: 'admin3344139', createdAt: new Date().toISOString() }];
+      this._lset('psktc_local_users', u);
+    }
+    return u;
+  },
+  _lprog() { return this._lget('psktc_local_progress', {}); },
+  _lsaveProg(p) { this._lset('psktc_local_progress', p); },
+  _lme() {
+    if (!this.token || String(this.token).indexOf('local-') !== 0) return null;
+    const name = String(this.token).slice(6);
+    return this._lusers().find(x => x.username === name) || null;
+  },
+  _lreport(name) {
+    const units = (this._lprog()[name] || {}).units || {};
+    let totalSeconds = 0, completed = 0, scoreSum = 0, totalSum = 0;
+    Object.values(units).forEach(u => {
+      totalSeconds += (u.seconds || 0);
+      if (u.completed) completed++;
+      if (typeof u.score === 'number' && typeof u.total === 'number') { scoreSum += u.score; totalSum += u.total; }
+    });
+    return { username: name, totalSeconds, completed, attempted: Object.keys(units).length, accuracy: totalSum ? Math.round(scoreSum / totalSum * 100) : 0, units };
   },
 
   gate() { return !!this.token; },
 
   async api(path, opts) {
     opts = opts || {};
+    if (this.mode === 'local') {
+      try { return this.localApi(path, opts); }
+      catch (e) { this.lastError = e.message; console.warn('Local API 失败', path, e.message); return null; }
+    }
     const headers = { 'Content-Type': 'application/json' };
     if (this.token) headers['Authorization'] = 'Bearer ' + this.token;
+    this.lastError = null;
     try {
       const r = await fetch(path, {
         method: opts.method || 'GET',
         headers,
         body: opts.body ? JSON.stringify(opts.body) : undefined
       });
+      /* 静态托管（GitHub Pages 等）没有后端：/api/* 会返回 HTML 或 405，
+         响应不是 JSON 就视为后端不可用，自动切换本地模式 */
+      if (!(r.headers.get('content-type') || '').includes('json')) {
+        this.mode = 'local';
+        return this.localApi(path, opts);
+      }
       if (r.status === 401 && path !== '/api/login') { this.logout(); return null; }
       const data = await r.json().catch(() => ({}));
       if (!r.ok) throw new Error(data.error || ('错误 ' + r.status));
       return data;
     } catch (e) {
+      if (e instanceof TypeError) { // fetch 直接失败（断网/无后端）
+        this.mode = 'local';
+        return this.localApi(path, opts);
+      }
+      this.lastError = e.message;
       console.warn('API 失败', path, e.message);
       return null;
     }
   },
 
+  /* 本地模式 API：与 server.js 的接口语义保持一致 */
+  localApi(path, opts) {
+    opts = opts || {};
+    const body = opts.body || {};
+    const ok = v => new Promise(res => setTimeout(() => res(v), 30));
+
+    if (path === '/api/login') {
+      const u = this._lusers().find(x => x.username === body.username);
+      if (!u || u.password !== body.password) throw new Error('用户名或密码错误');
+      return ok({ token: 'local-' + u.username, username: u.username, role: u.role });
+    }
+
+    if (path === '/api/register') {
+      const me = this._lme();
+      if (!me || me.role !== 'admin') throw new Error('无权限');
+      if (!body.username || !body.password) throw new Error('用户名和密码必填');
+      const users = this._lusers();
+      if (users.find(x => x.username === body.username)) throw new Error('用户已存在');
+      users.push({ username: body.username, role: body.role === 'admin' ? 'admin' : 'user', password: body.password, createdAt: new Date().toISOString() });
+      this._lset('psktc_local_users', users);
+      return ok({ ok: true });
+    }
+
+    if (path === '/api/me') {
+      const me = this._lme();
+      if (!me) throw new Error('未登录');
+      const p = this._lprog();
+      if (p[me.username]) p[me.username].lastActive = new Date().toISOString();
+      this._lsaveProg(p);
+      return ok({ username: me.username, role: me.role, report: this._lreport(me.username) });
+    }
+
+    if (path === '/api/users') {
+      const me = this._lme();
+      if (!me || me.role !== 'admin') throw new Error('无权限');
+      const prog = this._lprog();
+      const users = this._lusers().map(u => {
+        const pr = prog[u.username] || {};
+        let totalSeconds = 0, completed = 0;
+        Object.values(pr.units || {}).forEach(x => { totalSeconds += (x.seconds || 0); if (x.completed) completed++; });
+        return { username: u.username, role: u.role, createdAt: u.createdAt, lastActive: pr.lastActive || null, totalSeconds, completed };
+      });
+      return ok({ users });
+    }
+
+    if (path.indexOf('/api/users/') === 0 && opts.method === 'DELETE') {
+      const me = this._lme();
+      if (!me || me.role !== 'admin') throw new Error('无权限');
+      const name = decodeURIComponent(path.slice('/api/users/'.length));
+      if (name === me.username) throw new Error('不能删除自己');
+      const users = this._lusers();
+      if (!users.find(x => x.username === name)) throw new Error('用户不存在');
+      this._lset('psktc_local_users', users.filter(x => x.username !== name));
+      const p = this._lprog(); delete p[name]; this._lsaveProg(p);
+      return ok({ ok: true });
+    }
+
+    if (path === '/api/progress') {
+      const me = this._lme();
+      if (!me) throw new Error('未登录');
+      if (!body.key) throw new Error('缺少 key');
+      const p = this._lprog();
+      if (!p[me.username]) p[me.username] = { units: {} };
+      const units = p[me.username].units;
+      const cur = units[body.key] || { score: null, total: null, completed: false, seconds: 0 };
+      if (typeof body.seconds === 'number') cur.seconds = (cur.seconds || 0) + body.seconds;
+      if (typeof body.score === 'number') cur.score = body.score;
+      if (typeof body.total === 'number') cur.total = body.total;
+      if (body.completed === true) cur.completed = true;
+      if (body.grade) cur.grade = body.grade;
+      if (body.subject) cur.subject = body.subject;
+      if (body.unit) cur.unit = body.unit;
+      cur.updatedAt = new Date().toISOString();
+      units[body.key] = cur;
+      p[me.username].lastActive = cur.updatedAt;
+      this._lsaveProg(p);
+      return ok({ ok: true, unit: cur });
+    }
+
+    if (path === '/api/report' || path.indexOf('/api/report?') === 0) {
+      const me = this._lme();
+      if (!me) throw new Error('未登录');
+      let target = me.username;
+      const m = (path.match(/[?&]user=([^&]+)/) || [])[1];
+      if (m) { if (me.role !== 'admin') throw new Error('无权限'); target = decodeURIComponent(m); }
+      return ok(this._lreport(target));
+    }
+
+    throw new Error('接口不存在');
+  },
+
   async login(username, password) {
     const data = await this.api('/api/login', { method: 'POST', body: { username, password } });
-    if (!data || !data.token) { alert('登录失败：' + (data ? (data.error || '未知错误') : '网络异常')); return false; }
+    if (!data || !data.token) { alert('登录失败：' + ((data && data.error) || this.lastError || '未知错误')); return false; }
     this.token = data.token;
     this.user = { username: data.username, role: data.role };
     localStorage.setItem(this.KEY, JSON.stringify(this.user && this.token ? { token: this.token, username: data.username, role: data.role } : {}));
@@ -67,7 +210,7 @@ const Auth = {
     ov.innerHTML = `
       <div class="login-card">
         <h2>🌺 小学知识训练营</h2>
-        <p class="login-sub">广州 · 人教版 · 一至三年级上学期</p>
+        <p class="login-sub">广州 · 人教版 · 一至三年级（上下学期）</p>
         <input id="lgUser" class="login-input" type="text" placeholder="用户名" autocomplete="username" />
         <input id="lgPwd" class="login-input" type="password" placeholder="密码" autocomplete="current-password" />
         <button id="lgBtn" class="login-btn">登 录</button>
