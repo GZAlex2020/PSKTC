@@ -3,7 +3,7 @@ window.PSK_DATA["2/shuxue"] = {
   "grade": 2,
   "subject": "shuxue",
   "edition": "人教版",
-  "title": "二年级上册 数学",
+  "title": "二年级 数学",
   "units": [
     {
       "id": "u1",
@@ -145,6 +145,159 @@ window.PSK_DATA["2/shuxue"] = {
         { "id": "e2", "type": "fill", "question": "2 件上衣配 2 条裤子，有____种穿法。", "answer": "4", "explain": "2×2=4 种。" },
         { "id": "e3", "type": "choice", "question": "3 个人两两握手，一共握几次？", "options": ["3 次", "2 次", "6 次", "5 次"], "answer": "3 次", "explain": "甲乙、甲丙、乙丙，一共 3 次。" },
         { "id": "e4", "type": "fill", "question": "用 5、7 组成的两位数中，最大的是____。", "answer": "75", "explain": "大数字放在十位得到的数最大。" }
+      ]
+    },
+    {
+      "id": "d1",
+      "term": "下册",
+      "name": "第一单元 数据收集整理",
+      "knowledge": [
+        { "title": "调查与分类计数", "content": "用举手、画√、画'正'字等方式收集数据，做到不重复、不遗漏。" },
+        { "title": "简单统计表", "content": "把整理结果填入统计表，一眼就能比较出谁多谁少。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "想知道全班喜欢什么水果，最好先？", "options": ["调查统计", "猜", "问老师", "不理"], "answer": "调查统计", "explain": "先调查再整理。" },
+        { "id": "e2", "type": "fill", "question": "用画'正'字统计，一个'正'字代表____笔。", "answer": "5", "explain": "正字有5画。" },
+        { "id": "e3", "type": "choice", "question": "统计表里哪一格数字最大，说明？", "options": ["喜欢它的人最多", "最少", "没有", "一样"], "answer": "喜欢它的人最多", "explain": "数字大=人数多。" },
+        { "id": "e4", "type": "fill", "question": "红色5人、蓝色3人，一共____人。", "answer": "8", "explain": "5+3=8。" },
+        { "id": "e5", "type": "choice", "question": "下面适合收集数据的方式是？", "options": ["举手投票", "闭眼猜", "随便说", "不想"], "answer": "举手投票", "explain": "举手投票可计数。" },
+        { "id": "e6", "type": "fill", "question": "分类标准不同，统计结果可能____。", "answer": "不同", "explain": "标准不同结果不同。" }
+      ]
+    },
+    {
+      "id": "d2",
+      "term": "下册",
+      "name": "第二单元 表内除法（一）",
+      "knowledge": [
+        { "title": "平均分", "content": "每份分得同样多，叫平均分。" },
+        { "title": "除法含义与口诀求商", "content": "把12平均分成3份每份4，12÷3=4；用乘法口诀求商。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "把8块糖分给2人，每人4块，这是？", "options": ["平均分", "随便分", "多分", "少分"], "answer": "平均分", "explain": "每份一样多。" },
+        { "id": "e2", "type": "fill", "question": "12 ÷ 3 = ____，想口诀'三四十二'。", "answer": "4", "explain": "用口诀求商。" },
+        { "id": "e3", "type": "choice", "question": "15 ÷ 5 = ?", "options": ["3", "4", "5", "2"], "answer": "3", "explain": "三五十五。" },
+        { "id": "e4", "type": "fill", "question": "10 ÷ 2 = 5 中，10 叫____（被除数）。", "answer": "被除数", "explain": "被除数÷除数=商。" },
+        { "id": "e5", "type": "choice", "question": "下面表示平均分的是？", "options": ["每份一样多", "一份多一份少", "随便", "不等"], "answer": "每份一样多", "explain": "平均分的定义。" },
+        { "id": "e6", "type": "fill", "question": "把6个桃子平均分成2份，每份____个。", "answer": "3", "explain": "6÷2=3。" }
+      ]
+    },
+    {
+      "id": "d3",
+      "term": "下册",
+      "name": "第三单元 图形的运动（一）",
+      "knowledge": [
+        { "title": "轴对称", "content": "对折后两边能完全重合的图形是轴对称图形，折痕是对称轴。" },
+        { "title": "平移与旋转", "content": "平移是沿直线移动（形状大小不变）；旋转是绕一点转动（如风车、时针）。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "下列是轴对称图形的是？", "options": ["等腰三角形", "任意四边形", "平行四边形", "一般梯形"], "answer": "等腰三角形", "explain": "对折后两边重合。" },
+        { "id": "e2", "type": "fill", "question": "平移是物体沿____移动，形状大小不变。", "answer": "直线（方向）", "explain": "平移特征。" },
+        { "id": "e3", "type": "choice", "question": "风车转动属于？", "options": ["旋转", "平移", "对称", "放大"], "answer": "旋转", "explain": "绕中心转动。" },
+        { "id": "e4", "type": "fill", "question": "正方形有____条对称轴。", "answer": "4", "explain": "正方形4条对称轴。" },
+        { "id": "e5", "type": "choice", "question": "下面属于平移的是？", "options": ["推拉窗户", "风车转", "时针走", "陀螺转"], "answer": "推拉窗户", "explain": "沿直线移动。" },
+        { "id": "e6", "type": "fill", "question": "圆有____条对称轴。", "answer": "无数（很多）", "explain": "任意直径都是对称轴。" }
+      ]
+    },
+    {
+      "id": "d4",
+      "term": "下册",
+      "name": "第四单元 表内除法（二）",
+      "knowledge": [
+        { "title": "用7、8、9的口诀求商", "content": "56÷8=7（七八五十六）；72÷9=8（八九七十二）。" },
+        { "title": "解决问题", "content": "求一个数里有几个几，用除法；如64块糖分每8块一袋，可装8袋。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "56 ÷ 8 = ?", "options": ["7", "8", "6", "9"], "answer": "7", "explain": "七八五十六。" },
+        { "id": "e2", "type": "fill", "question": "63 ÷ 9 = ____，想'七九六十三'。", "answer": "7", "explain": "用口诀求商。" },
+        { "id": "e3", "type": "choice", "question": "48 ÷ 6 = ?", "options": ["8", "7", "6", "9"], "answer": "8", "explain": "六八四十八。" },
+        { "id": "e4", "type": "fill", "question": "求'35里面有几个7'用算式____。", "answer": "35÷7", "explain": "包含除用除法。" },
+        { "id": "e5", "type": "choice", "question": "每盒装8块糖，64块糖可装几盒？", "options": ["8盒", "7盒", "9盒", "6盒"], "answer": "8盒", "explain": "64÷8=8。" },
+        { "id": "e6", "type": "fill", "question": "72 ÷ 9 = ____。", "answer": "8", "explain": "八九七十二。" }
+      ]
+    },
+    {
+      "id": "d5",
+      "term": "下册",
+      "name": "第五单元 混合运算",
+      "knowledge": [
+        { "title": "运算顺序", "content": "同级（加减或乘除）从左到右；两级先乘除后加减；有括号先算括号里。" },
+        { "title": "解决问题", "content": "可用分步或综合算式，注意括号能改变运算顺序。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "2 + 3 × 4 = ?", "options": ["14", "20", "9", "17"], "answer": "14", "explain": "先乘3×4=12，再加2。" },
+        { "id": "e2", "type": "fill", "question": "(10 - 2) × 3 = ____。", "answer": "24", "explain": "先算10-2=8，8×3=24。" },
+        { "id": "e3", "type": "choice", "question": "24 ÷ 4 + 2 = ?", "options": ["8", "6", "10", "4"], "answer": "8", "explain": "24÷4=6，+2=8。" },
+        { "id": "e4", "type": "fill", "question": "没有括号的算式里，有乘除法和加减法，先算____。", "answer": "乘除", "explain": "先乘除后加减。" },
+        { "id": "e5", "type": "choice", "question": "下面先算括号里的是？", "options": ["(5+3)×2", "5+3×2", "8-2+3", "6÷2×3"], "answer": "(5+3)×2", "explain": "括号优先。" },
+        { "id": "e6", "type": "fill", "question": "3 × 5 - 4 = ____。", "answer": "11", "explain": "15-4=11。" }
+      ]
+    },
+    {
+      "id": "d6",
+      "term": "下册",
+      "name": "第六单元 有余数的除法",
+      "knowledge": [
+        { "title": "余数比除数小", "content": "23÷5=4……3，余数3小于除数5，这是有余数除法。" },
+        { "title": "竖式与解决问题", "content": "余数单位与总数一致；解决实际问题要想到余下部分。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "23 ÷ 5 = 4 …… ？", "options": ["3", "4", "5", "2"], "answer": "3", "explain": "20+3=23，余3<5。" },
+        { "id": "e2", "type": "fill", "question": "有余数除法里，余数一定比____小。", "answer": "除数", "explain": "余数<除数。" },
+        { "id": "e3", "type": "choice", "question": "17 ÷ 3 = ?", "options": ["5……2", "4……5", "6……1", "5……3"], "answer": "5……2", "explain": "15+2=17。" },
+        { "id": "e4", "type": "fill", "question": "14个苹果每盘放4个，可放____盘，剩2个。", "answer": "3", "explain": "12+2=14。" },
+        { "id": "e5", "type": "choice", "question": "下面余数比除数大、算式错的是？", "options": ["19÷6=2……7", "20÷3=6……2", "15÷4=3……3", "10÷3=3……1"], "answer": "19÷6=2……7", "explain": "余7>除6，错误。" },
+        { "id": "e6", "type": "fill", "question": "25 ÷ 4 = ____……1。", "answer": "6", "explain": "24+1=25。" }
+      ]
+    },
+    {
+      "id": "d7",
+      "term": "下册",
+      "name": "第七单元 万以内数的认识",
+      "knowledge": [
+        { "title": "千与万", "content": "10个一千是一万；数位顺序：个、十、百、千、万。" },
+        { "title": "读写、组成与比较", "content": "四位数从高位读起；近似数；整百整千加减法。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "10个一千是？", "options": ["一万", "一千", "一百", "十万"], "answer": "一万", "explain": "满十进一。" },
+        { "id": "e2", "type": "fill", "question": "三千二百写作____。", "answer": "3200", "explain": "3千2百。" },
+        { "id": "e3", "type": "choice", "question": "比较 2300 和 3200，哪个大？", "options": ["3200", "2300", "一样", "比不了"], "answer": "3200", "explain": "千位3>2。" },
+        { "id": "e4", "type": "fill", "question": "一个数由5个千和3个十组成，是____。", "answer": "5030", "explain": "5000+30。" },
+        { "id": "e5", "type": "choice", "question": "下面近似4000的是？", "options": ["3980", "5000", "3010", "4100"], "answer": "3980", "explain": "最接近4000。" },
+        { "id": "e6", "type": "fill", "question": "2000 + 3000 = ____。", "answer": "5000", "explain": "整千相加。" }
+      ]
+    },
+    {
+      "id": "d8",
+      "term": "下册",
+      "name": "第八单元 克和千克",
+      "knowledge": [
+        { "title": "质量单位", "content": "克（g）和千克（kg）；1千克=1000克。" },
+        { "title": "估重", "content": "一枚硬币约1克，一袋盐约500克，小朋友体重用千克。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "fill", "question": "1千克 = ____克。", "answer": "1000", "explain": "1kg=1000g。" },
+        { "id": "e2", "type": "choice", "question": "一个鸡蛋大约重？", "options": ["50克", "5千克", "5克", "50千克"], "answer": "50克", "explain": "鸡蛋约50克。" },
+        { "id": "e3", "type": "choice", "question": "计量小朋友体重一般用？", "options": ["千克", "克", "米", "厘米"], "answer": "千克", "explain": "体重用千克。" },
+        { "id": "e4", "type": "fill", "question": "两袋500克的盐一共是____千克。", "answer": "1", "explain": "500+500=1000克=1千克。" },
+        { "id": "e5", "type": "choice", "question": "下面用'克'作单位更合适的是？", "options": ["一块橡皮", "一头牛", "一袋米", "一个西瓜"], "answer": "一块橡皮", "explain": "橡皮很轻用克。" },
+        { "id": "e6", "type": "fill", "question": "一瓶矿泉水约500____，即0.5千克。", "answer": "克", "explain": "矿泉水约500克。" }
+      ]
+    },
+    {
+      "id": "d9",
+      "term": "下册",
+      "name": "第九单元 数学广角——推理",
+      "knowledge": [
+        { "title": "简单逻辑推理", "content": "根据提示排除，确定未知；如甲不是最高、乙最矮，则甲或丙最高。" },
+        { "title": "表格法", "content": "用打√打×整理信息，帮助清晰推理。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "甲、乙、丙三人，甲不是最高，乙最矮，最高的是？", "options": ["丙", "甲", "乙", "一样"], "answer": "丙", "explain": "乙最矮，甲不是最高则丙最高。" },
+        { "id": "e2", "type": "fill", "question": "三本书，小红拿的不是语文而是数学，小刚拿的是____。", "answer": "语文", "explain": "排除法。" },
+        { "id": "e3", "type": "choice", "question": "推理常用到的方法是？", "options": ["排除法", "猜", "随便", "不管"], "answer": "排除法", "explain": "排除确定未知。" },
+        { "id": "e4", "type": "fill", "question": "用表格打√打×，可把信息____清楚。", "answer": "整理（理）", "explain": "表格帮助推理。" },
+        { "id": "e5", "type": "choice", "question": "甲说'我不是第一名'，乙说'我是第三名'，则甲可能是？", "options": ["第二名", "第一名", "第三名", "第四名"], "answer": "第二名", "explain": "乙第三，甲不是第一则第二。" },
+        { "id": "e6", "type": "fill", "question": "把信息一一对应，常用____法来推理。", "answer": "排除", "explain": "排除后确定。" }
       ]
     }
   ]

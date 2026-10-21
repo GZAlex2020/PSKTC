@@ -3,7 +3,7 @@ window.PSK_DATA["1/yuwen"] = {
   "grade": 1,
   "subject": "yuwen",
   "edition": "统编 / 人教",
-  "title": "一年级上册 语文",
+  "title": "一年级 语文",
   "units": [
     {
       "id": "u1",
@@ -121,6 +121,142 @@ window.PSK_DATA["1/yuwen"] = {
         { "id": "e3", "type": "fill", "question": "《比尾巴》：猴子尾巴____，兔子尾巴短。", "answer": "长", "explain": "原文：谁的尾巴长？猴子。" },
         { "id": "e4", "type": "choice", "question": "《雨点儿》中，雨点落下来后小花小草怎么样了？", "options": ["长得更好", "枯萎了", "变黄了", "不变"], "answer": "长得更好", "explain": "雨水滋润了花草，它们长得更美了。" },
         { "id": "e5", "type": "choice", "question": "什么时候会有影子？", "options": ["有光的时候", "没有光的时候", "下雨时", "刮风时"], "answer": "有光的时候", "explain": "影子总在有光的地方出现。" }
+      ]
+    },
+    {
+      "id": "d1",
+      "term": "下册",
+      "name": "第一单元 识字（春夏秋冬）",
+      "knowledge": [
+        { "title": "四季与天气", "content": "春风吹、夏雨落、秋霜降、冬雪飘。\n会认：春、夏、秋、冬、霜、雪、花、飞、入。" },
+        { "title": "姓氏歌与字谜", "content": "背诵'你姓什么？我姓李。什么李？木子李'；认识'青'字族（清、晴、睛、情、请）；用字谜识字。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'霜'一般出现在哪个季节？", "options": ["春天", "夏天", "秋天", "冬天"], "answer": "秋天", "explain": "秋霜，秋天清晨常见霜。" },
+        { "id": "e2", "type": "fill", "question": "池草__、山花红、鱼出水、鸟入林。（填 青 或 清）", "answer": "青", "explain": "课文原句：池草青。" },
+        { "id": "e3", "type": "choice", "question": "姓氏歌中'木子李'的李是由什么组成？", "options": ["木+子", "李+子", "木+木", "子+子"], "answer": "木+子", "explain": "木加子就是李。" },
+        { "id": "e4", "type": "fill", "question": "'青'加日字旁变成____（晴），表示天气好。", "answer": "晴", "explain": "日+青=晴，和太阳有关。" },
+        { "id": "e5", "type": "choice", "question": "小青蛙吃害虫保护庄稼，我们应该？", "options": ["爱护它", "捉它", "不管", "吃掉"], "answer": "爱护它", "explain": "青蛙是益虫，要保护。" },
+        { "id": "e6", "type": "fill", "question": "'请'字是'青'加____旁，和说话、礼貌有关。", "answer": "言（讠）", "explain": "言字旁加青是请。" }
+      ]
+    },
+    {
+      "id": "d2",
+      "term": "下册",
+      "name": "第二单元 课文（吃水不忘挖井人）",
+      "knowledge": [
+        { "title": "吃水不忘挖井人", "content": "毛主席带领战士和乡亲挖井；乡亲们立碑'吃水不忘挖井人，时刻想念毛主席'。" },
+        { "title": "我多想去看看 / 四个太阳", "content": "新疆孩子想去北京看升旗，北京孩子想去天山看雪莲；小朋友画四个太阳送给四季。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'吃水不忘挖井人'要我们记住谁？", "options": ["毛主席", "老师", "爸爸", "同学"], "answer": "毛主席", "explain": "毛主席关心群众，带领大家挖井。" },
+        { "id": "e2", "type": "fill", "question": "沙洲坝的乡亲们以前吃水要到很远的地方去____。", "answer": "挑", "explain": "没有井，只能去远处挑水。" },
+        { "id": "e3", "type": "choice", "question": "课文中新疆的孩子最想去哪里看升旗？", "options": ["北京", "天山", "海边", "草原"], "answer": "北京", "explain": "北京天安门广场有升旗仪式。" },
+        { "id": "e4", "type": "fill", "question": "《四个太阳》中，春天画了个____的太阳。", "answer": "彩色", "explain": "春天画彩色太阳，万物复苏。" },
+        { "id": "e5", "type": "choice", "question": "《我多想去看看》表达了孩子怎样的感情？", "options": ["向往", "害怕", "讨厌", "无聊"], "answer": "向往", "explain": "想去看看外面的世界。" },
+        { "id": "e6", "type": "fill", "question": "夏天画个____的太阳，让大家觉得凉爽。", "answer": "绿绿", "explain": "绿太阳送来清凉。" }
+      ]
+    },
+    {
+      "id": "d3",
+      "term": "下册",
+      "name": "第三单元 课文（小公鸡和小鸭子）",
+      "knowledge": [
+        { "title": "小公鸡和小鸭子", "content": "小公鸡会捉虫给小鸭子吃，小鸭子把落水的小公鸡救上岸——朋友要互相帮助。" },
+        { "title": "树和喜鹊 / 怎么都快乐", "content": "有了邻居和朋友就不孤单；一个人玩、许多人玩都快乐。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "小鸭子救了谁？", "options": ["小公鸡", "小鸡", "小鱼", "小鸭"], "answer": "小公鸡", "explain": "小公鸡落水被小鸭子救起。" },
+        { "id": "e2", "type": "fill", "question": "小公鸡给小鸭子捉____吃。", "answer": "虫子", "explain": "小公鸡的嘴尖，会捉虫。" },
+        { "id": "e3", "type": "choice", "question": "树和喜鹊后来为什么快乐？", "options": ["有了邻居和朋友", "搬家了", "长大了", "下雨了"], "answer": "有了邻居和朋友", "explain": "有朋友陪伴就不孤单。" },
+        { "id": "e4", "type": "fill", "question": "《怎么都快乐》：一个人玩____；许多人玩更快乐。", "answer": "很好（挺快乐）", "explain": "各种玩法都快乐。" },
+        { "id": "e5", "type": "choice", "question": "小公鸡和小鸭子的故事告诉我们？", "options": ["互相帮助", "各顾各", "不理人", "打架"], "answer": "互相帮助", "explain": "朋友之间要互相帮助。" },
+        { "id": "e6", "type": "fill", "question": "小鸭子有____，所以会游泳。", "answer": "脚蹼", "explain": "鸭子脚有蹼，像桨一样划水。" }
+      ]
+    },
+    {
+      "id": "d4",
+      "term": "下册",
+      "name": "第四单元 课文（静夜思）",
+      "knowledge": [
+        { "title": "静夜思（唐·李白）", "content": "床前明月光，疑是地上霜。举头望明月，低头思故乡。\n体会诗人思念家乡的感情。" },
+        { "title": "夜色 / 端午粽 / 彩虹", "content": "克服胆小看夜色；粽子纪念屈原；把彩虹想象成桥给家人送礼物。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "fill", "question": "举头望明月，低头思____。", "answer": "故乡", "explain": "《静夜思》名句。" },
+        { "id": "e2", "type": "choice", "question": "《静夜思》的作者是？", "options": ["李白", "杜甫", "白居易", "王维"], "answer": "李白", "explain": "唐代大诗人李白。" },
+        { "id": "e3", "type": "fill", "question": "端午节吃粽子是为了纪念____。", "answer": "屈原", "explain": "屈原投江，后人用粽子纪念他。" },
+        { "id": "e4", "type": "choice", "question": "《夜色》中'我'以前是怎样的？", "options": ["胆子很小", "很大胆", "不怕黑", "喜欢夜"], "answer": "胆子很小", "explain": "从前'我'天一黑就不敢往外瞧。" },
+        { "id": "e5", "type": "fill", "question": "粽子外面用____叶包着糯米和红枣。", "answer": "箬竹（竹叶）", "explain": "箬竹叶清香，用来包粽子。" },
+        { "id": "e6", "type": "choice", "question": "文中把彩虹想象成什么？", "options": ["桥", "山", "云", "房"], "answer": "桥", "explain": "用彩虹桥给家人送礼物。" }
+      ]
+    },
+    {
+      "id": "d5",
+      "term": "下册",
+      "name": "第五单元 识字（动物儿歌）",
+      "knowledge": [
+        { "title": "动物儿歌 / 古对今", "content": "蜻蜓展翅、蝴蝶飞舞、蚯蚓松土、蚂蚁搬家；对韵'古对今，圆对方，严寒对酷暑'。" },
+        { "title": "操场上 / 人之初", "content": "提手旁（打、拔、拍）和足字旁（跳、跑、踢）；《三字经》'人之初，性本善'。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'蚂蚁搬家'常预示着什么？", "options": ["要下雨", "天晴", "刮风", "下雪"], "answer": "要下雨", "explain": "蚂蚁搬家是要下雨的征兆。" },
+        { "id": "e2", "type": "fill", "question": "蜻蜓半空展____。", "answer": "翅", "explain": "动物儿歌：蜻蜓半空展翅飞。" },
+        { "id": "e3", "type": "choice", "question": "下列字中带足字旁、和脚有关的是？", "options": ["跑", "打", "拍", "拔"], "answer": "跑", "explain": "跑带足字旁，用脚跑。" },
+        { "id": "e4", "type": "fill", "question": "人之初，性本____。", "answer": "善", "explain": "《三字经》名句。" },
+        { "id": "e5", "type": "choice", "question": "古对今，圆对____。", "options": ["方", "圆", "长", "短"], "answer": "方", "explain": "对韵讲究相对。" },
+        { "id": "e6", "type": "fill", "question": "下课了，同学们在操场上____球、拔河。", "answer": "打", "explain": "打球，提手旁。" }
+      ]
+    },
+    {
+      "id": "d6",
+      "term": "下册",
+      "name": "第六单元 课文（荷叶圆圆）",
+      "knowledge": [
+        { "title": "古诗二首", "content": "《池上》：小娃撑小艇，偷采白莲回。《小池》：小荷才露尖尖角，早有蜻蜓立上头。" },
+        { "title": "荷叶圆圆 / 要下雨了", "content": "荷叶是小水珠的摇篮、小蜻蜓的停机坪、小青蛙的歌台、小鱼儿的凉伞；燕子低飞、鱼游水面、蚂蚁搬家是要下雨的征兆。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'小荷才露尖尖角，早有蜻蜓立上头'出自？", "options": ["小池", "池上", "静夜思", "咏柳"], "answer": "小池", "explain": "杨万里的《小池》。" },
+        { "id": "e2", "type": "fill", "question": "小娃撑小艇，偷采____回。", "answer": "白莲", "explain": "《池上》原句。" },
+        { "id": "e3", "type": "choice", "question": "荷叶是小青蛙的什么？", "options": ["歌台", "摇篮", "停机坪", "凉伞"], "answer": "歌台", "explain": "小青蛙蹲在荷叶上唱歌。" },
+        { "id": "e4", "type": "fill", "question": "要下雨了，燕子飞得很____（低/高）。", "answer": "低", "explain": "虫子等小飞虫飞得低，燕子也低飞捕食。" },
+        { "id": "e5", "type": "choice", "question": "下列不是下雨前征兆的是？", "options": ["大雁南飞", "蚂蚁搬家", "燕子低飞", "鱼游水面"], "answer": "大雁南飞", "explain": "大雁南飞是秋天候鸟迁徙。" },
+        { "id": "e6", "type": "fill", "question": "小水珠把荷叶当成它的____。", "answer": "摇篮", "explain": "小水珠躺在荷叶上像在摇篮里。" }
+      ]
+    },
+    {
+      "id": "d7",
+      "term": "下册",
+      "name": "第七单元 课文（文具的家）",
+      "knowledge": [
+        { "title": "文具的家", "content": "贝贝把铅笔、橡皮放回文具盒这个'家'，养成整理的好习惯。" },
+        { "title": "一分钟 / 小猴子下山", "content": "元元多睡一分钟迟到二十分钟——珍惜时间；小猴子见一样丢一样，最后一无所有——做事要专一。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "贝贝的文具'家'是？", "options": ["文具盒", "书包", "桌子", "抽屉"], "answer": "文具盒", "explain": "文具盒用来装文具。" },
+        { "id": "e2", "type": "fill", "question": "元元多睡了____分钟，结果迟到了二十分钟。", "answer": "一", "explain": "《一分钟》的故事。" },
+        { "id": "e3", "type": "choice", "question": "小猴子下山最后得到了什么？", "options": ["什么都没有", "一个大西瓜", "一只兔子", "一袋玉米"], "answer": "什么都没有", "explain": "见一样丢一样，最后两手空空。" },
+        { "id": "e4", "type": "fill", "question": "通知别人集合，要说清时间和____。", "answer": "地点", "explain": "《动物王国开大会》的教训。" },
+        { "id": "e5", "type": "choice", "question": "《一分钟》告诉我们什么？", "options": ["要珍惜时间", "多睡觉", "迟到没关系", "慢慢来"], "answer": "要珍惜时间", "explain": "一分钟也很重要。" },
+        { "id": "e6", "type": "fill", "question": "小猴子看见玉米就掰玉米，看见____又扔了玉米去摘。", "answer": "桃子", "explain": "《小猴子下山》情节。" }
+      ]
+    },
+    {
+      "id": "d8",
+      "term": "下册",
+      "name": "第八单元 课文（棉花姑娘）",
+      "knowledge": [
+        { "title": "棉花姑娘", "content": "蚜虫危害棉花，七星瓢虫吃蚜虫；不同动物吃不同的害虫（燕子吃空中、啄木鸟吃树干、青蛙吃田里）。" },
+        { "title": "咕咚 / 小壁虎借尾巴", "content": "木瓜掉进湖里'咕咚'声吓跑动物——遇事要弄清真相；壁虎尾巴断了能再生，不同动物的尾巴用处不同。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "治好了棉花姑娘蚜虫的是？", "options": ["七星瓢虫", "燕子", "啄木鸟", "青蛙"], "answer": "七星瓢虫", "explain": "七星瓢虫爱吃蚜虫。" },
+        { "id": "e2", "type": "fill", "question": "燕子只会捉____里的害虫。", "answer": "空中", "explain": "燕子飞着捉空中飞的虫。" },
+        { "id": "e3", "type": "choice", "question": "'咕咚'其实是什么声音？", "options": ["木瓜掉进湖里", "狮子叫", "雷声", "风声"], "answer": "木瓜掉进湖里", "explain": "木瓜落水发出'咕咚'声。" },
+        { "id": "e4", "type": "fill", "question": "小壁虎的尾巴断了能____长出来。", "answer": "重新（再）", "explain": "壁虎有再生尾巴的能力。" },
+        { "id": "e5", "type": "choice", "question": "小鱼用尾巴来？", "options": ["拨水", "赶蝇子", "掌握方向", "没用"], "answer": "拨水", "explain": "鱼尾左右摆拨水前进。" },
+        { "id": "e6", "type": "fill", "question": "《咕咚》告诉我们遇事要____真相，不盲目跟着别人跑。", "answer": "弄清", "explain": "弄清真相才不会被吓到。" }
       ]
     }
   ]

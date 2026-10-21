@@ -127,6 +127,10 @@ body::before {
   background: linear-gradient(90deg, var(--kapok), var(--pearl));
 }
 
+/* 学期分组标题 */
+.term-h { font-size: 17px; font-weight: 800; margin: 20px 6px 12px; color: var(--ink); display: flex; align-items: center; gap: 8px; }
+.term-h::before { content: ""; width: 6px; height: 18px; border-radius: 4px; background: linear-gradient(var(--kapok), var(--pearl)); }
+
 /* ===== 单元列表 ===== */
 .unit-list { display: grid; gap: 14px; }
 .unit-card {

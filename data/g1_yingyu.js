@@ -3,7 +3,7 @@ window.PSK_DATA["1/yingyu"] = {
   "grade": 1,
   "subject": "yingyu",
   "edition": "人教版（一年级起点）",
-  "title": "一年级上册 英语",
+  "title": "一年级 英语",
   "units": [
     {
       "id": "u1",
@@ -96,6 +96,125 @@ window.PSK_DATA["1/yingyu"] = {
         { "id": "e3", "type": "fill", "question": "one, two, ____, four, five.（按顺序填）", "answer": "three", "explain": "按顺序是 one, two, three, four, five。" },
         { "id": "e4", "type": "choice", "question": "'你好'可以说？", "options": ["Hello!", "Bye!", "Thank you!", "Sorry!"], "answer": "Hello!", "explain": "Hello! / Hi! 都是打招呼。" },
         { "id": "e5", "type": "choice", "question": "How many books?（3 本）", "options": ["Three books.", "Four books.", "Five books.", "Six books."], "answer": "Three books.", "explain": "3 的英语是 three。" }
+      ]
+    },
+    {
+      "id": "d1",
+      "term": "下册",
+      "name": "Revision 复习（下册）",
+      "knowledge": [
+        { "title": "词汇回顾", "content": "文具：book / ruler / pencil；动物：cat / dog / bird；数字：one ~ ten。" },
+        { "title": "句型回顾", "content": "I have a book. 我有一本书。\nWhat's this? It's a cat. 这是什么？它是一只猫。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'我有一把尺子'怎么说？", "options": ["I have a ruler.", "It's a ruler.", "How many rulers?", "Goodbye!"], "answer": "I have a ruler.", "explain": "I have a... 表示'我有一个……'。" },
+        { "id": "e2", "type": "choice", "question": "What's this? — It's a ____.（图上是一只猫）", "options": ["cat", "dog", "bird", "book"], "answer": "cat", "explain": "cat 是猫。" },
+        { "id": "e3", "type": "fill", "question": "one, two, ____, four, five.（按顺序填）", "answer": "three", "explain": "顺序是 one, two, three, four, five。" },
+        { "id": "e4", "type": "choice", "question": "'你好'可以说？", "options": ["Hello!", "Bye!", "Thank you!", "Sorry!"], "answer": "Hello!", "explain": "Hello! / Hi! 都是打招呼。" },
+        { "id": "e5", "type": "choice", "question": "How many books?（3 本）", "options": ["Three books.", "Four books.", "Five books.", "Six books."], "answer": "Three books.", "explain": "3 的英语是 three。" },
+        { "id": "e6", "type": "fill", "question": "book 的意思是____。", "answer": "书", "explain": "book 是书。" }
+      ]
+    },
+    {
+      "id": "d2",
+      "term": "下册",
+      "name": "Unit 1 Playtime 玩耍",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "play 玩 / ball 球 / skip 跳绳 / swing 秋千 / hide and seek 捉迷藏。\n能听、说、指认这些单词。" },
+        { "title": "Sentences 句型", "content": "Let's play! 我们一起玩吧！\nI like to skip. 我喜欢跳绳。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'玩'的英语单词是？", "options": ["play", "ball", "book", "school"], "answer": "play", "explain": "play 是玩。" },
+        { "id": "e2", "type": "fill", "question": "Let's ____!（填 play，表示'我们一起玩吧'）", "answer": "play", "explain": "Let's... 表示建议一起做。" },
+        { "id": "e3", "type": "choice", "question": "ball 的意思是？", "options": ["球", "书", "狗", "猫"], "answer": "球", "explain": "ball 是球。" },
+        { "id": "e4", "type": "fill", "question": "I like to ____.（填 skip，表示'我喜欢跳绳'）", "answer": "skip", "explain": "skip 是跳绳。" },
+        { "id": "e5", "type": "choice", "question": "hide and seek 的意思是？", "options": ["捉迷藏", "踢球", "读书", "唱歌"], "answer": "捉迷藏", "explain": "hide 藏，seek 找。" },
+        { "id": "e6", "type": "fill", "question": "We can ____ on the swing.（填 swing，表示'荡秋千'）", "answer": "swing", "explain": "swing 既指秋千也指荡。" }
+      ]
+    },
+    {
+      "id": "d3",
+      "term": "下册",
+      "name": "Unit 2 Food 食物",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "rice 米饭 / noodles 面条 / egg 蛋 / bread 面包 / cake 蛋糕。\n能听、说、指认食物单词。" },
+        { "title": "Sentences 句型", "content": "I like rice. 我喜欢米饭。\nDo you like eggs? 你喜欢蛋吗？" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "rice 的意思是？", "options": ["米饭", "面条", "蛋", "面包"], "answer": "米饭", "explain": "rice 是米饭。" },
+        { "id": "e2", "type": "fill", "question": "I like ____.（填 noodles，表示'我喜欢面条'）", "answer": "noodles", "explain": "noodles 是面条（复数）。" },
+        { "id": "e3", "type": "choice", "question": "面包的英语是？", "options": ["bread", "cake", "rice", "egg"], "answer": "bread", "explain": "bread 是面包。" },
+        { "id": "e4", "type": "fill", "question": "Do you like ____?（填 egg，表示'你喜欢蛋吗'）", "answer": "egg", "explain": "egg 是蛋。" },
+        { "id": "e5", "type": "choice", "question": "cake 的意思是？", "options": ["蛋糕", "米饭", "面条", "蛋"], "answer": "蛋糕", "explain": "cake 是蛋糕。" },
+        { "id": "e6", "type": "fill", "question": "I ____ rice.（填 like，表示'我喜欢米饭'）", "answer": "like", "explain": "like 是喜欢。" }
+      ]
+    },
+    {
+      "id": "d4",
+      "term": "下册",
+      "name": "Unit 3 Drink 饮料",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "water 水 / milk 牛奶 / juice 果汁 / tea 茶 / cola 可乐。\n能听、说、指认饮料单词。" },
+        { "title": "Sentences 句型", "content": "I want some water. 我想要些水。\nHave some milk. 喝点牛奶吧。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "water 的意思是？", "options": ["水", "牛奶", "果汁", "茶"], "answer": "水", "explain": "water 是水。" },
+        { "id": "e2", "type": "fill", "question": "I want some ____.（填 milk，表示'我想要牛奶'）", "answer": "milk", "explain": "milk 是牛奶。" },
+        { "id": "e3", "type": "choice", "question": "juice 的意思是？", "options": ["果汁", "水", "茶", "可乐"], "answer": "果汁", "explain": "juice 是果汁。" },
+        { "id": "e4", "type": "fill", "question": "Have some ____.（填 tea，表示'喝点茶'）", "answer": "tea", "explain": "tea 是茶。" },
+        { "id": "e5", "type": "choice", "question": "可乐的英语是？", "options": ["cola", "milk", "water", "juice"], "answer": "cola", "explain": "cola 是可乐。" },
+        { "id": "e6", "type": "fill", "question": "____ you like juice?（填 Do，表示'你喜欢果汁吗'）", "answer": "Do", "explain": "一般疑问句用 Do 开头。" }
+      ]
+    },
+    {
+      "id": "d5",
+      "term": "下册",
+      "name": "Unit 4 Clothes 衣服",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "shirt 衬衫 / dress 连衣裙 / socks 袜子 / shoes 鞋 / hat 帽子。\n能听、说、指认衣物单词。" },
+        { "title": "Sentences 句型", "content": "I wear a shirt. 我穿衬衫。\nPut on your hat. 戴上你的帽子。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "shirt 的意思是？", "options": ["衬衫", "连衣裙", "袜子", "鞋"], "answer": "衬衫", "explain": "shirt 是衬衫。" },
+        { "id": "e2", "type": "fill", "question": "I wear a ____.（填 dress，表示'我穿连衣裙'）", "answer": "dress", "explain": "dress 是连衣裙。" },
+        { "id": "e3", "type": "choice", "question": "袜子的英语是？", "options": ["socks", "shoes", "hat", "shirt"], "answer": "socks", "explain": "socks 是袜子（复数）。" },
+        { "id": "e4", "type": "fill", "question": "Put on your ____.（填 hat，表示'戴上你的帽子'）", "answer": "hat", "explain": "hat 是帽子。" },
+        { "id": "e5", "type": "choice", "question": "shoes 的意思是？", "options": ["鞋", "袜子", "帽子", "衬衫"], "answer": "鞋", "explain": "shoes 是鞋。" },
+        { "id": "e6", "type": "fill", "question": "I ____ a shirt.（填 wear，表示'我穿衬衫'）", "answer": "wear", "explain": "wear 是穿。" }
+      ]
+    },
+    {
+      "id": "d6",
+      "term": "下册",
+      "name": "Unit 5 Toys 玩具",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "toy 玩具 / car 小汽车 / doll 娃娃 / bear 熊 / ball 球。\n能听、说、指认玩具单词。" },
+        { "title": "Sentences 句型", "content": "I have a toy car. 我有一辆玩具车。\nThis is my doll. 这是我的娃娃。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "toy 的意思是？", "options": ["玩具", "车", "娃娃", "熊"], "answer": "玩具", "explain": "toy 是玩具。" },
+        { "id": "e2", "type": "fill", "question": "I have a toy ____.（填 car，表示'我有一辆玩具车'）", "answer": "car", "explain": "car 是小汽车。" },
+        { "id": "e3", "type": "choice", "question": "doll 的意思是？", "options": ["娃娃", "玩具", "熊", "球"], "answer": "娃娃", "explain": "doll 是娃娃。" },
+        { "id": "e4", "type": "fill", "question": "This is my ____.（填 bear，表示'这是我的熊'）", "answer": "bear", "explain": "bear 是熊。" },
+        { "id": "e5", "type": "choice", "question": "小汽车的英语是？", "options": ["car", "doll", "bear", "toy"], "answer": "car", "explain": "car 是小汽车。" },
+        { "id": "e6", "type": "fill", "question": "I ____ a toy bear.（填 have，表示'我有一个玩具熊'）", "answer": "have", "explain": "have 是有。" }
+      ]
+    },
+    {
+      "id": "d7",
+      "term": "下册",
+      "name": "Unit 6 My room 我的房间",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "bed 床 / desk 书桌 / chair 椅子 / light 灯 / door 门。\n能听、说、指认房间物品单词。" },
+        { "title": "Sentences 句型", "content": "This is my room. 这是我的房间。\nThe light is on. 灯开着。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "bed 的意思是？", "options": ["床", "书桌", "椅子", "灯"], "answer": "床", "explain": "bed 是床。" },
+        { "id": "e2", "type": "fill", "question": "This is my ____.（填 room，表示'这是我的房间'）", "answer": "room", "explain": "room 是房间。" },
+        { "id": "e3", "type": "choice", "question": "chair 的意思是？", "options": ["椅子", "床", "门", "灯"], "answer": "椅子", "explain": "chair 是椅子。" },
+        { "id": "e4", "type": "fill", "question": "The ____ is on.（填 light，表示'灯开着'）", "answer": "light", "explain": "light 是灯。" },
+        { "id": "e5", "type": "choice", "question": "门的英语是？", "options": ["door", "desk", "chair", "bed"], "answer": "door", "explain": "door 是门。" },
+        { "id": "e6", "type": "fill", "question": "I have a ____ and a chair.（填 desk，表示'我有一张书桌'）", "answer": "desk", "explain": "desk 是书桌。" }
       ]
     }
   ]

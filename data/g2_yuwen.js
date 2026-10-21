@@ -3,7 +3,7 @@ window.PSK_DATA["2/yuwen"] = {
   "grade": 2,
   "subject": "yuwen",
   "edition": "统编 / 人教",
-  "title": "二年级上册 语文",
+  "title": "二年级 语文",
   "units": [
     {
       "id": "u1",
@@ -145,6 +145,142 @@ window.PSK_DATA["2/yuwen"] = {
         { "id": "e2", "type": "fill", "question": "《纸船和风筝》中，____和熊用纸船和风筝成了好朋友。（填 松鼠 或 老虎）", "answer": "松鼠", "explain": "松鼠和熊用纸船和风筝传递友谊。" },
         { "id": "e3", "type": "choice", "question": "风娃娃吹跑了小朋友的风筝，结果？", "options": ["被人们责怪", "受到夸奖", "得了奖励", "没人理他"], "answer": "被人们责怪", "explain": "好心办了坏事，人们都责怪他。" },
         { "id": "e4", "type": "choice", "question": "狐狸分奶酪的结果是？", "options": ["自己把大半奶酪吃了", "分得很公平", "兄弟俩更多了", "奶酪没动"], "answer": "自己把大半奶酪吃了", "explain": "狐狸左咬右咬，大半都被它吃了。" }
+      ]
+    },
+    {
+      "id": "d1",
+      "term": "下册",
+      "name": "第一单元 课文（古诗二首·找春天）",
+      "knowledge": [
+        { "title": "古诗二首", "content": "《村居》（清·高鼎）：草长莺飞二月天，拂堤杨柳醉春烟。《咏柳》（唐·贺知章）：碧玉妆成一树高，万条垂下绿丝绦。" },
+        { "title": "找春天 / 开满鲜花的小路 / 邓小平爷爷植树", "content": "发现春天的景象；长颈鹿大叔寄来的花籽是'美好的礼物'；邓小平爷爷植树绿化环境。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "《咏柳》的作者是？", "options": ["贺知章", "杜甫", "白居易", "李白"], "answer": "贺知章", "explain": "唐代诗人贺知章。" },
+        { "id": "e2", "type": "fill", "question": "碧玉妆成一树高，万条垂下____丝绦。", "answer": "绿", "explain": "《咏柳》原句。" },
+        { "id": "e3", "type": "choice", "question": "《村居》中'儿童散学归来早'忙着去？", "options": ["放风筝", "读书", "种树", "睡觉"], "answer": "放风筝", "explain": "忙趁东风放纸鸢。" },
+        { "id": "e4", "type": "fill", "question": "《开满鲜花的小路》里，长颈鹿大叔寄来的'美好的礼物'是____。", "answer": "花籽（花种）", "explain": "花籽长出一路鲜花。" },
+        { "id": "e5", "type": "choice", "question": "邓小平爷爷植树在什么节日前后？", "options": ["植树节", "春节", "儿童节", "中秋节"], "answer": "植树节", "explain": "3月12日植树节。" },
+        { "id": "e6", "type": "fill", "question": "春天来了，小草从地下____出头来。", "answer": "探", "explain": "课文《找春天》。" }
+      ]
+    },
+    {
+      "id": "d2",
+      "term": "下册",
+      "name": "第二单元 课文（雷锋叔叔）",
+      "knowledge": [
+        { "title": "雷锋叔叔，你在哪里", "content": "寻找雷锋，他助人为乐，哪里需要就出现在哪里——学习雷锋好榜样。" },
+        { "title": "千人糕 / 一匹出色的马", "content": "千人糕由许多人劳动做成，要珍惜；柳条当'马'，想象让妹妹自己回家。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "《雷锋叔叔，你在哪里》赞扬了雷锋什么品质？", "options": ["助人为乐", "贪玩", "自私", "懒惰"], "answer": "助人为乐", "explain": "雷锋乐于助人。" },
+        { "id": "e2", "type": "fill", "question": "千人糕其实是____糕，因为很多人参与了劳动。", "answer": "普通（平凡）", "explain": "普通的米糕凝聚众人劳动。" },
+        { "id": "e3", "type": "choice", "question": "《一匹出色的马》中妹妹骑的'马'其实是？", "options": ["一根柳枝", "真马", "木马", "竹竿"], "answer": "一根柳枝", "explain": "爸爸折的柳枝当马。" },
+        { "id": "e4", "type": "fill", "question": "雷锋叔叔'沿着长长的小溪，寻找____的足迹'。", "answer": "雷锋", "explain": "课文原句。" },
+        { "id": "e5", "type": "choice", "question": "千人糕告诉我们？", "options": ["要珍惜劳动成果", "不好吃", "要多吃", "随便扔"], "answer": "要珍惜劳动成果", "explain": "尊重他人劳动。" },
+        { "id": "e6", "type": "fill", "question": "妹妹跨上'马'____，骑着它回家了。", "answer": "奔向前（蹦蹦跳跳）", "explain": "《一匹出色的马》。" }
+      ]
+    },
+    {
+      "id": "d3",
+      "term": "下册",
+      "name": "第三单元 识字（神州谣）",
+      "knowledge": [
+        { "title": "神州谣 / 传统节日", "content": "祖国山川壮美；节日有春节、元宵、清明、端午、七夕、中秋、重阳。" },
+        { "title": "贝的故事 / 中国美食", "content": "贝壳曾作钱币，贝字旁的字多和钱财有关；美食做法有煎、烧、烤、煮、爆、炖。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "下列是传统节日的是？", "options": ["春节", "儿童节", "元旦", "劳动节"], "answer": "春节", "explain": "春节是传统节日。" },
+        { "id": "e2", "type": "fill", "question": "端午节为纪念____，有吃粽子、赛龙舟的习俗。", "answer": "屈原", "explain": "屈原投江。" },
+        { "id": "e3", "type": "choice", "question": "'贝'字旁的字大多和什么有关？", "options": ["钱财", "动物", "植物", "水"], "answer": "钱财", "explain": "贝壳曾作钱币。" },
+        { "id": "e4", "type": "fill", "question": "中秋节的习俗是赏月、吃____。", "answer": "月饼", "explain": "中秋吃月饼。" },
+        { "id": "e5", "type": "choice", "question": "下列和'火'有关的烹饪字是？", "options": ["烤", "河", "海", "湖"], "answer": "烤", "explain": "烤用火烧。" },
+        { "id": "e6", "type": "fill", "question": "《神州谣》：黄河____，长江涌。", "answer": "奔", "explain": "黄河奔，长江涌。" }
+      ]
+    },
+    {
+      "id": "d4",
+      "term": "下册",
+      "name": "第四单元 课文（彩色的梦）",
+      "knowledge": [
+        { "title": "彩色的梦 / 枫树上的喜鹊", "content": "彩色铅笔画出彩色的梦；喜欢枫树上的喜鹊一家，展开丰富想象。" },
+        { "title": "沙滩上的童话 / 我是一只小虫子", "content": "用沙子编织童话救出公主；小虫子也有有趣的生活。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "《彩色的梦》里'我'用什么画出彩色的梦？", "options": ["彩色铅笔", "蜡笔", "毛笔", "水彩"], "answer": "彩色铅笔", "explain": "课文用彩色铅笔。" },
+        { "id": "e2", "type": "fill", "question": "枫树上有一个____的窝，住着喜鹊阿姨。", "answer": "喜鹊", "explain": "枫树上的喜鹊。" },
+        { "id": "e3", "type": "choice", "question": "《沙滩上的童话》里，孩子们救出了？", "options": ["公主", "国王", "王子", "仙女"], "answer": "公主", "explain": "编织救公主的童话。" },
+        { "id": "e4", "type": "fill", "question": "'我'觉得当一只小____挺不错。", "answer": "虫子", "explain": "《我是一只小虫子》。" },
+        { "id": "e5", "type": "choice", "question": "枫树上的喜鹊弟弟跟着喜鹊阿姨学什么？", "options": ["拼音字母", "唱歌", "跳舞", "读书"], "answer": "拼音字母", "explain": "鹊语像学拼音字母。" },
+        { "id": "e6", "type": "fill", "question": "彩色的梦把草坪染成了____。", "answer": "绿", "explain": "大块的绿。" }
+      ]
+    },
+    {
+      "id": "d5",
+      "term": "下册",
+      "name": "第五单元 课文（寓言二则）",
+      "knowledge": [
+        { "title": "寓言二则", "content": "亡羊补牢：丢羊后修补羊圈还不晚；揠苗助长：急于求成反而坏事。" },
+        { "title": "画杨桃 / 小马过河", "content": "看的角度不同，画出的样子不同；遇事要自己动脑试一试。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'亡羊补牢'告诉我们？", "options": ["出错后及时补救还不晚", "不用修", "丢了就丢", "等等看"], "answer": "出错后及时补救还不晚", "explain": "修补羊圈防止再丢。" },
+        { "id": "e2", "type": "fill", "question": "'揠苗助长'中农夫把禾苗拔高，结果禾苗都____了。", "answer": "枯死", "explain": "急于求成反坏事。" },
+        { "id": "e3", "type": "choice", "question": "《画杨桃》中'我'把杨桃画成五角星是因为？", "options": ["看的角度不同", "画错了", "杨桃本来那样", "老师让的"], "answer": "看的角度不同", "explain": "位置不同样子不同。" },
+        { "id": "e4", "type": "fill", "question": "《小马过河》中，小马最后____过河了。", "answer": "自己（亲自）", "explain": "自己试一试。" },
+        { "id": "e5", "type": "choice", "question": "下面哪句是寓言的寓意？", "options": ["做事不能急于求成", "要早睡", "爱劳动", "讲礼貌"], "answer": "做事不能急于求成", "explain": "揠苗助长的寓意。" },
+        { "id": "e6", "type": "fill", "question": "同学笑'我'画的杨桃，老师让同学们____角度看。", "answer": "换（到我的位置）", "explain": "换个角度就一样。" }
+      ]
+    },
+    {
+      "id": "d6",
+      "term": "下册",
+      "name": "第六单元 课文（古诗二首·雷雨）",
+      "knowledge": [
+        { "title": "古诗二首", "content": "《晓出净慈寺送林子方》（宋·杨万里）：接天莲叶无穷碧，映日荷花别样红。《绝句》（唐·杜甫）：两个黄鹂鸣翠柳，一行白鹭上青天。" },
+        { "title": "雷雨 / 要是你在野外迷了路 / 太空生活趣事多", "content": "雷雨前中后景象；天然指南针（太阳、北极星、大树、积雪）；太空中的有趣生活。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'接天莲叶无穷碧，映日荷花别样红'出自？", "options": ["晓出净慈寺送林子方", "绝句", "村居", "咏柳"], "answer": "晓出净慈寺送林子方", "explain": "杨万里的诗。" },
+        { "id": "e2", "type": "fill", "question": "《绝句》：两个黄鹂鸣翠柳，一行____上青天。", "answer": "白鹭", "explain": "杜甫《绝句》。" },
+        { "id": "e3", "type": "choice", "question": "雷雨前，天上会布满？", "options": ["乌云", "白云", "星星", "彩虹"], "answer": "乌云", "explain": "雷雨前乌云密布。" },
+        { "id": "e4", "type": "fill", "question": "辨别方向：中午太阳在____边，影子在北方。", "answer": "南", "explain": "我国中午太阳偏南。" },
+        { "id": "e5", "type": "choice", "question": "北极星永远挂在？", "options": ["北方", "南方", "东方", "西方"], "answer": "北方", "explain": "北极星指北。" },
+        { "id": "e6", "type": "fill", "question": "太空中水会飘，航天员喝水要用带吸管的____。", "answer": "杯子（密封袋）", "explain": "水不流要用袋装。" }
+      ]
+    },
+    {
+      "id": "d7",
+      "term": "下册",
+      "name": "第七单元 课文（大象的耳朵）",
+      "knowledge": [
+        { "title": "大象的耳朵 / 蜘蛛开店", "content": "大象耳朵耷拉，别人说它它不安，最后明白'人家是人家，我是我'；蜘蛛开店遇到困难。" },
+        { "title": "青蛙卖泥塘 / 小毛虫", "content": "青蛙听取建议把泥塘变美；小毛虫耐心等待变成蝴蝶。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "大象的耳朵是？", "options": ["耷拉着", "竖着", "尖的", "圆的"], "answer": "耷拉着", "explain": "大象耳朵大且下垂。" },
+        { "id": "e2", "type": "fill", "question": "大象最后明白'人家是____，我是我'。", "answer": "人家", "explain": "做自己就好。" },
+        { "id": "e3", "type": "choice", "question": "《蜘蛛开店》中蜘蛛先卖什么？", "options": ["口罩", "袜子", "围巾", "帽子"], "answer": "口罩", "explain": "先卖口罩。" },
+        { "id": "e4", "type": "fill", "question": "青蛙的泥塘在大家帮助下变得____了。", "answer": "美（漂亮）", "explain": "青蛙卖泥塘。" },
+        { "id": "e5", "type": "choice", "question": "小毛虫最后变成了？", "options": ["蝴蝶", "蜜蜂", "蚂蚁", "飞蛾"], "answer": "蝴蝶", "explain": "破茧成蝶。" },
+        { "id": "e6", "type": "fill", "question": "《蜘蛛开店》来了河马要织____，它织了好久。", "answer": "口罩", "explain": "河马嘴巴大。" }
+      ]
+    },
+    {
+      "id": "d8",
+      "term": "下册",
+      "name": "第八单元 课文（祖先的摇篮）",
+      "knowledge": [
+        { "title": "祖先的摇篮 / 当世界年纪还小的时候", "content": "原始森林是祖先的摇篮；万物学习做最简单的事。" },
+        { "title": "羿射九日", "content": "十个太阳炙烤大地，羿射下九个，留下一个，拯救人类。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'祖先的摇篮'指的是？", "options": ["原始森林", "大海", "草原", "天空"], "answer": "原始森林", "explain": "祖先在森林生活。" },
+        { "id": "e2", "type": "fill", "question": "原始森林里，祖先在____上掏鹊蛋、采野果。", "answer": "大树（树）", "explain": "课文内容。" },
+        { "id": "e3", "type": "choice", "question": "羿射下了几个太阳？", "options": ["九个", "一个", "十个", "两个"], "answer": "九个", "explain": "留下一个。" },
+        { "id": "e4", "type": "fill", "question": "《当世界年纪还小》：太阳学会了____，水学会了____。", "answer": "发光、流动", "explain": "万物学本领。" },
+        { "id": "e5", "type": "choice", "question": "十个太阳一起出现，大地变得？", "options": ["很热", "很冷", "很亮", "很暗"], "answer": "很热", "explain": "炙烤大地。" },
+        { "id": "e6", "type": "fill", "question": "羿是____，帮人们射下多余的太阳。", "answer": "神箭手（英雄）", "explain": "羿射九日。" }
       ]
     }
   ]

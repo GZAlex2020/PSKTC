@@ -180,8 +180,19 @@ const Render = {
     el.querySelectorAll('[data-subject]').forEach(b => b.onclick = () => { selSubject = b.dataset.subject; mark('#subjCards', b); go(); });
   },
 
-  /* 单元列表 */
+  /* 单元列表（按 上册 / 下册 分组展示） */
   unitList(el, data) {
+    const groups = {};
+    data.units.forEach(u => { const t = u.term || '上册'; (groups[t] = groups[t] || []).push(u); });
+    const termNames = Object.keys(groups);
+    const card = (u) => `
+          <a class="unit-card ${u.placeholder ? 'placeholder' : ''}" href="#${data.grade}/${data.subject}/${u.id}">
+            <span class="unit-no">${u.id.toUpperCase()}</span>
+            <span class="unit-name">${u.name}</span>
+            ${u.placeholder
+              ? '<span class="placeholder-tag">敬请期待</span>'
+              : `<span class="unit-meta">${u.knowledge.length} 知识点 · ${u.exercises.length} 练习</span>`}
+          </a>`;
     el.innerHTML = `
       <nav class="topbar">
         <button class="back" data-back>← 首页</button>
@@ -189,16 +200,12 @@ const Render = {
           <span class="edition">${data.edition}</span></div>
       </nav>
       <h2 class="page-title">${data.title}</h2>
-      <div class="unit-list">
-        ${data.units.map(u => `
-          <a class="unit-card ${u.placeholder ? 'placeholder' : ''}" href="#${data.grade}/${data.subject}/${u.id}">
-            <span class="unit-no">${u.id.toUpperCase()}</span>
-            <span class="unit-name">${u.name}</span>
-            ${u.placeholder
-              ? '<span class="placeholder-tag">敬请期待</span>'
-              : `<span class="unit-meta">${u.knowledge.length} 知识点 · ${u.exercises.length} 练习</span>`}
-          </a>`).join('')}
-      </div>`;
+      ${termNames.map(t => `
+        <h3 class="term-h">${t}</h3>
+        <div class="unit-list">
+          ${groups[t].map(card).join('')}
+        </div>`).join('')}
+    `;
     el.querySelector('[data-back]').onclick = () => { location.hash = ''; };
   },
 

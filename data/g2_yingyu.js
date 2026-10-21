@@ -3,7 +3,7 @@ window.PSK_DATA["2/yingyu"] = {
   "grade": 2,
   "subject": "yingyu",
   "edition": "人教版（一年级起点）",
-  "title": "二年级上册 英语",
+  "title": "二年级 英语",
   "units": [
     {
       "id": "u1",
@@ -95,6 +95,108 @@ window.PSK_DATA["2/yingyu"] = {
         { "id": "e3", "type": "choice", "question": "买东西去？", "options": ["supermarket", "zoo", "park", "bookshop"], "answer": "supermarket", "explain": "超市是买东西的地方。" },
         { "id": "e4", "type": "fill", "question": "This is my ____.（朋友）", "answer": "friend", "explain": "friend 是朋友。" },
         { "id": "e5", "type": "choice", "question": "'她很矮'？", "options": ["She is short.", "He is tall.", "She is my sister.", "He is big."], "answer": "She is short.", "explain": "she 是她，short 是矮。" }
+      ]
+    },
+    {
+      "id": "d1",
+      "term": "下册",
+      "name": "Unit 1 Welcome back to school 回到学校",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "school 学校 / classroom 教室 / friend 朋友 / new 新的 / happy 高兴的。\n能听、说、指认这些单词。" },
+        { "title": "Sentences 句型", "content": "Welcome back to school! 欢迎回到学校！\nI'm happy to see you. 见到你很高兴。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'学校'的英语是？", "options": ["school", "classroom", "friend", "home"], "answer": "school", "explain": "school 是学校。" },
+        { "id": "e2", "type": "fill", "question": "Welcome back to ____!（school 学校）", "answer": "school", "explain": "欢迎回到学校。" },
+        { "id": "e3", "type": "choice", "question": "classroom 的意思是？", "options": ["教室", "学校", "图书馆", "操场"], "answer": "教室", "explain": "classroom 是教室。" },
+        { "id": "e4", "type": "fill", "question": "I'm ____ to see you.（happy 高兴的）", "answer": "happy", "explain": "happy 是高兴的。" },
+        { "id": "e5", "type": "choice", "question": "'朋友'的英语是？", "options": ["friend", "teacher", "student", "boy"], "answer": "friend", "explain": "friend 是朋友。" },
+        { "id": "e6", "type": "fill", "question": "We are ____ friends.（new 新的）", "answer": "new", "explain": "new 是新的。" }
+      ]
+    },
+    {
+      "id": "d2",
+      "term": "下册",
+      "name": "Unit 2 My school 我的学校",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "library 图书馆 / playground 操场 / office 办公室 / toilet 厕所 / garden 花园。\n能听、说、指认学校场所。" },
+        { "title": "Sentences 句型", "content": "Where is the library? 图书馆在哪里？\nIt's on the first floor. 在一楼。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "library 的意思是？", "options": ["图书馆", "操场", "教室", "花园"], "answer": "图书馆", "explain": "library 是图书馆。" },
+        { "id": "e2", "type": "fill", "question": "Where is the ____?（library 图书馆）", "answer": "library", "explain": "询问地点。" },
+        { "id": "e3", "type": "choice", "question": "playground 的意思是？", "options": ["操场", "图书馆", "办公室", "厕所"], "answer": "操场", "explain": "playground 是操场。" },
+        { "id": "e4", "type": "fill", "question": "It's on the first ____.（floor 楼层）", "answer": "floor", "explain": "first floor 一楼。" },
+        { "id": "e5", "type": "choice", "question": "下面属于学校场所的是？", "options": ["toilet", "bed", "desk", "chair"], "answer": "toilet", "explain": "厕所是学校场所。" },
+        { "id": "e6", "type": "fill", "question": "We play on the ____.（playground 操场）", "answer": "playground", "explain": "在操场玩。" }
+      ]
+    },
+    {
+      "id": "d3",
+      "term": "下册",
+      "name": "Unit 3 My timetable 我的课表",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "Chinese 语文 / Maths 数学 / English 英语 / Music 音乐 / PE 体育 / Art 美术。\n能听、说、指认课程单词。" },
+        { "title": "Sentences 句型", "content": "I have Chinese on Monday. 周一我有语文课。\nWhat's your favourite class? 你最喜欢什么课？" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'数学'的英语是？", "options": ["Maths", "Chinese", "English", "Music"], "answer": "Maths", "explain": "Maths 是数学。" },
+        { "id": "e2", "type": "fill", "question": "I have ____ on Monday.（Chinese 语文）", "answer": "Chinese", "explain": "周一有语文课。" },
+        { "id": "e3", "type": "choice", "question": "'音乐'的英语是？", "options": ["Music", "Art", "PE", "Maths"], "answer": "Music", "explain": "Music 是音乐。" },
+        { "id": "e4", "type": "fill", "question": "What's your favourite ____?（class 课）", "answer": "class", "explain": "询问最喜欢的课。" },
+        { "id": "e5", "type": "choice", "question": "下面属于课程的是？", "options": ["PE", "book", "pen", "desk"], "answer": "PE", "explain": "体育是课程。" },
+        { "id": "e6", "type": "fill", "question": "We have ____ and Art today.（Art 美术）", "answer": "Art", "explain": "今天有美术课。" }
+      ]
+    },
+    {
+      "id": "d4",
+      "term": "下册",
+      "name": "Unit 4 My day 我的一天",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "get up 起床 / go to school 上学 / have lunch 吃午饭 / go home 回家 / go to bed 睡觉。\n能听、说、指认日常活动。" },
+        { "title": "Sentences 句型", "content": "I get up at seven. 我七点起床。\nWhat do you do in the morning? 早上你做什么？" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'起床'的英语是？", "options": ["get up", "go to bed", "go home", "have lunch"], "answer": "get up", "explain": "get up 是起床。" },
+        { "id": "e2", "type": "fill", "question": "I ____ at seven.（get up 起床）", "answer": "get up", "explain": "七点起床。" },
+        { "id": "e3", "type": "choice", "question": "'吃午饭'的英语是？", "options": ["have lunch", "get up", "go to school", "go to bed"], "answer": "have lunch", "explain": "have lunch 是吃午饭。" },
+        { "id": "e4", "type": "fill", "question": "I ____ at nine in the evening.（go to bed 睡觉）", "answer": "go to bed", "explain": "九点睡觉。" },
+        { "id": "e5", "type": "choice", "question": "下面是一天日常活动的是？", "options": ["以上都是", "get up", "go to school", "go to bed"], "answer": "以上都是", "explain": "都是日常活动。" },
+        { "id": "e6", "type": "fill", "question": "I ____ to school at eight.（go 去）", "answer": "go", "explain": "八点去上学。" }
+      ]
+    },
+    {
+      "id": "d5",
+      "term": "下册",
+      "name": "Unit 5 My week 我的星期",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "Monday 周一 / Tuesday 周二 / Wednesday 周三 / Thursday 周四 / Friday 周五 / weekend 周末。\n能听、说、指认星期单词。" },
+        { "title": "Sentences 句型", "content": "I like Friday. 我喜欢周五。\nWe don't go to school on the weekend. 周末我们不上学。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'周一'的英语是？", "options": ["Monday", "Tuesday", "Friday", "Sunday"], "answer": "Monday", "explain": "Monday 是周一。" },
+        { "id": "e2", "type": "fill", "question": "I like ____.（Friday 周五）", "answer": "Friday", "explain": "喜欢周五。" },
+        { "id": "e3", "type": "choice", "question": "'周末'的英语是？", "options": ["weekend", "week", "Monday", "Saturday"], "answer": "weekend", "explain": "weekend 是周末。" },
+        { "id": "e4", "type": "fill", "question": "We don't go to school on the ____.（weekend 周末）", "answer": "weekend", "explain": "周末不上学。" },
+        { "id": "e5", "type": "choice", "question": "下面是一周中的一天的是？", "options": ["Wednesday", "Today", "Tomorrow", "Weekend"], "answer": "Wednesday", "explain": "周三是一周中的一天。" },
+        { "id": "e6", "type": "fill", "question": "____ is the third day of the week.（Wednesday 周三）", "answer": "Wednesday", "explain": "英式周一为一周第一天，周三第三。" }
+      ]
+    },
+    {
+      "id": "d6",
+      "term": "下册",
+      "name": "Unit 6 My weekend 我的周末",
+      "knowledge": [
+        { "title": "Words 词汇", "content": "park 公园 / cinema 电影院 / supermarket 超市 / visit 拜访 / play 玩。\n能听、说、指认周末活动。" },
+        { "title": "Sentences 句型", "content": "I go to the park on the weekend. 周末我去公园。\nWhat do you do on the weekend? 周末你做什么？" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "'电影院'的英语是？", "options": ["cinema", "park", "supermarket", "zoo"], "answer": "cinema", "explain": "cinema 是电影院。" },
+        { "id": "e2", "type": "fill", "question": "I go to the ____ on the weekend.（park 公园）", "answer": "park", "explain": "周末去公园。" },
+        { "id": "e3", "type": "choice", "question": "'拜访（祖父母）'的英语是？", "options": ["visit", "school", "cinema", "park"], "answer": "visit", "explain": "visit 是拜访。" },
+        { "id": "e4", "type": "fill", "question": "What do you do on the ____?（weekend 周末）", "answer": "weekend", "explain": "询问周末活动。" },
+        { "id": "e5", "type": "choice", "question": "下面周末可去的地方是？", "options": ["以上都是", "cinema", "park", "supermarket"], "answer": "以上都是", "explain": "都可去。" },
+        { "id": "e6", "type": "fill", "question": "I ____ my grandparents on Sunday.（visit 拜访）", "answer": "visit", "explain": "周日拜访祖父母。" }
       ]
     }
   ]

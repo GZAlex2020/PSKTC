@@ -3,7 +3,7 @@ window.PSK_DATA["1/shuxue"] = {
   "grade": 1,
   "subject": "shuxue",
   "edition": "人教版",
-  "title": "一年级上册 数学",
+  "title": "一年级 数学",
   "units": [
     {
       "id": "u1",
@@ -132,6 +132,125 @@ window.PSK_DATA["1/shuxue"] = {
         { "id": "e3", "type": "fill", "question": "7 + 6 = ______。", "answer": "13", "explain": "7+3=10，10+3=13。" },
         { "id": "e4", "type": "choice", "question": "9 + 9 = ?", "options": ["17", "18", "19", "16"], "answer": "18", "explain": "9+1=10，10+8=18。" },
         { "id": "e5", "type": "fill", "question": "6 + 7 = ______。", "answer": "13", "explain": "6+4=10，10+3=13。" }
+      ]
+    },
+    {
+      "id": "d1",
+      "term": "下册",
+      "name": "第一单元 认识图形（二）",
+      "knowledge": [
+        { "title": "平面图形", "content": "长方形、正方形、平行四边形、三角形、圆，可由立体图形描画得来。" },
+        { "title": "图形的拼组", "content": "两个完全一样的长方形可拼成正方形或大长方形；七巧板能拼出多种图形。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "圆是从哪个立体图形上描下来的？", "options": ["圆柱", "长方体", "正方体", "三棱柱"], "answer": "圆柱", "explain": "圆柱的两个底面是圆。" },
+        { "id": "e2", "type": "fill", "question": "正方形有____条边，且四条边都相等。", "answer": "4", "explain": "正方形四条边一样长。" },
+        { "id": "e3", "type": "choice", "question": "下面哪个图形有四条边且对边相等？", "options": ["长方形", "圆", "三角形", "扇形"], "answer": "长方形", "explain": "长方形对边相等。" },
+        { "id": "e4", "type": "fill", "question": "七巧板由____块板组成。", "answer": "7", "explain": "七巧板一共有七块。" },
+        { "id": "e5", "type": "choice", "question": "两个完全一样的三角形可以拼成？", "options": ["平行四边形", "圆", "球", "正方形"], "answer": "平行四边形", "explain": "两个一样三角形常拼成平行四边形。" },
+        { "id": "e6", "type": "fill", "question": "球的面是____面（填 平 或 曲）。", "answer": "曲", "explain": "球面是曲面，不是平面。" }
+      ]
+    },
+    {
+      "id": "d2",
+      "term": "下册",
+      "name": "第二单元 20以内的退位减法",
+      "knowledge": [
+        { "title": "破十法", "content": "13-9：把13分成10和3，先算10-9=1，再算1+3=4。" },
+        { "title": "想加算减与解决问题", "content": "因为9+4=13，所以13-9=4；看图列式时要注意多余条件。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "fill", "question": "15 - 9 = ______。", "answer": "6", "explain": "破十法：10-9=1，1+5=6。" },
+        { "id": "e2", "type": "choice", "question": "13 - 8 = ?", "options": ["5", "4", "6", "3"], "answer": "5", "explain": "10-8=2，2+3=5。" },
+        { "id": "e3", "type": "fill", "question": "用想加算减：因为 9+7=16，所以 16-9=____。", "answer": "7", "explain": "想加算减更方便。" },
+        { "id": "e4", "type": "choice", "question": "小明有12块糖，吃了5块，还剩几块？", "options": ["7", "6", "5", "8"], "answer": "7", "explain": "12-5=7。" },
+        { "id": "e5", "type": "fill", "question": "14 - 6 = ______。", "answer": "8", "explain": "10-6=4，4+4=8。" },
+        { "id": "e6", "type": "choice", "question": "哪一个是多余条件？'停车场有15辆车，开走7辆，又开来3辆，开走的车有几种颜色？'", "options": ["颜色", "15", "7", "3"], "answer": "颜色", "explain": "颜色与计算无关，是多余信息。" }
+      ]
+    },
+    {
+      "id": "d3",
+      "term": "下册",
+      "name": "第三单元 分类与整理",
+      "knowledge": [
+        { "title": "按不同标准分类", "content": "按颜色、形状、用途分，分出的结果可能不同。" },
+        { "title": "整理数据", "content": "用画√、象形统计图或表格整理，能清楚看出数量多少。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "把气球按形状分，会分成几类？", "options": ["圆形、心形等几类", "只看大小", "只看颜色", "不分类"], "answer": "圆形、心形等几类", "explain": "按形状标准来分。" },
+        { "id": "e2", "type": "fill", "question": "分类时标准不同，分出的结果可能____（相同/不同）。", "answer": "不同", "explain": "标准不同，结果常不同。" },
+        { "id": "e3", "type": "choice", "question": "统计'喜欢的水果'，哪种方式更清楚？", "options": ["画√统计", "随便记", "不记", "猜"], "answer": "画√统计", "explain": "统计图一目了然。" },
+        { "id": "e4", "type": "fill", "question": "一组有男生8人、女生6人，一共____人。", "answer": "14", "explain": "8+6=14。" },
+        { "id": "e5", "type": "choice", "question": "下面适合按'会不会飞'分类的是？", "options": ["鸟、蜜蜂、鱼、蝴蝶", "苹果、梨", "书、笔", "红、蓝"], "answer": "鸟、蜜蜂、鱼、蝴蝶", "explain": "动物能否飞是分类标准。" },
+        { "id": "e6", "type": "fill", "question": "红色图形5个、黄色3个，一共____个。", "answer": "8", "explain": "5+3=8。" }
+      ]
+    },
+    {
+      "id": "d4",
+      "term": "下册",
+      "name": "第四单元 100以内数的认识",
+      "knowledge": [
+        { "title": "数数与组成", "content": "10个十是100；几十九添1是下一十（如39+1=40）；十位和个位表示几个十和几个一。" },
+        { "title": "读写与比较", "content": "读、写数都从高位起；位数多的数大，位数相同从高位比起。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "fill", "question": "10个十是____。", "answer": "100", "explain": "10个十合起来是100。" },
+        { "id": "e2", "type": "choice", "question": "46里有几个十和几个一？", "options": ["4个十6个一", "6个十4个一", "40个十6个一", "4个一6个十"], "answer": "4个十6个一", "explain": "46=40+6。" },
+        { "id": "e3", "type": "fill", "question": "三十九添上1是____。", "answer": "四十（40）", "explain": "39+1=40。" },
+        { "id": "e4", "type": "choice", "question": "比较 75 和 57，哪个大？", "options": ["75", "57", "一样大", "比不了"], "answer": "75", "explain": "十位7>5，所以75大。" },
+        { "id": "e5", "type": "fill", "question": "一个数个位是3、十位是5，这个数是____。", "answer": "53", "explain": "5个十3个一=53。" },
+        { "id": "e6", "type": "choice", "question": "从右边起，第一位是什么位？", "options": ["个位", "十位", "百位", "千位"], "answer": "个位", "explain": "右边起第一位是个位。" }
+      ]
+    },
+    {
+      "id": "d5",
+      "term": "下册",
+      "name": "第五单元 认识人民币",
+      "knowledge": [
+        { "title": "人民币单位", "content": "元、角、分；1元=10角，1角=10分。" },
+        { "title": "简单购物", "content": "认识各种面额；付款、找零时要算清楚。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "fill", "question": "1元 = ____角。", "answer": "10", "explain": "元和角的进率是10。" },
+        { "id": "e2", "type": "choice", "question": "1角 = ? 分", "options": ["10", "100", "1", "5"], "answer": "10", "explain": "1角=10分。" },
+        { "id": "e3", "type": "fill", "question": "一个橡皮5角，买2个要____角，也就是____元。", "answer": "10、1", "explain": "5+5=10角=1元。" },
+        { "id": "e4", "type": "choice", "question": "下列哪种面额最大？", "options": ["100元", "1元", "5角", "1分"], "answer": "100元", "explain": "100元面额最大。" },
+        { "id": "e5", "type": "fill", "question": "妈妈付1张5元，买笔花3元，应找回____元。", "answer": "2", "explain": "5-3=2。" },
+        { "id": "e6", "type": "choice", "question": "用'元'作单位的是？", "options": ["5元", "5角", "5分", "都不"], "answer": "5元", "explain": "5元以元为单位。" }
+      ]
+    },
+    {
+      "id": "d6",
+      "term": "下册",
+      "name": "第六单元 100以内的加法和减法（一）",
+      "knowledge": [
+        { "title": "整十数与两位数加减速算", "content": "整十数加减：30+20=50；两位数加一位数（不进位）25+3=28，加整十数25+20=45。" },
+        { "title": "带小括号的运算", "content": "有括号先算括号里：(15-7)+4=12。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "fill", "question": "30 + 40 = ______。", "answer": "70", "explain": "3+4=7个十。" },
+        { "id": "e2", "type": "choice", "question": "25 + 3 = ?", "options": ["28", "52", "23", "35"], "answer": "28", "explain": "个位5+3=8。" },
+        { "id": "e3", "type": "fill", "question": "25 + 20 = ______。", "answer": "45", "explain": "十位2+2=4，个位5。" },
+        { "id": "e4", "type": "choice", "question": "36 - 4 = ?", "options": ["32", "26", "30", "16"], "answer": "32", "explain": "个位6-4=2。" },
+        { "id": "e5", "type": "fill", "question": "36 - 20 = ______。", "answer": "16", "explain": "十位3-2=1，个位6。" },
+        { "id": "e6", "type": "choice", "question": "(15 - 7) + 4 = ?", "options": ["12", "8", "14", "11"], "answer": "12", "explain": "先算15-7=8，8+4=12。" }
+      ]
+    },
+    {
+      "id": "d7",
+      "term": "下册",
+      "name": "第七单元 找规律",
+      "knowledge": [
+        { "title": "图形规律", "content": "颜色、形状、方向的重复排列，如红黄红黄……" },
+        { "title": "数字规律", "content": "2、4、6、8……每次多2；数列按一定规律变化。" }
+      ],
+      "exercises": [
+        { "id": "e1", "type": "choice", "question": "规律'红、黄、红、黄、?'下一个是？", "options": ["红", "黄", "蓝", "绿"], "answer": "红", "explain": "红黄交替重复。" },
+        { "id": "e2", "type": "fill", "question": "数列 1、3、5、7、____。", "answer": "9", "explain": "每次加2。" },
+        { "id": "e3", "type": "choice", "question": "图形'△○△○△?'下一个是？", "options": ["○", "△", "□", "☆"], "answer": "○", "explain": "△○交替。" },
+        { "id": "e4", "type": "fill", "question": "数列 10、8、6、4、____。", "answer": "2", "explain": "每次减2。" },
+        { "id": "e5", "type": "choice", "question": "下面哪组是按规律排列？", "options": ["2、4、6、8", "1、3、2、5", "红、红、蓝", "5、3、5、1"], "answer": "2、4、6、8", "explain": "等差递增规律。" },
+        { "id": "e6", "type": "fill", "question": "颜色规律'蓝、蓝、绿、蓝、蓝、绿、?'，下一个是____。", "answer": "蓝", "explain": "蓝蓝绿重复出现。" }
       ]
     }
   ]
