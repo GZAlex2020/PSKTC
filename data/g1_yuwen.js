@@ -9,10 +9,10 @@ window.PSK_DATA["1/yuwen"] = {
       "id": "u1",
       "name": "第一单元 识字",
       "knowledge": [
-        { "title": "天地人", "content": "会认生字（6个）：\n天 tiān（天空 tiānkōng、白天 báitiān）\n地 dì（土地 tǔdì、大地 dàdì）\n人 rén（大人 dàrén、人们 rénmen）\n你 nǐ（你好 nǐhǎo、你们 nǐmen）\n我 wǒ（我们 wǒmen、自我 zìwǒ）\n他 tā（他们 tāmen、他人 tārén）\n理解：天在上，地在下，人在天地之间；'你、我、他'是表示人称的词语。" },
-        { "title": "金木水火土", "content": "背诵儿歌：一二三四五，金木水火土。天地分上下，日月照今古。\n会认生字（12个）：\n一 yī（一个 yígè、第一 dìyī）\n二 èr（二月 èryuè、第二 dìèr）\n三 sān（三个 sāngè、第三 dìsān）\n四 sì（四个 sìgè、四季 sìjì）\n五 wǔ（五个 wǔgè、五星 wǔxīng）\n上 shàng（上下 shàngxià、上课 shàngkè）\n下 xià（下雨 xiàyǔ、下午 xiàwǔ）\n金 jīn（金色 jīnsè、金子 jīnzi）\n木 mù（木头 mùtou、树木 shùmù）\n水 shuǐ（水果 shuǐguǒ、河水 héshuǐ）\n火 huǒ（火车 huǒchē、大火 dàhuǒ）\n土 tǔ（土地 tǔdì、泥土 nítǔ）" },
-        { "title": "口耳目", "content": "认识身体部位相关的字：\n口 kǒu（口水 kǒushuǐ、开口 kāikǒu）\n耳 ěr（耳朵 ěrduo、木耳 mù'ěr）\n目 mù（目光 mùguāng、目录 mùlù）\n手 shǒu（小手 xiǎoshǒu、洗手 xǐshǒu）\n足 zú（足球 zúqiú、手足 shǒuzú）\n站 zhàn（站立 zhànlì、车站 chēzhàn）\n坐 zuò（坐下 zuòxià、坐好 zuòhǎo）\n了解：站如松，坐如钟；口、耳、目、手、足都能帮我们做事情。" },
-        { "title": "日月水火", "content": "象形字（8个）：\n日 rì（日子 rìzi、日出 rìchū）\n月 yuè（月亮 yuèliang、月光 yuèguāng）\n水 shuǐ（水杯 shuǐbēi、山水 shānshuǐ）\n火 huǒ（火山 huǒshān、火苗 huǒmiáo）\n山 shān（大山 dàshān、山上 shānshàng）\n石 shí（石头 shítou、石子 shízǐ）\n田 tián（田地 tiándì、水田 shuǐtián）\n禾 hé（禾苗 hémiáo、锄禾 chúhé）\n这些字由事物的形状演变而来，叫'象形字'。" },
+        { "title": "天地人", "content": "会认生字（6个）：\n天 tiān（天空 tiān kōng、白天 bái tiān）\n地 dì（土地 tǔ dì、大地 dà dì）\n人 rén（大人 dà rén、人们 rén men）\n你 nǐ（你好 nǐ hǎo、你们 nǐ men）\n我 wǒ（我们 wǒ men、自我 zì wǒ）\n他 tā（他们 tā men、他人 tā rén）\n理解：天在上，地在下，人在天地之间；'你、我、他'是表示人称的词语。" },
+        { "title": "金木水火土", "content": "背诵儿歌：一二三四五，金木水火土。天地分上下，日月照今古。\n会认生字（12个）：\n一 yī（一个 yí gè、第一 dì yī）\n二 èr（二月 èr yuè、第二 dì èr）\n三 sān（三个 sān gè、第三 dì sān）\n四 sì（四个 sì gè、四季 sì jì）\n五 wǔ（五个 wǔ gè、五星 wǔ xīng）\n上 shàng（上下 shàng xià、上课 shàng kè）\n下 xià（下雨 xià yǔ、下午 xià wǔ）\n金 jīn（金色 jīn sè、金子 jīn zi）\n木 mù（木头 mù tou、树木 shù mù）\n水 shuǐ（水果 shuǐ guǒ、河水 hé shuǐ）\n火 huǒ（火车 huǒ chē、大火 dà huǒ）\n土 tǔ（土地 tǔ dì、泥土 ní tǔ）" },
+        { "title": "口耳目", "content": "认识身体部位相关的字：\n口 kǒu（口水 kǒu shuǐ、开口 kāi kǒu）\n耳 ěr（耳朵 ěr duo、木耳 mù ěr）\n目 mù（目光 mù guāng、目录 mù lù）\n手 shǒu（小手 xiǎo shǒu、洗手 xǐ shǒu）\n足 zú（足球 zú qiú、手足 shǒu zú）\n站 zhàn（站立 zhàn lì、车站 chē zhàn）\n坐 zuò（坐下 zuò xià、坐好 zuò hǎo）\n了解：站如松，坐如钟；口、耳、目、手、足都能帮我们做事情。" },
+        { "title": "日月水火", "content": "象形字（8个）：\n日 rì（日子 rì zi、日出 rì chū）\n月 yuè（月亮 yuè liang、月光 yuè guāng）\n水 shuǐ（水杯 shuǐ bēi、山水 shān shuǐ）\n火 huǒ（火山 huǒ shān、火苗 huǒ miáo）\n山 shān（大山 dà shān、山上 shān shàng）\n石 shí（石头 shí tou、石子 shí zǐ）\n田 tián（田地 tián dì、水田 shuǐ tián）\n禾 hé（禾苗 hé miáo、锄禾 chú hé）\n这些字由事物的形状演变而来，叫'象形字'。" },
         { "title": "对韵歌", "content": "背诵：云对雨，雪对风。花对树，鸟对虫。山清对水秀，柳绿对桃红。\n感受对子（对韵）的节奏美。" },
         { "title": "识字方法", "content": "看图识字、象形识字、生活识字。\n认识田字格：左上格、左下格、右上格、右下格，中间有横中线和竖中线，写字要对准位置。" },
         { "title": "写字姿势", "content": "做到'三个一'：手指离笔尖一寸，胸口离桌子一拳，眼睛离书本一尺。\n正确的姿势能保护视力、写好字。" }
