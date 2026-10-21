@@ -79,6 +79,15 @@ const Auth = {
   },
   hideLogin() { const o = document.getElementById('loginOverlay'); if (o) o.remove(); },
 
+  /* 回首页：hash 已为空时 hashchange 不会触发，需手动重跑路由 */
+  goHome() {
+    if (location.hash === '' || location.hash === '#') {
+      if (window.router) window.router();
+    } else {
+      location.hash = '';
+    }
+  },
+
   /* ---- 顶部栏 ---- */
   renderHeader() {
     let h = document.getElementById('pskHeader');
@@ -100,12 +109,12 @@ const Auth = {
         <span>👤 ${this.user.username}${isAdmin ? '（管理员）' : ''}</span>
         <button class="psk-logout" data-logout>退出</button>
       </div>`;
-    h.querySelector('[data-home]').onclick = () => { location.hash = ''; };
+    h.querySelector('[data-home]').onclick = () => this.goHome();
     h.querySelectorAll('.psk-nav a').forEach(a => a.onclick = () => {
       const r = a.dataset.route;
-      if (r === 'home') location.hash = '';
-      else if (r === 'report') this.showReport();
-      else if (r === 'admin') this.showAdmin();
+      if (r === 'home') this.goHome();
+      else if (r === 'report') location.hash = 'report';
+      else if (r === 'admin') location.hash = 'admin';
     });
     h.querySelector('[data-logout]').onclick = () => this.logout();
   },
@@ -144,7 +153,7 @@ const Auth = {
     const rep = await this.api('/api/report');
     if (!rep) return;
     app.innerHTML = this.renderReport(rep, false);
-    app.querySelector('[data-back]').onclick = () => { location.hash = ''; };
+    app.querySelector('[data-back]').onclick = () => this.goHome();
   },
 
   async showUserReport(name) {
@@ -233,7 +242,7 @@ const Auth = {
         <thead><tr><th>用户名</th><th>角色</th><th>学习时长</th><th>完成单元</th><th>最后活跃</th><th>操作</th></tr></thead>
         <tbody>${rows}</tbody>
       </table>`;
-    app.querySelector('[data-back]').onclick = () => { location.hash = ''; };
+    app.querySelector('[data-back]').onclick = () => this.goHome();
     app.querySelector('#nuBtn').onclick = async () => {
       const name = app.querySelector('#nuName').value.trim();
       const pwd = app.querySelector('#nuPwd').value;
