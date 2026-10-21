@@ -71,7 +71,6 @@ const Auth = {
         <input id="lgUser" class="login-input" type="text" placeholder="用户名" autocomplete="username" />
         <input id="lgPwd" class="login-input" type="password" placeholder="密码" autocomplete="current-password" />
         <button id="lgBtn" class="login-btn">登 录</button>
-        <p class="login-hint">管理员初始账号：admin / admin3344139</p>
       </div>`;
     document.body.appendChild(ov);
     const go = () => this.login(document.getElementById('lgUser').value.trim(), document.getElementById('lgPwd').value);
